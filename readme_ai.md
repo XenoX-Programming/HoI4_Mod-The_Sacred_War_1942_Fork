@@ -276,38 +276,41 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 Every error log belongs in **`Mod_Development_Tools_&_Files/Logs/`**. That is the
 only place to look for a new one.
 
-Filename convention, given by the user:
+Layout, as reorganised by the user:
 
 ```
-error_log_DDMMYY_HHMM
+Mod_Development_Tools_&_Files/Logs/
+  DDMMYY/                  date of the run, day-month-year
+    HHMM/                  hour and minute of the run
+      every file the game writes into logs/
 ```
 
-**Date first, then hour.** The `DDMMYY` group is day-month-year, *not*
-year-month-day — reading it as YYMMDD is a mistake and was made once already.
-So:
+So `Logs/251126/2034/` is the run of **25 Nov 2026 at 20:34**. The **date group is
+day-month-year, not year-month-day** — reading `251126` as YYMMDD was a mistake
+made once already. Within a day, the newest run is the **largest HHMM**.
 
-| file | means |
-| --- | --- |
-| `error_log_251126_1853` | 25 Nov 2026, 18:53 |
-| `error_log_251126_1948` | 25 Nov 2026, 19:48 |
-| `error_log_251126_2005` | 25 Nov 2026, 20:05 |
+A full run drops the whole `logs/` directory in, not just `error.log`: `game.log`,
+`text.log`, `system.log`, `system_debug.log`, `memory.log`, `setup.log`,
+`random.log`, `error.log`, plus `metrics/` and `variable_dumps/`. Read them in
+this order:
 
-Newest is therefore the **largest** HHMM, and the logs sort chronologically by
-name only as long as they are from the same day. Check the trailing HHMM rather
-than trusting filename order.
+1. **`game.log`** — how far loading got. The last line dates the failure.
+2. **`error.log`** — the only file with a *game date* (`[1936.01.01.12]`) on its
+   late lines, i.e. the history phase. Its last line is the last thing that ran.
+3. **`system_debug.log` / `memory.log`** — a clean tail with no assertion means
+   the engine was killed rather than threw.
+4. **`text.log`** — localisation collisions only.
 
-The user's own uploads are not always perfectly formed: `error_log251126_1853.txt`
-(no underscore before the date, `.txt` extension). Normalise anything that turns
-up to `error_log_DDMMYY_HHMM.log` in `Logs/` and delete the original so there is
-never a duplicate.
+Anything older than this scheme lives flat or one level up; older runs are
+`Logs/251126/1853/`, `1948/`, `2005/` with their original filenames.
 
 Uploads do **not** reach the agent sandbox as files. The user commits them to
 this repository through the GitHub web UI. Two failure modes have already
 happened:
 
 1. **The upload was never submitted** — files open in the GitHub UI but the user
-   forgot to click *Commit changes* / *Upload*. Always **ask** rather than
-   concluding the log does not exist.
+   forgot to click *Commit changes*. Always **ask** rather than concluding the
+   log does not exist.
 2. **The upload went to `main` instead of this feature branch** — files then do
    not appear after `git fetch`. Check `git ls-tree -r --name-only origin/main`
    and `gh api repos/.../contents/<dir>?ref=main` before saying a file is absent.
@@ -384,6 +387,75 @@ The mod renumbers states (its own 972 is `972-Veneto2.txt`) while vanilla 1.20
 still uses those ids for other places. The loc collision is the visible symptom;
 the state-file conflict underneath is the dangerous one, and it is present in the
 **unported** mod too (18:53 log).
+
+### The 20:34 run: a full log set, and a new symptom
+
+`Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
+`error.log`. Two facts from it matter most:
+
+**`game.log` is unchanged** — same four lines, ending at
+`Executing History`. So it is still dying in country-history loading, and still
+before any menu.
+
+**Two new things appear, and they are new:**
+
+| | 18:53 | 19:48 | 20:05 | **20:34** |
+| --- | --- | --- | --- | --- |
+| `invalid province building` | 0 | 0 | 0 | **8** |
+| `already added to state` | 742 | 772 | 742 | **1113** |
+
+```
+State Error: Trying to set invalid province building "bunker" to province #549
+```
+8 occurrences, provinces 549, 678, 3629, 6529, 9503, 9559, 11502, 3151 — **all
+land provinces**, all but one in state 28 (`28-Alcase.txt`), the other in
+195 (Leningrad), and every one of them sits in a block of the form
+
+```
+549 = { bunker = 10 }
+```
+
+`bunker` is definitely a valid 1.20 building (`common/buildings/00_buildings.txt`
+defines it with `land_fort = 1`, `level_cap = { province_max = 12 }`), and the
+same province-block form is used by vanilla-targeting mods. Nothing in the file
+is structurally wrong. But 8 is a suspiciously small number next to the ~100
+province-level `bunker` entries in a mod with 35 such state files, which suggests
+a **limit** rather than a syntax error — most likely the fort construction path
+being hit on provinces that already carry something.
+
+`error.log` likewise gained a state-level complaint not seen before:
+
+```
+State History Error: Province buildings being overridden for province 6332 in
+state 763. Combine the buildings into one block rather than adding multiple
+blocks for the same province ID.
+```
+
+Province 6332 then **never appears** in a surviving state definition after
+vanilla's is overridden — consistent with the duplicate-province problem below.
+
+**Still no fault dump.** `system.log`, `system_debug.log`, `memory.log` and
+`random.log` all simply stop mid-start-up with no assertion and no exception;
+`memory.log`'s last line is a clean `InitGame() takes 1.8 GB`. A process killed
+inside the engine's history loop leaves exactly this trace, so the remaining
+possibilities are a native crash with no handler, or the OS killing it. The
+`0_dx11` memory figure did **not** climb to anything alarming (1.8 GB peak), so
+memory exhaustion is not indicated.
+
+### The duplicate-province problem is the real suspect
+
+`already added to state` is the largest and oldest error class and it just grew
+by 50%. It is caused by the mod keeping **vanilla's `history/states/` files
+alongside its own renamed copies**: the engine loads vanilla `288-Magwe.txt`
+*and* the mod's `288-Burma.txt`, both claiming state 288, and every province in
+them is therefore claimed twice. That is 101 distinct target states and now
+1113 conflicting provinces, and the province set is unstable between runs —
+exactly the kind of state a history load can walk into and die on.
+
+The fix is to stop shipping duplicate state definitions: the mod's states should
+either keep vanilla's file name for the same id, or vanilla's should be replaced
+with `replace_path`. That is a map-level decision, not a doctrine one, and it is
+the next thing worth doing.
 
 ### Still needed
 
