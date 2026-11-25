@@ -134,6 +134,13 @@ set_variable = { FIN_mineral_wealth_development_aluminium_amount = 6 } #6 by def
 
 ### ECONOMIC DECISIONS ###
 set_variable = { FIN_prioritize_light_industry_dec_cost = 50 } #Will be duplicated if the opposite NS is active
+
+# The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted
+# from the old technology tree by tools/convert_history_doctrines.py).
+# Mastery is what advances a track: 100 per reward, 500 completes it.
+set_grand_doctrine = sw_grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_operational_integrity
 set_variable = { FIN_prioritize_heavy_industry_dec_cost = 50 } #Will be duplicated if the opposite NS is active
 
 
@@ -491,14 +498,7 @@ set_convoys = 5
 		dispersed_industry3 = 1
 		
 		#doctrines
-		force_rotation = 1
-		fighter_baiting = 1
 
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
 	}
 
 	# TECH ADJUSTMENTS

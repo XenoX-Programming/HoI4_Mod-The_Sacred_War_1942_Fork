@@ -1,4 +1,4 @@
-SDT = {
+﻿SDT = {
 	male = {
 		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
 			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
@@ -1330,7 +1330,7 @@ KSM = {
 	callsigns = { }
 }
 
-SND = {
+SND_orphan_names = {
 	male = {
 		names = { 
 			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat

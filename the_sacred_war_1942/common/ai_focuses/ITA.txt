@@ -1,4 +1,4 @@
-ai_focus_defense_ITA = {
+﻿ai_focus_defense_ITA = {
 	research = {
 		defensive = 5.0	
 		radar_tech = 1.0
@@ -65,8 +65,7 @@ ai_focus_naval_ITA = {
         naval_doctrine = 75.0
         marine_tech = 6.0
         dd_tech = 7.0
-        cl_tech = 8.0
-        ca_tech = 9.0
+        ca_tech = 17
         bc_tech = 2.0
         bb_tech = 9.0
         shbb_tech = 3.0

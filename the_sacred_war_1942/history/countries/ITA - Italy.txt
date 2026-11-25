@@ -1,4 +1,12 @@
 ﻿capital = 2
+
+# The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted
+# from the old technology tree by tools/convert_history_doctrines.py).
+# Mastery is what advances a track: 100 per reward, 500 completes it.
+set_grand_doctrine = sw_grand_battleplan
+set_sub_doctrine = sw_gb_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_battlefield_support
 ETH_set_up_lon_arms_resolution_effect = yes 
 if = {
 	limit = {
@@ -338,8 +346,6 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	trench_warfare = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -400,7 +406,6 @@ if = {
 		basic_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_battery = 1
-		basic_medium_battery = 1
 		basic_light_battery = 1
 		basic_heavy_armor_scheme = 1
 		early_ship_hull_submarine = 1
@@ -413,7 +418,6 @@ if = {
 		basic_ship_hull_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		improved_airplane_launcher = 1
 	}
 	# = "ITA_1936_naval_mtg"
 }
@@ -603,16 +607,8 @@ if = {
 		tech_recon = 1
 
 		#doctrines
-		grand_battle_plan = 1
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
 		
 		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
 
 
 		#electronics
@@ -698,7 +694,6 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 		set_technology = {
-			improved_airplane_launcher = 1
 			
 		}
 		# = "ITA_1939_naval_mtg"

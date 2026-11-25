@@ -1,4 +1,4 @@
-#	Example:
+﻿#	Example:
 # 
 #	example_dynamic_modifier = {
 #		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
@@ -428,7 +428,7 @@ SOV_defend_moscow = { #STATE MODIFIER
 	recruitable_population_factor = 0.25
 	army_core_defence_factor = 0.1
 	local_factories = -1
-	supply_factor = 0.15
+	supply_consumption = 0.15
 }
 
 SOV_increased_metals_production = { #STATE MODIFIER

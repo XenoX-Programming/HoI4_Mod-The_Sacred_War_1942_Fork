@@ -1,0 +1,79 @@
+﻿# The Sacred War 1942 - subdoctrines for track 'sw_ma_peoples'
+# Old branch: peoples_army -> human_infantry_offensive -> large_front_offensive -> human_wave_offensive -> guerilla_warfare
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_ma_peoples = {
+	track = sw_ma_peoples
+	name = SW_MA_PEOPLES_NAME
+	description = SW_MA_PEOPLES_DESC
+	icon = GFX_doctrine_mass_assault_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_mass_assault
+	}
+	visible = {
+		has_doctrine = sw_mass_assault
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: peoples_army
+	resistance_damage_to_garrison_on_our_occupied_states = 0.1
+	attrition = -0.1
+	additional_brigade_column_size = 1
+	enable_tactic = tactic_human_wave_tactics
+	military_police = {
+		battalion_mult = {
+			category = category_cavalry
+			suppression = 0.50
+			add = yes
+		}
+	}
+
+	# Exactly 5 rewards, as 1.17+ requires.
+	# 100 mastery each; taking all five uses 500 mastery.
+	rewards = {
+		# reward 1: old tech human_infantry_offensive
+		sw_ma_peoples_tier1 = {
+			infantry = {
+				default_morale = 0.30
+			}
+			land_reinforce_rate = 0.05
+		}
+		# reward 2: old tech large_front_offensive
+		sw_ma_peoples_tier2 = {
+			category_all_infantry = {
+				max_organisation = 10
+			}
+			category_tanks = {
+				max_organisation = 2
+			}
+			armored_car = {
+				max_organisation = 2
+			}
+		}
+		# reward 3: old tech human_wave_offensive
+		sw_ma_peoples_tier3 = {
+			conscription = 0.05
+			infantry = {
+				combat_width = -0.4
+			}
+			land_reinforce_rate = 0.15
+		}
+		# reward 4: the old branch had no corresponding tier.
+		# Kept empty because the game expects 5 rewards.
+		sw_ma_peoples_tier4 = {
+		}
+		# reward 5: the old branch had no corresponding tier.
+		# Kept empty because the game expects 5 rewards.
+		sw_ma_peoples_tier5 = {
+		}
+	}
+}
+

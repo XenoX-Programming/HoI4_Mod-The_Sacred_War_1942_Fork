@@ -3287,7 +3287,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = ca_tech
-				category = cl_tech
+				category = ca_tech
 			}
 
 			#Kronshtadt Class Battlecruiser
@@ -18229,7 +18229,6 @@ ai_will_do = {
 				bonus = 1.0
 				uses = 4
 				category = dd_tech
-				category = cl_tech
 				category = ca_tech
 				category = bb_tech
 				category = cv_tech

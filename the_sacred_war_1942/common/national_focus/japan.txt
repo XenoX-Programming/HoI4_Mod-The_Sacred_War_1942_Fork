@@ -5609,7 +5609,7 @@
 				name = JAP_carrier_warfare_experiments
 				cost_reduction = 0.25
 				uses = 2
-				category = cat_base_strike
+				category = naval_doctrine
 			}
 		}
 	}
@@ -5938,7 +5938,6 @@
 				name = JAP_cruiser_modernization
 				bonus = 3.0
 				uses = 1
-				category = cl_tech	
 				category = ca_tech	
 			}
 		}

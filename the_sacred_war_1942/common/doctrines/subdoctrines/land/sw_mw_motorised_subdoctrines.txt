@@ -1,0 +1,112 @@
+﻿# The Sacred War 1942 - subdoctrines for track 'sw_mw_motorised'
+# Old branch: mobile_infantry -> mass_motorization -> mechanised_offensive -> firebrigades -> backhand_blow -> modern_blitzkrieg
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_mw_motorised = {
+	track = sw_mw_motorised
+	name = SW_MW_MOTORISED_NAME
+	description = SW_MW_MOTORISED_DESC
+	icon = GFX_doctrine_mobile_warfare_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_mobile_warfare
+	}
+	visible = {
+		has_doctrine = sw_mobile_warfare
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: mobile_infantry
+	motorized = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	armored_car = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	mot_artillery_brigade = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	mot_anti_tank_brigade = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	mot_anti_air_brigade = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	mechanized = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+	amphibious_mechanized = {
+		maximum_speed = 0.1
+		default_morale = 0.2
+	}
+
+	# Exactly 5 rewards, as 1.17+ requires.
+	# 100 mastery each; taking all five uses 500 mastery.
+	rewards = {
+		# reward 1: old tech mass_motorization
+		sw_mw_motorised_tier1 = {
+			category_all_infantry = {
+				max_organisation = 10
+			}
+		}
+		# reward 2: old tech mechanised_offensive
+		sw_mw_motorised_tier2 = {
+			motorized = {
+				max_organisation = 15
+			}
+			mechanized = {
+				max_organisation = 15
+			}
+			amphibious_mechanized = {
+				max_organisation = 15
+			}
+			armored_car = {
+				max_organisation = 3
+			}
+			category_tanks = {
+				max_organisation = 3
+			}
+			armored_car_recon = {
+				battalion_mult = {
+					category = category_all_armor
+					breakthrough = 0.10
+				}
+			}
+			enable_tactic = tactic_blitz
+		}
+		# reward 3: old tech firebrigades
+		sw_mw_motorised_tier3 = {
+			category_all_infantry = {
+				max_organisation = 10
+			}
+			category_tanks = {
+				max_organisation = 2
+			}
+			armored_car = {
+				max_organisation = 2
+			}
+		}
+		# reward 4: old tech backhand_blow
+		sw_mw_motorised_tier4 = {
+			enable_tactic = tactic_backhand_blow
+		}
+		# reward 5: the old branch had no corresponding tier.
+		# Kept empty because the game expects 5 rewards.
+		sw_mw_motorised_tier5 = {
+		}
+	}
+}
+

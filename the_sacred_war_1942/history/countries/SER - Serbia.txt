@@ -1,5 +1,12 @@
 ﻿capital = 107
 
+
+# The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted
+# from the old technology tree by tools/convert_history_doctrines.py).
+# Mastery is what advances a track: 100 per reward, 500 completes it.
+set_grand_doctrine = sw_grand_battleplan
+set_grand_doctrine = new_operational_integrity
+set_grand_doctrine = new_fleet_in_being
 set_research_slots = 3
 
 add_ideas = {
@@ -118,12 +125,6 @@ recruit_character = SER_mt
 		basic_destroyer = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

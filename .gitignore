@@ -1,0 +1,7 @@
+# Python tooling
+tools/__pycache__/
+*.pyc
+
+# Generated reports (regenerate with the tools in tools/)
+tools/migration_report.txt
+tools/doctrine_conversion_report.txt

@@ -1,4 +1,4 @@
-motorized_SOV = {	#Motostrelkovaya Div.
+﻿motorized_SOV = {	#Motostrelkovaya Div.
 
 	available_for = {
 		SOV
@@ -759,10 +759,7 @@ infantry_SOV = {
 		}
 		modifier = {
 			factor = 10
-			OR = { 
-				has_tech = human_wave_offensive
-				has_tech = vast_offensives
-			}	
+			has_doctrine = sw_mass_assault
 		}
 		modifier = {
 			factor = 50
@@ -783,10 +780,7 @@ infantry_SOV = {
 			}
 			modifier = {
 				factor = 0
-				OR = { 
-					has_tech = human_wave_offensive
-					has_tech = vast_offensives
-				}	
+				has_doctrine = sw_mass_assault
 			}
 		}
 		
@@ -874,10 +868,7 @@ infantry_SOV = {
 
 			modifier = {
 				add = 500
-				OR = {
-					has_tech = human_wave_offensive
-					has_tech = vast_offensives
-				}
+				has_doctrine = sw_mass_assault
 				date > 1942.1.1
 			}
 		}

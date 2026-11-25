@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = turkish_focus
 
 	country = {
@@ -5210,7 +5210,7 @@ focus_tree = {
 				name = TUR_expanding_our_navy
 				bonus = 1.5
 				uses = 1
-				category = cl_tech
+				category = ca_tech
 			}
 			add_tech_bonus = {
 				name = TUR_expanding_our_navy
@@ -9550,7 +9550,7 @@ focus_tree = {
 				name = TUR_the_legacy_of_osmanli_donanmasi
 				bonus = 1.50
 				uses = 1
-				category = cl_tech
+				category = ca_tech
 			}
 			add_tech_bonus = {
 				name = TUR_the_legacy_of_osmanli_donanmasi
@@ -9585,7 +9585,7 @@ focus_tree = {
 				name = TUR_the_path_of_the_wolf
 				cost_reduction = 0.35
 				uses = 2
-				category = trade_interdiction_tree
+				category = naval_doctrine
 			}
 		}
 	}
