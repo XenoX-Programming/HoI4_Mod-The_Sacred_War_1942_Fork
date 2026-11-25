@@ -388,6 +388,22 @@ still uses those ids for other places. The loc collision is the visible symptom;
 the state-file conflict underneath is the dangerous one, and it is present in the
 **unported** mod too (18:53 log).
 
+### The 20:59 run: the doctrine id fix changed nothing
+
+`Logs/251126/2059/` is profile-identical to `2053`:
+
+| class | 2053 | 2059 |
+| --- | --- | --- |
+| `already added to state` | 1113 | 1113 |
+| `invalid province building` | 8 | 8 |
+| `overridden for province` | 0 | 0 |
+| `unexpected token` | 564 | 564 |
+| `Unknown history file` | 182 | 182 |
+
+`game.log` is still four lines ending at `Executing History`. So the
+track/subdoctrine id collision was a real defect worth fixing, but it was **not**
+this crash. Do not assume the next doctrine-shaped fix will be either.
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
@@ -529,6 +545,48 @@ both a track and a subdoctrine, verified to fire on a reintroduced collision.
 Track ids are unchanged (`sw_mw_armoured` etc.), which is what
 `check_doctrines.py` keys on and what `track = ...` inside the grand doctrines
 names, so nothing else needed touching.
+
+### Attempted fix: give the 10 clashing state files vanilla's filenames
+
+The mechanism (established above) is that HoI4 loads state files from the mod
+*and* vanilla, and an id can be defined by both. The cheapest way to make one
+definition win outright is to use the **same file name** as vanilla: the mod's
+file then replaces vanilla's instead of sitting beside it.
+
+The engine names vanilla's files in the `State ID conflict` lines, so all ten
+were renamed to match:
+
+| id | was | now |
+| --- | --- | --- |
+| 288 | `288-Burma.txt` | `288-Magwe.txt` |
+| 289 | `289-Siam.txt` | `289-Western Siam.txt` |
+| 334 | `334-Dutch Borneo.txt` | `334-Kalimantan Barat.txt` |
+| 335 | `335-Dutch East Indies.txt` | `335-West Java.txt` |
+| 640 | `640-Stae 2.txt` | `640-Mandalay.txt` |
+| 667 | `667-Lesser  Sunda Islands.txt` | `667-West Nusa Tenggara.txt` |
+| 672 | `672-Sumatra.txt` | `672-South Sumatra.txt` |
+| 970 | `970-Sedan.txt` | `970 - Western Macedonia.txt` |
+| 971 | `971-Nancy.txt` | `971 - Northern Dobruja.txt` |
+| 972 | `972-Veneto2.txt` | `972 - South Sudetenland.txt` |
+
+The file **contents** are untouched, and deliberately so: each file still
+declares `id=<the number in its name>` and `name="STATE_<number>"`, so all the
+mod's existing `victory_points` and localisation keys keep working. Only the
+file name changed. All three validators pass.
+
+This targets the 10 reported conflicts. It does **not** by itself explain or fix
+the ~1113 `Province with id N is already added to state` lines, which involve 371
+provinces and cannot all come from state ids — the mod's own 409 states claim
+4579 provinces with zero internal overlap, and 5555 of the map's 10105 land
+provinces are in no mod state at all, so vanilla states are still in play.
+
+### Why a blanket `replace_path` is not safe here
+
+Tempting, and wrong on this mod: it ships only **1** strategic region
+(`70-Caspian Sea.txt`) and no `provinces.bmp` / `default.map` / `terrain.txt`.
+It depends on vanilla's map metadata, and its 409 states cover only ~45% of land
+provinces. Replacing `history/states` wholesale would delete the vanilla states
+that the other 55% of provinces live in.
 
 ### The duplicate-province problem is the real suspect
 
