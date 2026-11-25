@@ -317,23 +317,101 @@ So when a log is expected: `git fetch --all`, look in
 API, and if it is still missing, **ask whether the upload was actually
 submitted.**
 
+### The three `error.log`s compared
+
+| | 18:53 | 19:48 | 20:05 |
+| --- | --- | --- | --- |
+| installed | **unported mod** (188 errors name the old `common/technologies/land_doctrine.txt`, so the tech tree was still there) | ported + BOM bug | ported, BOM fixed |
+| `U+FEFF` | 0 | **37** | 0 |
+| our `sw_*` ids in errors | n/a | **92** | **0** |
+| `has no folder assigned` | 0 | 1 | 0 |
+| `unexpected token` | 562 | 132 | 562 |
+| `Invalid effect` | 7 | **774** | **7** |
+| `Unknown History Command` | 0 | **264** | 0 |
+| `already added to state` | **742** | 772 | **742** |
+| `Malformed token` | 158 | 162 | 158 |
+
+The 18:53 log predates the port and its profile is essentially identical to the
+post-fix 20:05 log. So **the error profile of this crash is pre-existing**: the
+unported mod produced the same non-doctrine errors on this machine. Only the BOM
+bug (19:48) was ever new, and it is gone.
+
+That is *not* the same as "the port is innocent". `error.log` only covers
+validation; `game.log` shows the run reaches *executing country history*, which
+is exactly where the port's work lives. Both statements are true.
+
+### `game.log` names where it dies (20:05 run)
+
+The whole file is four lines:
+
+```
+[20:05:05] 4490 defines loaded
+[20:05:25] Loaded 13414 provinces.
+[20:05:29] Resetting game
+[20:05:31][1936.01.01.12] Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+The game **finishes loading** and **starts executing country history**. There is
+no country-history error in `error.log`, and its last entry
+(`The game has loc key collisions`) is at 20:05:29, *before* history at 20:05:31.
+So the failure is **during scenario/bookmark start-up, not the loading bar**:
+loading succeeded and world initialisation did not.
+
+This re-frames the doctrine question. `set_grand_doctrine`, `set_sub_doctrine`
+and `add_mastery` are *history* commands, so they sit exactly on the code path
+that is running when it dies. They logged no errors, but "logged no error" and
+"is safe" are not the same thing.
+
+### `STATE_97x` — the mod reuses vanilla state ids (a real bug, but not the port's)
+
+`text.log` has only 44 distinct colliding keys. The three mod-owned ones:
+
+| key | vanilla says (`state_names_l_english.yml`) | mod says (`the_sacred_war_l_english.yml`) |
+| --- | --- | --- |
+| `STATE_970` | Debar | Sedan |
+| `STATE_971` | Northern Dobruja | Nancy |
+| `STATE_972` | South Sudetenland | Friuli Venezia Giulia |
+
+`error.log` reports the same ids as **`State ID conflict`**:
+
+```
+Both "Magwe" (history/states/288-Magwe.txt)
+     and "Magwe" (.../the_sacred_war_1942/history/states/288-Burma.txt)
+```
+
+Ten ids are affected: **288, 289, 334, 335, 640, 667, 672, 970, 971, 972**.
+The mod renumbers states (its own 972 is `972-Veneto2.txt`) while vanilla 1.20
+still uses those ids for other places. The loc collision is the visible symptom;
+the state-file conflict underneath is the dangerous one, and it is present in the
+**unported** mod too (18:53 log).
+
+### Still needed
+
+1. `logs/crash.txt` — the exception dump, if the game writes one.
+2. A `.dmp`, or a screenshot of the Windows crash dialog.
+3. Exactly **which country was picked, and did it die on "select country" or a
+   moment after the map appeared?**
+
 ---
 
 ## 7. What is still unverified
 
-> **Read §6b before trying to fix the crash again.** Two things are established:
+> **Read §6b before trying to fix the crash again.** What is established:
 >
-> 1. A UTF-8 BOM was a real, fatal bug the port introduced — 13 files, fixed,
->    and `check_mod.py` now blocks a regression. That was genuinely our fault.
-> 2. It was **not** the crash the user is reporting. The 18:53 log, taken from
->    the **unported** mod, has an error profile identical to the fixed 20:05
->    log. The mod was already failing on this machine before the port, so the
->    remaining crash is **pre-existing** and is not explained by doctrines.
+> 1. A UTF-8 BOM was a real, fatal bug the port introduced — 13 files. Fixed, and
+>    `check_mod.py` now blocks a regression. That one was genuinely our fault.
+> 2. The remaining `error.log` noise (province/state conflicts, vanilla-file
+>    overwrites, malformed tokens) is **pre-existing**: the 18:53 log, from the
+>    **unported** mod, is essentially identical to the fixed 20:05 log. Do not
+>    try to cure the crash by fixing that noise.
+> 3. `game.log` locates the death: loading completes, and the game stops while
+>    **executing country history**. So it is *not* the loading bar, and it *is*
+>    the code path the port modified. Doctrine seeding is still a live suspect,
+>    just not one that logs anything.
 >
-> Do not spend more time on the doctrine tree. The error.log stops at the same
-> place in all three runs, which is the end of validation — the real fault is
-> downstream of that and needs `crash.txt` / `game.log`, or the answer to
-> "does it die on the loading bar or when a scenario starts?".
+> Next evidence needed, in order: `logs/crash.txt`, a `.dmp`/crash-dialog
+> screenshot, then the answer to "which country, and did it die on
+> *select country* or just after the map appeared?".
 
 **The mod has never been loaded in HoI4 in this environment.** There is no game
 install in the sandbox, so every check below is static ("should work"), not
