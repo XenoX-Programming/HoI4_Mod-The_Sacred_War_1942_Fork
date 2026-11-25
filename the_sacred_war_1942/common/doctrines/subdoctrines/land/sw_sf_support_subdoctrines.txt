@@ -29,8 +29,9 @@ sw_sf_support = {
 		soft_attack = 0.25
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 3 rewards (1.17+ allows at most 5;
+	# this branch only had 3 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: old tech regimental_combat_teams
 		sw_sf_support_tier1 = {
@@ -60,14 +61,8 @@ sw_sf_support = {
 			coordination_bonus = 0.05
 			enable_tactic = tactic_overwhelming_fire
 		}
-		# reward 4: the old branch had no corresponding tier.
-		# Kept empty because the game expects 5 rewards.
-		sw_sf_support_tier4 = {
-		}
-		# reward 5: the old branch had no corresponding tier.
-		# Kept empty because the game expects 5 rewards.
-		sw_sf_support_tier5 = {
-		}
+		# reward 4: the old branch had no such tier (branch had fewer than 5 tiers)
+		# reward 5: the old branch had no such tier (branch had fewer than 5 tiers)
 	}
 }
 

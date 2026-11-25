@@ -29,8 +29,9 @@ sw_ma_front = {
 		max_organisation = 5
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 5 rewards (1.17+ allows at most 5;
+	# this branch only had 5 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: merged tiers large_front_operations, deep_operations (branch had more than 5)
 		sw_ma_front_tier1 = {

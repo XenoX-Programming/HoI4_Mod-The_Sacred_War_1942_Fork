@@ -1,7 +1,8 @@
 ﻿
 # The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted
 # from the old technology tree by tools/convert_history_doctrines.py).
-# Mastery is what advances a track: 100 per reward, 500 completes it.
+# set_sub_doctrine is repeated once per tier of the track the country
+# used to have; each further tier costs 100 mastery in game.
 set_grand_doctrine = sw_grand_battleplan
 set_grand_doctrine = new_operational_integrity
 set_grand_doctrine = new_fleet_in_being

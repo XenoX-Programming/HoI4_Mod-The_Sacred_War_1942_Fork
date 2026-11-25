@@ -36,8 +36,9 @@ sw_ma_peoples = {
 		}
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 3 rewards (1.17+ allows at most 5;
+	# this branch only had 3 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: old tech human_infantry_offensive
 		sw_ma_peoples_tier1 = {
@@ -66,14 +67,8 @@ sw_ma_peoples = {
 			}
 			land_reinforce_rate = 0.15
 		}
-		# reward 4: the old branch had no corresponding tier.
-		# Kept empty because the game expects 5 rewards.
-		sw_ma_peoples_tier4 = {
-		}
-		# reward 5: the old branch had no corresponding tier.
-		# Kept empty because the game expects 5 rewards.
-		sw_ma_peoples_tier5 = {
-		}
+		# reward 4: the old branch had no such tier (branch had fewer than 5 tiers)
+		# reward 5: the old branch had no such tier (branch had fewer than 5 tiers)
 	}
 }
 

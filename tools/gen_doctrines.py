@@ -426,14 +426,19 @@ def gen_subdoctrines(techs):
                 f"{I}# Base effects, from the old first tech of the branch: {root}",
             ]
             out += effects(techs, root, 1) or [f"{I}# (no effect block)"]
-            out += ["", f"{I}# Exactly {M.MAX_REWARDS} rewards, as 1.17+ requires.",
-                    f"{I}# 100 mastery each; taking all five uses 500 mastery.",
+            n_groups = sum(1 for g in groups if g)
+            out += ["", f"{I}# {n_groups} rewards (1.17+ allows at most {M.MAX_REWARDS};",
+                    f"{I}# this branch only had {n_groups} tiers to translate).",
+                    f"{I}# 100 mastery each.",
                     f"{I}rewards = {{"]
             for n, group in enumerate(groups, 1):
                 if not group:
-                    out += [f"{I * 2}# reward {n}: the old branch had no corresponding tier.",
-                            f"{I * 2}# Kept empty because the game expects {M.MAX_REWARDS} rewards.",
-                            f"{I * 2}{sid}_tier{n} = {{", f"{I * 2}}}"]
+                    # An empty reward block is structurally unusual and buys
+                    # nothing, so it is omitted entirely rather than emitted as
+                    # `x = { }`. Tracks whose old branch had fewer than five
+                    # tiers therefore have fewer than five rewards.
+                    out.append(f"{I * 2}# reward {n}: the old branch had no such tier"
+                               f" (branch had fewer than {M.MAX_REWARDS} tiers)")
                     continue
                 if len(group) > 1:
                     out.append(f"{I * 2}# reward {n}: merged tiers "

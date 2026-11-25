@@ -153,6 +153,7 @@ def convert_text(text, tech_index, fname, log, hoist):
     changed = False
     per_school = {}       # school -> {track: max tier}
     hoisted_extra = []    # naval / air / special-forces commands to hoist too
+    # hoisted_extra may legitimately contain repeats (each repeat buys a tier)
 
     for s, e in blocks:
         grants = []
@@ -187,9 +188,7 @@ def convert_text(text, tech_index, fname, log, hoist):
         if hoist:
             # the tech grants are gone either way; only the emission point differs
             remove.update(j for j, _t in grants)
-            for c in other_cmds:
-                if c not in hoisted_extra:
-                    hoisted_extra.append(c)
+            hoisted_extra.extend(other_cmds)
             if school_id is None:
                 continue
             bucket = per_school.setdefault(school_id, {})
@@ -230,7 +229,7 @@ def convert_text(text, tech_index, fname, log, hoist):
                                f"dropped because a country takes one grand doctrine")
             per_school = {keep: per_school[keep]}
         school_id, bucket = next(iter(per_school.items())) if per_school else (None, {})
-        cmds = (doctrine_commands(school_id, sorted(bucket.items()))
+        cmds = (M.split_commands_for_history(school_id, sorted(bucket.items()))
                 if school_id else []) + hoisted_extra
         cmds = M.one_per_folder(cmds, log, fname)
         payload = ["",
@@ -242,7 +241,8 @@ def convert_text(text, tech_index, fname, log, hoist):
         payload = ["",
                    "# The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted",
                    "# from the old technology tree by tools/convert_history_doctrines.py).",
-                   "# Mastery is what advances a track: 100 per reward, 500 completes it."]
+                   "# set_sub_doctrine is repeated once per tier of the track the country",
+                   "# used to have; each further tier costs 100 mastery in game."]
         payload += cmds
         # Insert at top level, in the file's header of simple commands (after
         # `capital`, `oob`, the first set_technology, ...), which is where EaW

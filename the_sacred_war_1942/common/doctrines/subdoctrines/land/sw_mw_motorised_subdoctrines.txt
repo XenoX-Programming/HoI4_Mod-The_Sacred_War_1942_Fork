@@ -53,8 +53,9 @@ sw_mw_motorised = {
 		default_morale = 0.2
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 4 rewards (1.17+ allows at most 5;
+	# this branch only had 4 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: old tech mass_motorization
 		sw_mw_motorised_tier1 = {
@@ -103,10 +104,7 @@ sw_mw_motorised = {
 		sw_mw_motorised_tier4 = {
 			enable_tactic = tactic_backhand_blow
 		}
-		# reward 5: the old branch had no corresponding tier.
-		# Kept empty because the game expects 5 rewards.
-		sw_mw_motorised_tier5 = {
-		}
+		# reward 5: the old branch had no such tier (branch had fewer than 5 tiers)
 	}
 }
 

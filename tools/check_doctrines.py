@@ -134,8 +134,12 @@ def main():
 
         rw = node.get("rewards")
         n = 0 if rw is None else sum(1 for c in rw.children if c.is_block)
-        if n != REWARDS:
-            err(f"subdoctrine '{sid}' has {n} rewards, expected {REWARDS}")
+        # 1.17+ allows up to five reward slots. Fewer is legal: a branch that had
+        # fewer than five tiers simply has fewer things to buy. More is not.
+        if n > REWARDS:
+            err(f"subdoctrine '{sid}' has {n} rewards, at most {REWARDS} allowed")
+        if n == 0:
+            err(f"subdoctrine '{sid}' has no rewards")
 
         for key in ("name", "description"):
             k = node.get(key)

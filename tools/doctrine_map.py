@@ -394,10 +394,33 @@ def one_per_folder(commands, log, fname):
         if c.startswith("set_grand_doctrine"):
             gd = c.split("=")[1].strip()
             folder = GD_FOLDER.get(gd)
-            if folder in seen and seen[folder] != gd:
-                log.append(f"      dropped {gd}: {folder} already set to"
-                           f" {seen[folder]} (one grand doctrine per folder)")
-                continue
-            seen.setdefault(folder, gd)
+            if folder in seen:
+                if seen[folder] != gd:
+                    log.append(f"      dropped {gd}: {folder} already set to"
+                               f" {seen[folder]} (one grand doctrine per folder)")
+                continue          # an exact repeat is meaningless as well
+            seen[folder] = gd
         out.append(c)
+    return out
+
+
+def buys_for_tier(sub_id, tier):
+    """Explicit unlock commands for `tier` tiers of a subdoctrine.
+
+    `set_sub_doctrine` takes tier 1; each further tier is bought with the same
+    command. This is deliberately used instead of `add_mastery`, because
+    add_mastery interacts with the mastery cap and is not used by the mature
+    1.17+ mods examined, whereas repeated set_sub_doctrine is unambiguous.
+    Its failure mode is limited to one track (under-levelled start, still
+    playable) rather than resetting a whole folder's mastery.
+    """
+    return [f"set_sub_doctrine = {sub_id}"] * max(1, min(tier, MAX_REWARDS + 1))
+
+
+def split_commands_for_history(school_id, tiers):
+    """Commands for a country's starting doctrine state."""
+    out = [f"set_grand_doctrine = {school_id}"]
+    for track_id, tier in tiers:
+        if tier >= 1:
+            out.extend(buys_for_tier(track_id, tier))
     return out

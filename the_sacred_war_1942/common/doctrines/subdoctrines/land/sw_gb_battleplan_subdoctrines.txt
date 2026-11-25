@@ -29,8 +29,9 @@ sw_gb_battleplan = {
 		max_organisation = 10
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 5 rewards (1.17+ allows at most 5;
+	# this branch only had 5 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: merged tiers grand_assault, grand_mechanized_offensive (branch had more than 5)
 		sw_gb_battleplan_tier1 = {

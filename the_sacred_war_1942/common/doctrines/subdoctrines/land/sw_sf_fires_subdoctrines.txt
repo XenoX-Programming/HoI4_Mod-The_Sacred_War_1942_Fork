@@ -31,8 +31,9 @@ sw_sf_fires = {
 		soft_attack = 0.05
 	}
 
-	# Exactly 5 rewards, as 1.17+ requires.
-	# 100 mastery each; taking all five uses 500 mastery.
+	# 5 rewards (1.17+ allows at most 5;
+	# this branch only had 5 tiers to translate).
+	# 100 mastery each.
 	rewards = {
 		# reward 1: merged tiers forward_observers, advanced_firebases (branch had more than 5)
 		sw_sf_fires_tier1 = {

@@ -135,9 +135,11 @@ Mapping rules, all encoded in `tools/doctrine_map.py`:
   grand doctrine rather than of either track.
 * **each old branch → one track.**
 * **first tech of a branch → the subdoctrine** (what you bought first).
-* **next techs → five rewards.** 1.17+ hard-codes five reward slots. Branches
-  with 6–8 tiers merge the surplus into reward 1, which is where the surplus
-  tier would have been bought.
+* **next techs → at most five rewards.** 1.17+ allows up to five reward slots.
+  Branches with 6–8 tiers merge the surplus into reward 1, which is where the
+  surplus tier would have been bought. Branches with fewer than five tiers have
+  fewer rewards (3–4); **empty reward blocks are not emitted**, since they buy
+  nothing and are structurally unusual.
 * **terminal tech → the milestone**, positional to `tracks`.
 * `masterful_blitz` was an orphan (nothing led to it). Folded into the mobile
   motorised milestone.
@@ -227,10 +229,15 @@ add_mastery = { amount = 200 sub_doctrine = sw_gb_battleplan }
 ```
 
 * `set_grand_doctrine` takes the grand doctrine.
-* `set_sub_doctrine` takes tier 1 of that track.
-* **Mastery is the only way to advance.** 100 mastery per reward, 500 completes
-  the track. `add_mastery` is how history buys the tiers a country "already had".
-* `tier n` → mastery `100 × (n-1)`; computed by `M.mastery_for_tier()`.
+* `set_sub_doctrine` takes the next tier of that track. **Repeating it buys
+  further tiers**, so N repeats = tier N.
+* **Mastery is the only way to advance** (100 per reward, 500 completes a track),
+  but history does not use `add_mastery`: it repeats `set_sub_doctrine` once per
+  tier the country used to have. This is deliberate. `add_mastery` is not used by
+  any of the mature 1.17+ mods examined, and its failure mode is worse — an
+  out-of-range amount could disturb folder mastery, whereas the worst case for
+  repeated `set_sub_doctrine` is one under-levelled track that is still playable.
+* `tier n` → `n` calls to `set_sub_doctrine`; `M.split_commands_for_history()`.
 
 The converter inserts these in the file header, after `capital`/`oob`/the first
 `set_technology`, and always before the first top-level `if`/`date` block. In
@@ -268,6 +275,12 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 
 ## 7. What is still unverified
 
+> **Status at time of writing:** the user reports the game *crashes on load*.
+> Their `error.log` has not reached the sandbox (uploads are not arriving), so the
+> cause is **not yet known**. Two speculative hardening changes were made in
+> response — empty reward blocks removed and `add_mastery` replaced — neither of
+> which is confirmed to be the fix. **Get the log before guessing further.**
+
 **The mod has never been loaded in HoI4 in this environment.** There is no game
 install in the sandbox. Everything below is "should work" logic-checked, not
 observed. Ask the user for `error.log` (they were told to drop it in
@@ -292,13 +305,14 @@ observed. Ask the user for `error.log` (they were told to drop it in
    `GFX_doctrine_*`), or add the art.
 3. **`track` accepting a single id.** Vanilla uses both forms
    (`track = armor` and `track = { a b }`), so a single id should be fine.
-4. **Empty reward blocks.** Tracks whose branch had fewer than 5 tiers get
-   `sw_*_tierN = { }`. This is a deliberate placeholder; confirm the game accepts
-   an empty reward block rather than erroring. If it complains, delete the empty
-   blocks (then only some subdoctrines have 5).
-5. **`add_mastery` in history.** Confirm it applies at scenario start. If doctrine
-   tiers do not show up, the fallback is to move the commands into a
-   `on_startup`/`on_daily` first-tick effect guarded by a country flag.
+4. **Tracks with fewer than five rewards.** Four subdoctrines have 3–4 rewards
+   because their old branch had fewer tiers. Confirm 1.17+ accepts fewer than
+   five reward entries (vanilla always has exactly five). If it does not, pad the
+   short ones by splitting an existing merged reward.
+5. **Repeated `set_sub_doctrine` in history.** Confirm the game accepts the
+   same subdoctrine being set several times so it lands on a higher tier. If
+   tiers do not show up, replace the repeats with
+   `add_mastery = { amount = N sub_doctrine = X }` (100 per tier) and re-test.
 6. **The six dropped techs** (§4.5) — check nothing downstream (naval designers,
    equipment variants, AI templates) depended on them.
 7. **Naval/air grand doctrines.** 34 of the 37 country files now also carry the
