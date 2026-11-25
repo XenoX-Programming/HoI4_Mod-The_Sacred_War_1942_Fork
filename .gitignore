@@ -5,3 +5,6 @@ tools/__pycache__/
 # Generated reports (regenerate with the tools in tools/)
 tools/migration_report.txt
 tools/doctrine_conversion_report.txt
+
+# Bisect variants built by tools/bisect_doctrines.py (large, regenerable)
+build/

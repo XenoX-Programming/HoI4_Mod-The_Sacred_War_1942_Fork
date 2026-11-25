@@ -388,6 +388,40 @@ still uses those ids for other places. The loc collision is the visible symptom;
 the state-file conflict underneath is the dangerous one, and it is present in the
 **unported** mod too (18:53 log).
 
+### The crash is on the CHECKSUM screen, before country selection
+
+The user reports the game dies on the loading screen while it says it is
+**creating checksum**, i.e. before country selection ever appears. That is late:
+by then every file has been parsed, validated and logged. It explains why no
+artifact names the fault — nothing is left to complain about, the engine simply
+falls over. It also means the `Executing History` line in `game.log` is *not* the
+scene of the death; the checksum stage comes before it.
+
+This makes a **bisect** the right tool, and `tools/bisect_doctrines.py` builds the
+four variants (`build/`, git-ignored). That is the next action, not more
+speculation.
+
+### My own bad migration, found and reverted: `supply_factor`
+
+The port "migrated" `supply_factor` to `supply_consumption` in
+`common/dynamic_modifiers/0_dynamic_modifiers.txt`. This was invented, not
+researched, and it is simply wrong for a state-scope dynamic modifier:
+
+* the pre-port log (18:53) contains **zero** `Unknown modifier: supply_factor`,
+  so `supply_factor` was valid all along;
+* every log since (2005, 2034, 2053, 2059) contains exactly one
+  `Unknown modifier: supply_consumption`, at the line that was changed;
+* 1.20's own EaW data never writes a bare `supply_consumption` assignment
+  anywhere in `common/` — it uses `supply_consumption_factor`.
+
+Reverted to `supply_factor`, and `supply_consumption_factor` elsewhere in the
+file is left alone because that key *does* exist. Lesson for the rest of this
+port: **a rename is only justified if the log used to complain about the old
+name.** Two other changes were made on the same bad instinct (`cl_tech` →
+`ca_tech`, and deleting the stale `industry.txt`/`artillery.txt`), and those two
+*are* evidenced: 1.20's technology tree genuinely differs. But the supply rename
+was pure guesswork.
+
 ### The 20:59 run: the doctrine id fix changed nothing
 
 `Logs/251126/2059/` is profile-identical to `2053`:
