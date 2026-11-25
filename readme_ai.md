@@ -442,6 +442,61 @@ possibilities are a native crash with no handler, or the OS killing it. The
 `0_dx11` memory figure did **not** climb to anything alarming (1.8 GB peak), so
 memory exhaustion is not indicated.
 
+### Vanilla runs fine; therefore this is the mod, and it dies in state history
+
+The user confirmed vanilla reaches the main menu, country selection **and** in-game
+on this install. So nothing environmental is to blame. Combined with `game.log`,
+the failure is now localised: **state-history loading**, i.e. the phase that
+starts at `Executing History`.
+
+`error.log` at `[20:33:21]` — the history timestamp — is **473 lines, of which
+~460 are `Province with id N is already added to state`**. That single class is
+the whole content of the failing phase.
+
+### Root cause: vanilla state files and mod state files both load
+
+The 10 `State ID conflict` lines name the mechanism exactly:
+
+```
+Both "Magwe"  ( history/states/288-Magwe.txt)                 <- VANILLA
+              (.../mod/the_sacred_war_1942/history/states/288-Burma.txt)
+Both "Debar"  ( history/states/970-Sedan.txt)                 <- MOD
+              (G:/SteamLibrary/.../history/states/970 - Western Macedonia.txt)
+```
+
+The two paths in each line swap between runs, which is the tell: **HoI4 loads
+state files from both the mod and vanilla, and whichever defines an id last wins
+that state's name.** Because the mod renumbers states — its `288-Burma.txt`,
+`970-Sedan.txt`, `972-Veneto2.txt` reuse ids that vanilla 1.20 uses for
+completely different places (`288-Magwe`, `970 - Western Macedonia`,
+`972 - South Sudetenland`) — the two file sets disagree about what state N is,
+and the provinces get assigned twice.
+
+That is why the conflicting-province count is **unstable between runs** (742,
+then 1113): it depends on which duplicate won that load.
+
+The mod's own 409 states are internally clean — 0 provinces claimed twice by mod
+files, 0 duplicate entries in `provinces = {}` lists. The conflict is purely
+mod-vs-vanilla, so the fix is at the file-name level, not in the state contents.
+
+### Fixed: duplicated province block in a state file
+
+`763-Konigsberg.txt` defined province 6332 in **two separate** `buildings` blocks
+(`bunker` in one, `naval_base` in the other), which is precisely what
+`error.log` complains about:
+
+```
+Province buildings being overridden for province 6332 in state 763.
+Combine the buildings into one block rather than adding multiple blocks
+for the same province ID.
+```
+
+Merged into one block. This was the **only** state file with that defect (checked
+all 409 for repeated province keys across blocks, and separately for duplicate
+entries inside `provinces = {}` and `victory_points = {}`).
+`check_mod.py` gained `check_state_province_blocks()` so it cannot come back; it
+was verified to fail on the pre-fix file and pass after.
+
 ### The duplicate-province problem is the real suspect
 
 `already added to state` is the largest and oldest error class and it just grew

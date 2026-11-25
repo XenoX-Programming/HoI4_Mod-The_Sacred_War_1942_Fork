@@ -24,7 +24,9 @@ import collections
 import glob
 import json
 import os
+import re
 import sys
+from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pdxparse  # noqa: E402
@@ -283,6 +285,48 @@ DB_COLLECTORS = {
 }
 
 
+def check_state_province_blocks(mod_dir):
+    """A province may appear in only ONE buildings block per state.
+
+    HoI4 reports this as
+      "Province buildings being overridden for province N in state M. Combine
+       the buildings into one block rather than adding multiple blocks for the
+       same province ID."
+    It is a state-history error, and history errors are in the code path that
+    runs at scenario start, so it is worth catching statically.
+    """
+    errors = []
+    states = Path(mod_dir) / "history" / "states"
+    for path in sorted(states.glob("*.txt")):
+        try:
+            raw = path.read_text(encoding="utf-8-sig", errors="replace")
+        except OSError:
+            continue
+        for m in re.finditer(r"buildings\s*=\s*\{", raw):
+            i, depth = m.end(), 1
+            while i < len(raw) and depth:
+                if raw[i] == "{":
+                    depth += 1
+                elif raw[i] == "}":
+                    depth -= 1
+                i += 1
+            blk = raw[m.end():i - 1]
+            seen, d = [], 0
+            for ln in blk.split("\n"):
+                hit = re.match(r"\s*(\d+)\s*=\s*\{", ln)
+                if d == 0 and hit:
+                    pid = int(hit.group(1))
+                    if pid in seen:
+                        errors.append({"check": "state_province_block",
+                                       "file": str(path.relative_to(mod_dir)),
+                                       "province": pid,
+                                       "detail": "province has more than one "
+                                                 "buildings block in this state"})
+                    seen.append(pid)
+                d += ln.count("{") - ln.count("}")
+    return errors
+
+
 def check_duplicates(mod_dir):
     errors = []
     for name, fn in DB_COLLECTORS.items():
@@ -350,6 +394,7 @@ def main():
     errors, warns = check_bom(files, mod_dir)
     errors += check_balance(files, mod_dir)
     errors += check_duplicates(mod_dir)
+    errors += check_state_province_blocks(mod_dir)
     warns += check_focus_prereqs(mod_dir)
 
     print(f"parsed {len(files)} script files in {mod_dir}\n")
