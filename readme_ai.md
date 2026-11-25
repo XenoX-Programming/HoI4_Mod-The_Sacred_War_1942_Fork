@@ -501,6 +501,68 @@ that is running when it dies. They logged no errors, but "logged no error" and
 
 ---
 
+### The 23:05 run: checksum screen crash persists despite doctrine fix
+
+`Logs/251126/2305/` is the newest full log set. The crash pattern is identical
+to the 22:46 run but now with the 17 dangling doctrine references resolved.
+
+**`game.log` (23:05 run)**
+
+```
+[23:04:36][no_game_date]: 4490 defines loaded
+[23:04:54][no_game_date]: Loaded 13414 provinces.
+[23:04:58][no_game_date]: Resetting game
+[23:05:00][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+The game **finishes loading** and **starts executing country history**. The crash
+still occurs at `Executing History` (23:05:00), **not** during the checksum
+screen phase (which completed at 23:04:58 `Resetting game`). The user's report
+of "crashes on checksum" appears to refer to the loading bar stage, but the
+logs confirm the engine reaches the history execution phase before dying.
+
+**`error.log` (23:05 run)**
+
+- **17 dangling doctrine references are GONE** (count dropped from 115 in 22:46
+  to **0** in 23:05). The `sub_doctrine = <track>` bug is fixed.
+- **State-file rename REVERTED** (conflict count returned from 1272 in 22:46
+  to **1113** in 23:05 baseline).
+- **New noise:** 10+ `Invalid supported_version` and `Unexpected token` errors
+  from other workshop mods (`mod/ugc_*.mod`) and DLC checksum warnings. These
+  are environmental and unrelated to the mod.
+- **Province building errors:** 8 occurrences of `Trying to set invalid province
+  building "bunker" to province #...` (provinces 549, 678, 3629, 6529, 9503,
+  9559, 11502, 3151) — identical to the 20:34/20:59/22:46 runs.
+- **State ID conflicts:** **1113** lines (`Province with id N is already added
+  to state`) — back to the pre-rename baseline after the 22:46 spike (1272).
+
+**`system_debug.log` / `memory.log` / `setup.log`**
+
+- `memory.log` ends cleanly at `InitGame() takes 1.7967e+06KB memory` (1.8 GB)
+  and `InitGame:: DumpMissing takes 12KB memory`. No assertion or exception.
+- `system_debug.log` logs GUI layout warnings (`Object "lock" has illegal
+  position...`) and telemetry events, but stops without a crash dump.
+- `setup.log` lists the loaded `on_actions` and tags, finishing normally.
+
+**Conclusion:**
+The 17-ref doctrine fix and the state-rename revert resolved the specific
+validation errors (`Not a valid value` dropped to 0, conflicts dropped to 1113),
+but the crash at `Executing History` persists. The engine dies silently during
+country history execution, exactly as in the 22:46 run. The "checksum" claim
+in the user message is contradicted by `game.log` (which shows loading and
+resetting completed at 23:04:58, then history execution starts at 23:05:00).
+
+**Next evidence needed:**
+1. A `.dmp` or crash dialog screenshot (the logs stop mid-history without
+   an assertion).
+2. Confirm if the crash happens on a specific country selection or
+   immediately after the map appears.
+3. Test the 4 bisect variants (A/B/C/D) from `tools/bisect_doctrines.py` to
+   isolate if the history commands (`set_grand_doctrine`, `set_sub_doctrine`,
+   `add_mastery`) are the trigger.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
