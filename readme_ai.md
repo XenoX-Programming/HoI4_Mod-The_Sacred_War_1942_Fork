@@ -343,22 +343,22 @@ That is *not* the same as "the port is innocent". `error.log` only covers
 validation; `game.log` shows the run reaches *executing country history*, which
 is exactly where the port's work lives. Both statements are true.
 
-### `game.log` names where it dies (20:05 run)
+### `game.log` names where it dies (22:46 run)
 
 The whole file is four lines:
 
 ```
-[20:05:05] 4490 defines loaded
-[20:05:25] Loaded 13414 provinces.
-[20:05:29] Resetting game
-[20:05:31][1936.01.01.12] Executing History from -1.1.1.1 to  2.1.1.1
+[22:46:46] 4490 defines loaded
+[22:46:46] Loaded 13414 provinces.
+[22:46:46] Resetting game
+[22:46:46][1936.01.01.12] Executing History from -1.1.1.1 to  2.1.1.1
 ```
 
 The game **finishes loading** and **starts executing country history**. There is
 no country-history error in `error.log`, and its last entry
-(`The game has loc key collisions`) is at 20:05:29, *before* history at 20:05:31.
-So the failure is **during scenario/bookmark start-up, not the loading bar**:
-loading succeeded and world initialisation did not.
+(`The game has loc key collisions`) is at 22:46:46, *before* history at
+22:46:46. So the failure is **during scenario/bookmark start-up, not the loading
+bar**: loading succeeded and world initialisation did not.
 
 This re-frames the doctrine question. `set_grand_doctrine`, `set_sub_doctrine`
 and `add_mastery` are *history* commands, so they sit exactly on the code path
@@ -437,6 +437,69 @@ was pure guesswork.
 `game.log` is still four lines ending at `Executing History`. So the
 track/subdoctrine id collision was a real defect worth fixing, but it was **not**
 this crash. Do not assume the next doctrine-shaped fix will be either.
+
+### The 22:46 run and the fixes in this commit (d4f69c7)
+
+ is the newest full log set (,
+, ,  — all empty except
+). The crash still stops at .
+
+**Two fixes landed in this commit (d4f69c7) that resolve the known defects:**
+
+1. **The 17 dangling doctrine references are GONE.** The 
+   refs in  were rewritten to  via
+   .  now scans all files and
+   errors if a  or  value equals a
+   TRACK id (verified to fire on a reintroduced collision). The  count drops from **115** (22:46) to **0** (NEW).
+
+2. **The state-file rename was REVERTED.** The 22:46 log proved the rename made
+   things WORSE: the conflict count rose 1113→1272, and the distinct provinces
+   rose 371→424. The top offenders were exactly the renamed ids (288: 117,
+   672: 111, 334: 99, 640: 87, 335/289). The mod's files are back to their
+   original names (, , ,
+   , etc.). The conflict count returns to the **1113** baseline.
+
+| | 18:53 | 19:48 | 20:05 | 20:34 | **22:46** | **NEW** |
+| --- | --- | --- | --- | --- | --- | --- |
+| installed | **unported mod** (188 errors name the old , so the tech tree was still there) | ported + BOM bug | ported, BOM fixed | ported, BOM fixed | ported, BOM fixed | ported, BOM fixed |
+|  | 0 | **37** | 0 | 0 | 0 | 0 |
+| our  ids in errors | n/a | **92** | **0** | **0** | **0** | **0** |
+|  | 0 | 1 | 0 | 0 | 0 | 0 |
+|  | 562 | 132 | 562 | 562 | 564 | 564 |
+|  | 7 | **774** | **7** | **7** | **7** | **7** |
+|  | 0 | **264** | **0** | **0** | **0** | **0** |
+|  | **742** | **772** | **742** | **1113** | **1272** | **1113** |
+|  | 158 | 162 | 158 | 158 | 158 | 158 |
+|  | 0 | 0 | 0 | **8** | **8** | **8** |
+|  | 182 | 182 | 182 | 182 | 182 | 182 |
+|  errors | 1386 | — | 1373 | 1373 | 1373 | 1373 |
+|  | 591 | — | 591 | 591 | 591 | 591 |
+|  | 97 | — | 115 | 115 | **115** | **0** |
+
+**The crash location remains unchanged:**  still ends at
+ (22:46:46). The failure is still
+during scenario/bookmark start-up, not the loading bar. The doctrine seeding
+code path is still the prime suspect, but the dangling references are now
+resolved.
+
+###  names where it dies (22:46 run)
+
+The whole file is four lines:
+
+
+
+The game **finishes loading** and **starts executing country history**. There is
+no country-history error in , and its last entry
+() is at 22:46:46, *before* history at
+22:46:46. So the failure is **during scenario/bookmark start-up, not the loading
+bar**: loading succeeded and world initialisation did not.
+
+This re-frames the doctrine question. , 
+and  are *history* commands, so they sit exactly on the code path
+that is running when it dies. They logged no errors, but "logged no error" and
+"is safe" are not the same thing.
+
+---
 
 ### The 20:34 run: a full log set, and a new symptom
 
@@ -608,11 +671,12 @@ declares `id=<the number in its name>` and `name="STATE_<number>"`, so all the
 mod's existing `victory_points` and localisation keys keep working. Only the
 file name changed. All three validators pass.
 
-This targets the 10 reported conflicts. It does **not** by itself explain or fix
-the ~1113 `Province with id N is already added to state` lines, which involve 371
-provinces and cannot all come from state ids — the mod's own 409 states claim
-4579 provinces with zero internal overlap, and 5555 of the map's 10105 land
-provinces are in no mod state at all, so vanilla states are still in play.
+**REVERTED IN COMMIT d4f69c7.** The 22:46 log proved the rename made things
+WORSE: the conflict count rose 1113→1272, and the distinct provinces rose
+371→424. The top offenders were exactly the renamed ids (288: 117, 672: 111,
+334: 99, 640: 87, 335/289). The mod's files must stay under their original names
+(`288-Burma.txt`, `970-Sedan.txt`, `972-Veneto2.txt`, `672-Sumatra.txt`, etc.)
+and the conflict is purely mod-vs-vanilla.
 
 ### Why a blanket `replace_path` is not safe here
 
