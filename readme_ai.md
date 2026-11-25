@@ -318,8 +318,11 @@ observed. Ask the user for `error.log` (they were told to drop it in
 * **Doctrines too strong / too weak** → edit `tools/doctrine_map.py` chains, not
   the generated files, then re-run `gen_doctrines.py`.
 * **Hide the vanilla four land grand doctrines** (both sets are currently
-  selectable, which is a genuine design choice worth confirming): vanilla's are
-  `mobile_warfare`, `superior_firepower`, `grand_battleplan`, `mass_assault`.
+  selectable, which is a genuine design choice worth confirming): vanilla's four
+  land grand doctrines are `new_mobile_warfare`, `superior_firepower`,
+  `grand_battleplan` and `mass_assault`, verified from vanilla 1.20's own
+  `common/ideas/army_spirits.txt`, which gates spirit choices on them. Note the
+  `new_` on mobile warfare; plain `mobile_warfare` does not exist in 1.20.
   Cleanest way is `replace_path = "common/doctrines/grand_doctrines"` **plus**
   shipping copies of the naval/air/SF grand doctrine files — *not* just the
   replace_path, or those folders' doctrines disappear.
