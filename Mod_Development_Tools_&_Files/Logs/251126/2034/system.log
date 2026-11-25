@@ -1,0 +1,309 @@
+[20:32:57][no_game_date]: OS: Windows 11 x86_64
+[20:32:57][no_game_date]: OS Lang: pl
+[20:32:57][no_game_date]: CPU Model: AMD Ryzen 5 5600G with Radeon Graphics         
+[20:32:57][no_game_date]: Number of cores: 6 (12)
+[20:32:57][no_game_date]: Estimated CPU speed: 0MHz
+[20:32:57][no_game_date]: System memory: 32556MB
+[20:32:57][no_game_date]: GetGraphicsSettings for Adapter: 0
+[20:32:58][no_game_date]: Found Adapter: NVIDIA GeForce GTX 1660 SUPER
+[20:32:58][no_game_date]: Using Adapter [0] to check for multi-sampling support:
+[20:32:58][no_game_date]: Found available multisampling mode: 2 at Quality: 0
+[20:32:58][no_game_date]: Found available multisampling mode: 4 at Quality: 0
+[20:32:58][no_game_date]: Found available multisampling mode: 8 at Quality: 0
+[20:32:58][no_game_date]: 	2 samples supported.
+[20:32:58][no_game_date]: 	4 samples supported.
+[20:32:58][no_game_date]: 	8 samples supported.
+[20:32:58][no_game_date]: Video adapter: NVIDIA GeForce GTX 1660 SUPER
+[20:32:58][no_game_date]: Video driver: DirectX 11
+[20:32:58][no_game_date]: Video driver version: 0.0.0.0
+[20:32:58][no_game_date]: Video memory: 5966
+[20:32:58][no_game_date]: Support for Anisotropic filtering found.
+[20:32:58][no_game_date]: 	Max Anisotropic filtering supported: 16
+[20:32:58][no_game_date]: 	Anisotropic filtering set to: 4
+[20:33:01][no_game_date]: Creating application...
+[20:33:01][no_game_date]: PdxSpeechToTextWinSAPI::Initialize: microphone was not found![20:33:01][no_game_date]: Initializing application...
+[20:33:01][no_game_date]: Audio cached "ui_menu_over" (28 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_default" (34 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_close" (33 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "menu_close_window" (172 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "menu_open_window" (59 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_main" (34 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_back" (33 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_submenu" (63 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_chat" (165 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_ok" (55 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_checkbox" (34 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_scroll" (40 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "click_close_window" (172 KB). Total audio cache: 0 MB
+[20:33:01][no_game_date]: Audio cached "event_popup_01" (360 KB). Total audio cache: 1 MB
+[20:33:01][no_game_date]: Audio cached "peace_summary_message_01" (458 KB). Total audio cache: 1 MB
+[20:33:02][no_game_date]: Audio cached "move_order_army_04" (472 KB). Total audio cache: 2 MB
+[20:33:02][no_game_date]: Done initializing application
+[20:33:02][no_game_date]: Loading cursor...
+[20:33:02][no_game_date]: Using multisampling: 8
+[20:33:02][no_game_date]: Creating device with: HARDWARE_VERTEXPROCESSING
+	Fullscreen=no
+	Resolution=2560x1440
+	Renderer=DirectX 11
+[20:33:02][no_game_date]: Usable res: 640 480 60
+[20:33:02][no_game_date]: Usable res: 640 480 120
+[20:33:02][no_game_date]: Usable res: 640 480 120
+[20:33:02][no_game_date]: Usable res: 640 480 119
+[20:33:02][no_game_date]: Usable res: 640 480 119
+[20:33:02][no_game_date]: Usable res: 640 480 143
+[20:33:02][no_game_date]: Usable res: 640 480 143
+[20:33:02][no_game_date]: Usable res: 720 480 60
+[20:33:02][no_game_date]: Usable res: 720 480 120
+[20:33:02][no_game_date]: Usable res: 720 480 120
+[20:33:02][no_game_date]: Usable res: 720 480 59
+[20:33:02][no_game_date]: Usable res: 720 480 119
+[20:33:02][no_game_date]: Usable res: 720 480 119
+[20:33:02][no_game_date]: Usable res: 720 480 143
+[20:33:02][no_game_date]: Usable res: 720 480 143
+[20:33:02][no_game_date]: Usable res: 720 576 120
+[20:33:02][no_game_date]: Usable res: 720 576 120
+[20:33:02][no_game_date]: Usable res: 720 576 60
+[20:33:02][no_game_date]: Usable res: 720 576 60
+[20:33:02][no_game_date]: Usable res: 720 576 72
+[20:33:02][no_game_date]: Usable res: 720 576 72
+[20:33:02][no_game_date]: Usable res: 720 576 119
+[20:33:02][no_game_date]: Usable res: 720 576 119
+[20:33:02][no_game_date]: Usable res: 720 576 143
+[20:33:02][no_game_date]: Usable res: 720 576 143
+[20:33:02][no_game_date]: Usable res: 800 600 120
+[20:33:02][no_game_date]: Usable res: 800 600 120
+[20:33:02][no_game_date]: Usable res: 800 600 60
+[20:33:02][no_game_date]: Usable res: 800 600 72
+[20:33:02][no_game_date]: Usable res: 800 600 119
+[20:33:02][no_game_date]: Usable res: 800 600 119
+[20:33:02][no_game_date]: Usable res: 800 600 143
+[20:33:02][no_game_date]: Usable res: 800 600 143
+[20:33:02][no_game_date]: Usable res: 1024 768 120
+[20:33:02][no_game_date]: Usable res: 1024 768 120
+[20:33:02][no_game_date]: Usable res: 1024 768 60
+[20:33:02][no_game_date]: Usable res: 1024 768 119
+[20:33:02][no_game_date]: Usable res: 1024 768 119
+[20:33:02][no_game_date]: Usable res: 1024 768 143
+[20:33:02][no_game_date]: Usable res: 1024 768 143
+[20:33:02][no_game_date]: Usable res: 1152 864 120
+[20:33:02][no_game_date]: Usable res: 1152 864 120
+[20:33:02][no_game_date]: Usable res: 1152 864 60
+[20:33:02][no_game_date]: Usable res: 1152 864 60
+[20:33:02][no_game_date]: Usable res: 1152 864 119
+[20:33:02][no_game_date]: Usable res: 1152 864 119
+[20:33:02][no_game_date]: Usable res: 1152 864 143
+[20:33:02][no_game_date]: Usable res: 1152 864 143
+[20:33:02][no_game_date]: Usable res: 1176 664 60
+[20:33:02][no_game_date]: Usable res: 1176 664 60
+[20:33:02][no_game_date]: Usable res: 1176 664 120
+[20:33:02][no_game_date]: Usable res: 1176 664 120
+[20:33:02][no_game_date]: Usable res: 1176 664 59
+[20:33:02][no_game_date]: Usable res: 1176 664 59
+[20:33:02][no_game_date]: Usable res: 1176 664 119
+[20:33:02][no_game_date]: Usable res: 1176 664 119
+[20:33:02][no_game_date]: Usable res: 1176 664 143
+[20:33:02][no_game_date]: Usable res: 1176 664 143
+[20:33:02][no_game_date]: Usable res: 1280 720 60
+[20:33:02][no_game_date]: Usable res: 1280 720 120
+[20:33:02][no_game_date]: Usable res: 1280 720 120
+[20:33:02][no_game_date]: Usable res: 1280 720 59
+[20:33:02][no_game_date]: Usable res: 1280 720 119
+[20:33:02][no_game_date]: Usable res: 1280 720 119
+[20:33:02][no_game_date]: Usable res: 1280 720 143
+[20:33:02][no_game_date]: Usable res: 1280 720 143
+[20:33:02][no_game_date]: Usable res: 1280 768 120
+[20:33:02][no_game_date]: Usable res: 1280 768 120
+[20:33:02][no_game_date]: Usable res: 1280 768 59
+[20:33:02][no_game_date]: Usable res: 1280 768 59
+[20:33:02][no_game_date]: Usable res: 1280 768 119
+[20:33:02][no_game_date]: Usable res: 1280 768 119
+[20:33:02][no_game_date]: Usable res: 1280 768 143
+[20:33:02][no_game_date]: Usable res: 1280 768 143
+[20:33:02][no_game_date]: Usable res: 1280 800 120
+[20:33:02][no_game_date]: Usable res: 1280 800 120
+[20:33:02][no_game_date]: Usable res: 1280 800 59
+[20:33:02][no_game_date]: Usable res: 1280 800 119
+[20:33:02][no_game_date]: Usable res: 1280 800 119
+[20:33:02][no_game_date]: Usable res: 1280 800 143
+[20:33:02][no_game_date]: Usable res: 1280 800 143
+[20:33:02][no_game_date]: Usable res: 1280 960 120
+[20:33:02][no_game_date]: Usable res: 1280 960 120
+[20:33:02][no_game_date]: Usable res: 1280 960 60
+[20:33:02][no_game_date]: Usable res: 1280 960 60
+[20:33:02][no_game_date]: Usable res: 1280 960 119
+[20:33:02][no_game_date]: Usable res: 1280 960 119
+[20:33:02][no_game_date]: Usable res: 1280 960 143
+[20:33:02][no_game_date]: Usable res: 1280 960 143
+[20:33:02][no_game_date]: Usable res: 1280 1024 120
+[20:33:02][no_game_date]: Usable res: 1280 1024 120
+[20:33:02][no_game_date]: Usable res: 1280 1024 60
+[20:33:02][no_game_date]: Usable res: 1280 1024 119
+[20:33:02][no_game_date]: Usable res: 1280 1024 119
+[20:33:02][no_game_date]: Usable res: 1280 1024 143
+[20:33:02][no_game_date]: Usable res: 1280 1024 143
+[20:33:02][no_game_date]: Usable res: 1360 768 120
+[20:33:02][no_game_date]: Usable res: 1360 768 120
+[20:33:02][no_game_date]: Usable res: 1360 768 59
+[20:33:02][no_game_date]: Usable res: 1360 768 59
+[20:33:02][no_game_date]: Usable res: 1360 768 119
+[20:33:02][no_game_date]: Usable res: 1360 768 119
+[20:33:02][no_game_date]: Usable res: 1360 768 143
+[20:33:02][no_game_date]: Usable res: 1360 768 143
+[20:33:02][no_game_date]: Usable res: 1366 768 120
+[20:33:02][no_game_date]: Usable res: 1366 768 120
+[20:33:02][no_game_date]: Usable res: 1366 768 59
+[20:33:02][no_game_date]: Usable res: 1366 768 59
+[20:33:02][no_game_date]: Usable res: 1366 768 119
+[20:33:02][no_game_date]: Usable res: 1366 768 119
+[20:33:02][no_game_date]: Usable res: 1366 768 143
+[20:33:02][no_game_date]: Usable res: 1366 768 143
+[20:33:02][no_game_date]: Usable res: 1440 900 120
+[20:33:02][no_game_date]: Usable res: 1440 900 120
+[20:33:02][no_game_date]: Usable res: 1440 900 59
+[20:33:02][no_game_date]: Usable res: 1440 900 119
+[20:33:02][no_game_date]: Usable res: 1440 900 119
+[20:33:02][no_game_date]: Usable res: 1440 900 143
+[20:33:02][no_game_date]: Usable res: 1440 900 143
+[20:33:02][no_game_date]: Usable res: 1440 1080 60
+[20:33:02][no_game_date]: Usable res: 1440 1080 60
+[20:33:02][no_game_date]: Usable res: 1440 1080 120
+[20:33:02][no_game_date]: Usable res: 1440 1080 120
+[20:33:02][no_game_date]: Usable res: 1440 1080 59
+[20:33:02][no_game_date]: Usable res: 1440 1080 59
+[20:33:02][no_game_date]: Usable res: 1440 1080 119
+[20:33:02][no_game_date]: Usable res: 1440 1080 119
+[20:33:02][no_game_date]: Usable res: 1440 1080 143
+[20:33:02][no_game_date]: Usable res: 1440 1080 143
+[20:33:02][no_game_date]: Usable res: 1600 900 60
+[20:33:02][no_game_date]: Usable res: 1600 900 120
+[20:33:02][no_game_date]: Usable res: 1600 900 120
+[20:33:02][no_game_date]: Usable res: 1600 900 119
+[20:33:02][no_game_date]: Usable res: 1600 900 119
+[20:33:02][no_game_date]: Usable res: 1600 900 143
+[20:33:02][no_game_date]: Usable res: 1600 900 143
+[20:33:02][no_game_date]: Usable res: 1600 1024 120
+[20:33:02][no_game_date]: Usable res: 1600 1024 120
+[20:33:02][no_game_date]: Usable res: 1600 1024 59
+[20:33:02][no_game_date]: Usable res: 1600 1024 59
+[20:33:02][no_game_date]: Usable res: 1600 1024 119
+[20:33:02][no_game_date]: Usable res: 1600 1024 119
+[20:33:02][no_game_date]: Usable res: 1600 1024 143
+[20:33:02][no_game_date]: Usable res: 1600 1024 143
+[20:33:02][no_game_date]: Usable res: 1600 1200 59
+[20:33:02][no_game_date]: Usable res: 1600 1200 59
+[20:33:02][no_game_date]: Usable res: 1600 1200 119
+[20:33:02][no_game_date]: Usable res: 1600 1200 119
+[20:33:02][no_game_date]: Usable res: 1600 1200 119
+[20:33:02][no_game_date]: Usable res: 1600 1200 119
+[20:33:02][no_game_date]: Usable res: 1600 1200 143
+[20:33:02][no_game_date]: Usable res: 1600 1200 143
+[20:33:02][no_game_date]: Usable res: 1680 1050 120
+[20:33:02][no_game_date]: Usable res: 1680 1050 120
+[20:33:02][no_game_date]: Usable res: 1680 1050 59
+[20:33:02][no_game_date]: Usable res: 1680 1050 119
+[20:33:02][no_game_date]: Usable res: 1680 1050 119
+[20:33:02][no_game_date]: Usable res: 1680 1050 143
+[20:33:02][no_game_date]: Usable res: 1680 1050 143
+[20:33:02][no_game_date]: Usable res: 1920 1080 60
+[20:33:02][no_game_date]: Usable res: 1920 1080 120
+[20:33:02][no_game_date]: Usable res: 1920 1080 59
+[20:33:02][no_game_date]: Usable res: 1920 1080 119
+[20:33:02][no_game_date]: Usable res: 1920 1080 143
+[20:33:02][no_game_date]: Usable res: 1920 1200 59
+[20:33:02][no_game_date]: Usable res: 1920 1200 59
+[20:33:02][no_game_date]: Usable res: 1920 1200 119
+[20:33:02][no_game_date]: Usable res: 1920 1200 119
+[20:33:02][no_game_date]: Usable res: 1920 1200 119
+[20:33:02][no_game_date]: Usable res: 1920 1200 119
+[20:33:02][no_game_date]: Usable res: 1920 1200 143
+[20:33:02][no_game_date]: Usable res: 1920 1200 143
+[20:33:02][no_game_date]: Usable res: 1920 1440 59
+[20:33:02][no_game_date]: Usable res: 1920 1440 59
+[20:33:02][no_game_date]: Usable res: 1920 1440 119
+[20:33:02][no_game_date]: Usable res: 1920 1440 119
+[20:33:02][no_game_date]: Usable res: 1920 1440 119
+[20:33:02][no_game_date]: Usable res: 1920 1440 119
+[20:33:02][no_game_date]: Usable res: 1920 1440 143
+[20:33:02][no_game_date]: Usable res: 1920 1440 143
+[20:33:02][no_game_date]: Usable res: 2048 1536 30
+[20:33:02][no_game_date]: Usable res: 2048 1536 30
+[20:33:02][no_game_date]: Usable res: 2048 1536 120
+[20:33:02][no_game_date]: Usable res: 2048 1536 120
+[20:33:02][no_game_date]: Usable res: 2048 1536 29
+[20:33:02][no_game_date]: Usable res: 2048 1536 29
+[20:33:02][no_game_date]: Usable res: 2048 1536 59
+[20:33:02][no_game_date]: Usable res: 2048 1536 59
+[20:33:02][no_game_date]: Usable res: 2048 1536 59
+[20:33:02][no_game_date]: Usable res: 2048 1536 59
+[20:33:02][no_game_date]: Usable res: 2048 1536 119
+[20:33:02][no_game_date]: Usable res: 2048 1536 119
+[20:33:02][no_game_date]: Usable res: 2048 1536 143
+[20:33:02][no_game_date]: Usable res: 2048 1536 143
+[20:33:02][no_game_date]: Usable res: 2560 1440 59
+[20:33:02][no_game_date]: Usable res: 2560 1440 119
+[20:33:02][no_game_date]: Usable res: 2560 1440 119
+[20:33:02][no_game_date]: Usable res: 2560 1440 119
+[20:33:02][no_game_date]: Usable res: 2560 1440 143
+[20:33:02][no_game_date]: Usable res: 2560 1600 30
+[20:33:02][no_game_date]: Usable res: 2560 1600 30
+[20:33:02][no_game_date]: Usable res: 2560 1600 120
+[20:33:02][no_game_date]: Usable res: 2560 1600 120
+[20:33:02][no_game_date]: Usable res: 2560 1600 29
+[20:33:02][no_game_date]: Usable res: 2560 1600 29
+[20:33:02][no_game_date]: Usable res: 2560 1600 59
+[20:33:02][no_game_date]: Usable res: 2560 1600 59
+[20:33:02][no_game_date]: Usable res: 2560 1600 59
+[20:33:02][no_game_date]: Usable res: 2560 1600 59
+[20:33:02][no_game_date]: Usable res: 2560 1600 119
+[20:33:02][no_game_date]: Usable res: 2560 1600 119
+[20:33:02][no_game_date]: Usable res: 2560 1600 143
+[20:33:02][no_game_date]: Usable res: 2560 1600 143
+[20:33:02][no_game_date]: Usable res: 3840 2160 30
+[20:33:02][no_game_date]: Usable res: 3840 2160 120
+[20:33:02][no_game_date]: Usable res: 3840 2160 29
+[20:33:02][no_game_date]: Usable res: 3840 2160 59
+[20:33:02][no_game_date]: Usable res: 3840 2160 59
+[20:33:02][no_game_date]: Usable res: 3840 2160 119
+[20:33:02][no_game_date]: Usable res: 3840 2160 143
+[20:33:02][no_game_date]: Done creating device.
+[20:33:20][no_game_date]: Version: Operation Postern v1.20.0.0.8873 (65ce) build time: Nov 17 2026 14:21:50
+[20:33:20][no_game_date]: Active DLC Count: 37
+[20:33:20][no_game_date]: Active Mod Count: 1
+[20:33:20][no_game_date]: Active DLC: Allied Armor Pack
+[20:33:20][no_game_date]: Active DLC: Allied Speeches Pack
+[20:33:20][no_game_date]: Active DLC: Anniversary Pack
+[20:33:20][no_game_date]: Active DLC: Arms Against Tyranny
+[20:33:20][no_game_date]: Active DLC: Arms Against Tyranny Preorder Bonus
+[20:33:20][no_game_date]: Active DLC: Axis Armor Pack
+[20:33:20][no_game_date]: Active DLC: Battle for the Bosporus
+[20:33:20][no_game_date]: Active DLC: By Blood Alone
+[20:33:20][no_game_date]: Active DLC: By Blood Alone Preorder Bonus
+[20:33:20][no_game_date]: Active DLC: Content Creator Pack - Soviet Union 2D Art
+[20:33:20][no_game_date]: Active DLC: Death or Dishonor
+[20:33:20][no_game_date]: Active DLC: Eastern Front Planes Pack
+[20:33:20][no_game_date]: Active DLC: Expansion Pass 1: Ride of the Valkyries
+[20:33:20][no_game_date]: Active DLC: Expansion Pass 1: Supporter Pack
+[20:33:20][no_game_date]: Active DLC: Expansion Pass 2: Seaplane Tenders
+[20:33:20][no_game_date]: Active DLC: Gotterdammerung
+[20:33:20][no_game_date]: Active DLC: Graveyard of Empires
+[20:33:20][no_game_date]: Active DLC: Historical German Portraits
+[20:33:20][no_game_date]: Active DLC: La Resistance
+[20:33:20][no_game_date]: Active DLC: Man the Guns
+[20:33:20][no_game_date]: Active DLC: No Compromise, No Surrender
+[20:33:20][no_game_date]: Active DLC: No Step Back
+[20:33:20][no_game_date]: Active DLC: No Step Back Preorder Bonus
+[20:33:20][no_game_date]: Active DLC: Peace For Our Time
+[20:33:20][no_game_date]: Active DLC: Poland: United and Ready
+[20:33:20][no_game_date]: Active DLC: Prototype Vehicles
+[20:33:20][no_game_date]: Active DLC: Radio Pack
+[20:33:20][no_game_date]: Active DLC: Rocket Launcher Unit Pack
+[20:33:20][no_game_date]: Active DLC: Sabaton Soundtrack
+[20:33:20][no_game_date]: Active DLC: Sabaton Soundtrack Vol.2
+[20:33:20][no_game_date]: Active DLC: Songs of the Eastern Front
+[20:33:20][no_game_date]: Active DLC: Thunder at Our Gates
+[20:33:20][no_game_date]: Active DLC: Together for Victory
+[20:33:20][no_game_date]: Active DLC: Trial of Allegiance
+[20:33:20][no_game_date]: Active DLC: Trial of Allegiance Preorder Bonus
+[20:33:20][no_game_date]: Active DLC: Waking the Tiger
+[20:33:20][no_game_date]: Active DLC: Warships of the Pacific
+[20:33:20][no_game_date]: Active Mod: The Sacred War - 1942
