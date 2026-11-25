@@ -102,10 +102,14 @@ def doctrine_commands(school_id, tiers):
     for track_id, tier in tiers:
         if tier < 1:
             continue
-        out.append(f"set_sub_doctrine = {track_id}")
+        # A subdoctrine has its own id; it is not the track's id. Passing the
+        # track id here made the engine log "Not a valid value: <track id>"
+        # because no subdoctrine by that name exists.
+        sid = M.subdoctrine_id(track_id)
+        out.append(f"set_sub_doctrine = {sid}")
         amount = M.mastery_for_tier(tier)
         if amount:
-            out.append(f"add_mastery = {{ amount = {amount} sub_doctrine = {track_id} }}")
+            out.append(f"add_mastery = {{ amount = {amount} sub_doctrine = {sid} }}")
     return out
 
 

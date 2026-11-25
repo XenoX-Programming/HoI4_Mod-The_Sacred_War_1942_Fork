@@ -308,8 +308,8 @@ trench_warfare_left_technology = {
 	# converted from the old technology tree:
 	#   grand_assault, grand_battle_plan, grand_mechanized_offensive, prepared_defense, trench_warfare
 	set_grand_doctrine = sw_grand_battleplan
-	set_sub_doctrine = sw_gb_battleplan
-	add_mastery = { amount = 200 sub_doctrine = sw_gb_battleplan }
+	set_sub_doctrine = sw_gb_battleplan_doctrine
+	add_mastery = { amount = 200 sub_doctrine = sw_gb_battleplan_doctrine }
 }
 trench_warfare_right_technology = {
 
@@ -317,9 +317,9 @@ trench_warfare_right_technology = {
 	# converted from the old technology tree:
 	#   grand_assault, grand_battle_plan, infantry_offensive, prepared_defense, trench_warfare
 	set_grand_doctrine = sw_grand_battleplan
-	set_sub_doctrine = sw_gb_battleplan
-	add_mastery = { amount = 100 sub_doctrine = sw_gb_battleplan }
-	set_sub_doctrine = sw_gb_infiltration
+	set_sub_doctrine = sw_gb_battleplan_doctrine
+	add_mastery = { amount = 100 sub_doctrine = sw_gb_battleplan_doctrine }
+	set_sub_doctrine = sw_gb_infiltration_doctrine
 }
 strategic_destruction_technology = {
 
@@ -343,8 +343,8 @@ mass_assault_left_technology = {
 	# converted from the old technology tree:
 	#   deep_operations, defence_in_depth, large_front_operations, mass_assault, operational_concentration, pocket_defence
 	set_grand_doctrine = sw_mass_assault
-	set_sub_doctrine = sw_ma_front
-	add_mastery = { amount = 300 sub_doctrine = sw_ma_front }
+	set_sub_doctrine = sw_ma_front_doctrine
+	add_mastery = { amount = 300 sub_doctrine = sw_ma_front_doctrine }
 }
 mobile_warfare_left_tech = {
 
@@ -352,8 +352,8 @@ mobile_warfare_left_tech = {
 	# converted from the old technology tree:
 	#   delay, elastic_defence, mass_motorization, mechanised_offensive, mobile_infantry, mobile_warfare
 	set_grand_doctrine = sw_mobile_warfare
-	set_sub_doctrine = sw_mw_motorised
-	add_mastery = { amount = 200 sub_doctrine = sw_mw_motorised }
+	set_sub_doctrine = sw_mw_motorised_doctrine
+	add_mastery = { amount = 200 sub_doctrine = sw_mw_motorised_doctrine }
 }
 mobile_warfare_right_tech = {
 
@@ -361,8 +361,8 @@ mobile_warfare_right_tech = {
 	# converted from the old technology tree:
 	#   armored_spearhead, blitzkrieg, delay, elastic_defence, mobile_warfare, schwerpunk
 	set_grand_doctrine = sw_mobile_warfare
-	set_sub_doctrine = sw_mw_armoured
-	add_mastery = { amount = 200 sub_doctrine = sw_mw_armoured }
+	set_sub_doctrine = sw_mw_armoured_doctrine
+	add_mastery = { amount = 200 sub_doctrine = sw_mw_armoured_doctrine }
 }
 superior_firepower_right = {
 
@@ -370,8 +370,8 @@ superior_firepower_right = {
 	# converted from the old technology tree:
 	#   intergrated_support, mobile_defence, regimental_combat_teams, sup_delay, superior_firepower
 	set_grand_doctrine = sw_superior_firepower
-	set_sub_doctrine = sw_sf_support
-	add_mastery = { amount = 100 sub_doctrine = sw_sf_support }
+	set_sub_doctrine = sw_sf_support_doctrine
+	add_mastery = { amount = 100 sub_doctrine = sw_sf_support_doctrine }
 }
 mechanised_tech = {
 	set_technology = {
@@ -385,10 +385,10 @@ trench_warfare_right2_technology = {
 	# converted from the old technology tree:
 	#   armored_operations, attritional_containment, grand_assault, grand_battle_plan, infantry_offensive, infiltration_assault, night_assault_tactics, prepared_defense, trench_warfare
 	set_grand_doctrine = sw_grand_battleplan
-	set_sub_doctrine = sw_gb_battleplan
-	add_mastery = { amount = 100 sub_doctrine = sw_gb_battleplan }
-	set_sub_doctrine = sw_gb_infiltration
-	add_mastery = { amount = 400 sub_doctrine = sw_gb_infiltration }
+	set_sub_doctrine = sw_gb_battleplan_doctrine
+	add_mastery = { amount = 100 sub_doctrine = sw_gb_battleplan_doctrine }
+	set_sub_doctrine = sw_gb_infiltration_doctrine
+	add_mastery = { amount = 400 sub_doctrine = sw_gb_infiltration_doctrine }
 }
 set_resistance_in_europe_GER = {
 	every_controlled_state = {

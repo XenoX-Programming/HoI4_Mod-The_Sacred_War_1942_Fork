@@ -123,6 +123,29 @@ def main():
         err(f"id '{shared}' is both a track and a subdoctrine; "
             f"they must be different ids")
 
+    # A `sub_doctrine = X` argument must name a SUBDOCTRINE. Passing a track id
+    # used to work by accident, when every subdoctrine shared its track's id;
+    # once the ids were separated the engine logged
+    # "Not a valid value: <track id>" and the doctrine was never applied.
+    # Nothing else in this checker looks at add_mastery's arguments, so check
+    # every sub_doctrine reference across the whole mod, not just the
+    # definition files.
+    for f in glob.glob(os.path.join(mdir, "**", "*.txt"), recursive=True):
+        if os.sep + "doctrines" + os.sep in f:
+            continue
+        rel = os.path.relpath(f, mdir)
+        try:
+            text = open(f, encoding="utf-8-sig", errors="replace").read()
+        except OSError:
+            continue
+        for m in re.finditer(r"sub_doctrine\s*=\s*([a-z_0-9]+)", text):
+            val = m.group(1)
+            if val in tracks:
+                err(f"{rel}: sub_doctrine = {val} refers to a TRACK id, "
+                    f"not a subdoctrine (use {val}_doctrine)")
+            elif val not in subs:
+                err(f"{rel}: sub_doctrine = {val} is not a defined subdoctrine")
+
     # 5/3: index subdoctrines by track
     by_track = {}
     for sid, (node, f) in subs.items():
