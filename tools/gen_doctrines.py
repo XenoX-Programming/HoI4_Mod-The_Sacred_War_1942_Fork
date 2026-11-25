@@ -397,13 +397,15 @@ def gen_subdoctrines(techs):
         for tr in s["tracks"]:
             root, groups, milestone = M.plan_branch(tr["chain"])
             sid = tr["id"]
+            # The subdoctrine needs its OWN id; see M.subdoctrine_id().
+            sid_doc = M.subdoctrine_id(sid)
             out = [
                 f"# The Sacred War 1942 - subdoctrines for track '{sid}'",
                 f"# Old branch: {' -> '.join(tr['chain'])}",
                 f"# GENERATED FILE - produced by tools/gen_doctrines.py.",
                 f"# Effects are copied from design_record/land_doctrine_1942_original.txt.",
                 "",
-                f"{sid} = {{",
+                f"{sid_doc} = {{",
                 f"{I}track = {sid}",
                 f"{I}name = {sid.upper()}_NAME",
                 f"{I}description = {sid.upper()}_DESC",

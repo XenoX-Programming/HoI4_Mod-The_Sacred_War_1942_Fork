@@ -3,7 +3,7 @@
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.
 
-sw_gb_infiltration = {
+sw_gb_infiltration_doctrine = {
 	track = sw_gb_infiltration
 	name = SW_GB_INFILTRATION_NAME
 	description = SW_GB_INFILTRATION_DESC

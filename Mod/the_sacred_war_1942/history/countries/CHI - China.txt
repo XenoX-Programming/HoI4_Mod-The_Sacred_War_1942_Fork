@@ -1,10 +1,10 @@
 ﻿
 # The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted
 # from the old technology tree by tools/convert_history_doctrines.py).
-# set_sub_doctrine is repeated once per tier of the track the country
-# used to have; each further tier costs 100 mastery in game.
+# Tiers beyond the first are bought with add_mastery, as in
+# other 1.17+ mods' country history.
 set_grand_doctrine = sw_mass_assault
-set_sub_doctrine = sw_ma_front
+set_sub_doctrine = sw_ma_front_doctrine
 set_grand_doctrine = new_fleet_in_being
 set_grand_doctrine = new_operational_integrity
 capital = 613 # Nanjing

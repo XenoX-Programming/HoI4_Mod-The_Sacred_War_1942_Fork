@@ -3,7 +3,7 @@
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.
 
-sw_mw_armoured = {
+sw_mw_armoured_doctrine = {
 	track = sw_mw_armoured
 	name = SW_MW_ARMOURED_NAME
 	description = SW_MW_ARMOURED_DESC

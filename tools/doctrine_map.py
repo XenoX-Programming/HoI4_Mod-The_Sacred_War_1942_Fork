@@ -361,7 +361,7 @@ def other_doctrine_commands(tech_ids):
             if spec[2] not in subs:
                 subs.append(spec[2])
     return ([f"set_grand_doctrine = {g}" for g in gds]
-            + [f"set_sub_doctrine = {s}" for s in subs]), dead
+            + [f"set_sub_doctrine = {subdoctrine_id(s)}" for s in subs]), dead
 
 
 # Which folder each grand doctrine belongs to. A country holds one grand
@@ -404,6 +404,19 @@ def one_per_folder(commands, log, fname):
     return out
 
 
+def subdoctrine_id(track_id):
+    """The id of the single subdoctrine that lives on a track.
+
+    A track and its subdoctrine MUST have different ids. Vanilla 1.20 and the
+    mature 1.17+ mods both keep them distinct (EaW: track `infantry`, its
+    subdoctrines `mobile_infantry`, `commandos`, ...). Emitting the same id for
+    both puts two definition types under one key, and a subdoctrine whose id
+    equals its track's makes `track = <id>` ambiguous, which shows up as an
+    unreadable doctrine in game rather than as a log error.
+    """
+    return f"{track_id}_doctrine"
+
+
 def buys_for_tier(sub_id, tier):
     """Explicit unlock commands for `tier` tiers of a subdoctrine.
 
@@ -412,10 +425,11 @@ def buys_for_tier(sub_id, tier):
     history to hand a country the tiers it "already had"; a mature 1.17+ mod
     (Cold War: Iron Curtain) does exactly this in its country history files.
     """
-    out = [f"set_sub_doctrine = {sub_id}"]
+    doc = subdoctrine_id(sub_id)
+    out = [f"set_sub_doctrine = {doc}"]
     if tier > 1:
         out.append(f"add_mastery = {{ amount = {(tier - 1) * 100}"
-                   f" sub_doctrine = {sub_id} }}")
+                   f" sub_doctrine = {doc} }}")
     return out
 
 

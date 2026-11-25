@@ -3,7 +3,7 @@
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.
 
-sw_ma_peoples = {
+sw_ma_peoples_doctrine = {
 	track = sw_ma_peoples
 	name = SW_MA_PEOPLES_NAME
 	description = SW_MA_PEOPLES_DESC

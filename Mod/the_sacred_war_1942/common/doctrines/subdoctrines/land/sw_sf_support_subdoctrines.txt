@@ -3,7 +3,7 @@
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.
 
-sw_sf_support = {
+sw_sf_support_doctrine = {
 	track = sw_sf_support
 	name = SW_SF_SUPPORT_NAME
 	description = SW_SF_SUPPORT_DESC

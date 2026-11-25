@@ -497,6 +497,39 @@ entries inside `provinces = {}` and `victory_points = {}`).
 `check_mod.py` gained `check_state_province_blocks()` so it cannot come back; it
 was verified to fail on the pre-fix file and pass after.
 
+### Fixed: a track and its only subdoctrine shared the same id
+
+The generator emitted, for every one of the 8 tracks, both the track and its
+subdoctrine under **one id**:
+
+```
+# tracks/sw_land_tracks.txt
+sw_mw_armoured = {                    <- a TRACK
+# subdoctrines/land/sw_mw_armoured_subdoctrines.txt
+sw_mw_armoured = {                    <- a SUBDOCTRINE, same key
+    track = sw_mw_armoured            <- and it names itself
+```
+
+All 8 collided. Vanilla 1.20 and both mature 1.17+ mods keep them distinct:
+EaW's tracks are `infantry`, `combat_support`, `armor`, `operations`, while its
+land subdoctrines are `mobile_infantry`, `defensive_postures`,
+`large_unit_tactics`, `commandos`, ... and `track = infantry` points at the
+track. Sharing one key gives two different definition types one name, and makes
+`track = <id>` self-referential. A doctrine the game cannot resolve that way is
+exactly the sort of thing that fails without writing a log line.
+
+Fixed at the source of truth: `M.subdoctrine_id(track)` returns
+`<track>_doctrine`, so the 8 subdoctrines are now `sw_mw_armoured_doctrine`,
+`sw_gb_battleplan_doctrine`, etc. `gen_doctrines.py` uses it for the block key,
+and `split_commands_for_history` / `buys_for_tier` use it for every
+`set_sub_doctrine` and `add_mastery` the history converter emits, so history and
+definitions cannot drift apart. `check_doctrines.py` now **errors** if any id is
+both a track and a subdoctrine, verified to fire on a reintroduced collision.
+
+Track ids are unchanged (`sw_mw_armoured` etc.), which is what
+`check_doctrines.py` keys on and what `track = ...` inside the grand doctrines
+names, so nothing else needed touching.
+
 ### The duplicate-province problem is the real suspect
 
 `already added to state` is the largest and oldest error class and it just grew

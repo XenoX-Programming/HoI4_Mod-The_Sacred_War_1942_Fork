@@ -114,6 +114,15 @@ def main():
     def err(msg):
         errors.append(msg)
 
+    # A track id and a subdoctrine id must never be the same key: vanilla 1.20
+    # and the mature 1.17+ mods keep them distinct (EaW has track `infantry`
+    # and subdoctrines `mobile_infantry`, `commandos`, ...). Sharing an id makes
+    # `track = <id>` ambiguous and the doctrine unreadable in game, which does
+    # not necessarily produce a log line.
+    for shared in sorted(set(tracks) & set(subs)):
+        err(f"id '{shared}' is both a track and a subdoctrine; "
+            f"they must be different ids")
+
     # 5/3: index subdoctrines by track
     by_track = {}
     for sid, (node, f) in subs.items():
