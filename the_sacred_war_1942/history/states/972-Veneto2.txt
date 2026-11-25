@@ -1,0 +1,27 @@
+state = {
+	id = 972
+	name = "STATE_972"
+	resources = {
+	}
+	
+	state_category = large_city
+
+	history = {
+		owner = ITA
+
+		buildings = {
+			infrastructure = 2 #was: 6
+		}
+		add_core_of = ITA
+		add_core_of = LBV
+
+	}
+
+	provinces = {
+		628 3657 6656 9613 
+	}
+	manpower = 1243151
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 5.0 
+}

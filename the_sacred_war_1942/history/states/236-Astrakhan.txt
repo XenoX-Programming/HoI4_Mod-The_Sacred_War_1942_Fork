@@ -1,0 +1,41 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower = 647208
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		GER = {
+		set_province_controller = 618
+		set_province_controller = 3435
+		set_province_controller = 3461
+		set_province_controller = 3487
+		set_province_controller = 6486
+		set_province_controller = 6516
+		set_province_controller = 6620
+		set_province_controller = 9440
+		set_province_controller = 9455
+		set_province_controller = 9592
+		set_province_controller = 11429
+		set_province_controller = 11579
+		}
+		victory_points = {
+			9753 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			757 = { naval_base = 2 }
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		618 757 3435 3461 3487 6486 6516 6620 9440 9455 9592 9753 11429 11579 11736 
+	}
+
+	local_supplies=0.0 
+}

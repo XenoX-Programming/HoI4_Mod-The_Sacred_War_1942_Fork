@@ -1,0 +1,94 @@
+﻿air_wings = { #3000 Fighters, 500 Cas, 400 Tactical Bombers, 600 Strat Bombers, 400 Naval Bombers
+	629 = { # Hawaii
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	medium_plane_fighter_airframe_1 = { owner = "USA" amount = 100 version_name = "Bristol Blenheim IF" }
+	medium_plane_fighter_airframe_1 = { owner = "USA" amount = 100 version_name = "Bristol Blenheim IF" }
+	medium_plane_fighter_airframe_1 = { owner = "USA" amount = 100 version_name = "Bristol Blenheim IF" }
+	small_plane_naval_bomber_airframe_2 = { owner = "USA" amount = 100 version_name = "Martin PBM Mariner" }
+	small_plane_naval_bomber_airframe_2 = { owner = "USA" amount = 100 version_name = "Martin PBM Mariner" }
+	small_plane_naval_bomber_airframe_2 = { owner = "USA" amount = 100 version_name = "Martin PBM Mariner" }
+	small_plane_naval_bomber_airframe_2 = { owner = "USA" amount = 100 version_name = "Martin PBM Mariner" }
+	}
+	551 = { # Khartoum (1600) 400 Available
+	medium_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-18"}	
+	medium_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-18"}	
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	}
+	128 = { # West Midlands (1600) 
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	small_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "P-36A"}
+	medium_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "PBY" }
+	medium_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "PBY" }
+	medium_plane_airframe_1 =  { owner = "USA" amount = 100 version_name = "PBY" }
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	large_plane_airframe_1 = { owner = "USA" amount = 100 version_name = "B-17" }
+	small_plane_cas_airframe_2 = { owner = "USA" amount = 100 version_name = "A-20" }
+	small_plane_cas_airframe_2 = { owner = "USA" amount = 100 version_name = "A-20" }
+	small_plane_cas_airframe_2 = { owner = "USA" amount = 100 version_name = "A-20" }
+	}
+	116 = { # Malta
+	small_plane_cas_airframe_2 = { owner = "USA" amount = 100 version_name = "A-20" }
+	small_plane_cas_airframe_2 = { owner = "USA" amount = 100 version_name = "A-20" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	}
+	118 = { # Gibraltar 
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	small_plane_airframe_2 = { owner = "USA" creator = "ENG" amount = 100 version_name = "Supermarine Spitfire" }
+	}
+	"USS Lexington" = {
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 10 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 5 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 10 version_name = "Devastator" }			# TBD Devastator
+	}
+	"USS Saratoga" = {
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 10 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 10 version_name = "Devastator" }			# TBD Devastator
+	}
+	"USS Enterprise" = {
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 10 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 2 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator					
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator					
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 10 version_name = "Devastator" }			# TBD Devastator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 2 version_name = "Devastator" }			# TBD Devastator
+	}
+	"USS Yorktown" = {
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 10 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 2 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 10 version_name = "Devastator" }			# TBD Devastator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 2 version_name = "Devastator" }			# TBD Devastator
+	}
+	"USS Ranger" = {
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 10 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F3F" }				# F3F Grumman
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 10 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_cas_airframe_1 =  { owner = "USA" amount = 8 version_name = "Vindicator" }					# SB2U Vindicator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 10 version_name = "Devastator" }			# TBD Devastator
+		cv_small_plane_naval_bomber_airframe_1 =  { owner = "USA" amount = 8 version_name = "Devastator" }			# TBD Devastator
+	}
+}

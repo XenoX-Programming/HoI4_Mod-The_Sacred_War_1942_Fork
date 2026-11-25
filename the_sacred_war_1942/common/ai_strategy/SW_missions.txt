@@ -1,0 +1,89 @@
+Defend_Mikhaylovka = {
+	allowed = {
+		OR = {
+		original_tag = HUN
+		}
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    state = 236
+    value = 50
+	}
+	ai_strategy = {
+		type = front_control
+		state = 236
+		ratio = 0.1
+		priority = 100
+		ordertype = front
+		execution_type = careful
+	}
+}
+Defend_Mikhaylovka_ITA = {
+	allowed = {
+		OR = {
+		original_tag = ITA
+		}
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    state = 236
+    value = 15
+	}
+	ai_strategy = {
+		type = front_control
+		state = 236
+		ratio = 0.1
+		priority = 100
+		ordertype = front
+		execution_type = careful
+	}
+}
+Defend_Astrakhan = {
+	allowed = {
+		OR = {
+		original_tag = ROM
+		}
+	}
+	enable = {
+		236 = {
+		has_dynamic_modifier = {
+		modifier = SOV_soviet_military_offensive_sw
+		}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    state = 236
+    value = 15
+	}
+}
+Defend_Astrakhan = {
+	allowed = {
+		OR = {
+		original_tag = GER
+		original_tag = FRA
+		}
+	}
+	enable = {
+		247 = {
+		has_dynamic_modifier = {
+		modifier = SOV_soviet_military_offensive_sw
+		}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    state = 247
+    value = 20
+	}
+}

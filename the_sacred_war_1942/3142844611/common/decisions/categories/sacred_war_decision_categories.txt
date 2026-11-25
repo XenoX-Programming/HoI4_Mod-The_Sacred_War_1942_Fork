@@ -1,0 +1,36 @@
+Sacred_War_Decisions = {
+	priority = 4000
+	icon = sov_great_patriotic_war
+	allowed = {
+	}
+	visible = {
+	}
+}
+Development_Of_Rokossovsky_Doctrine = {
+	priority = 3000
+	icon = sov_great_patriotic_war
+	allowed = {
+	}
+	visible = {
+	}
+}
+Development_Of_Zhukov_Doctrine = {
+	priority = 3000
+	icon = sov_great_patriotic_war
+	allowed = {
+	}
+	visible = {
+	}
+}
+Anglo_American_Support_Decisions = {
+	priority = 2000
+	icon = GFX_decision_category_NOR_fascist_deploy_prep
+	allowed = {
+		TAG = SOV
+	}
+	visible = {
+		TAG = SOV
+		has_war_with = GER
+		NOT = {has_war_with = USA}
+	}
+}

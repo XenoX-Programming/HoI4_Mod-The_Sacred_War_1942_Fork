@@ -1,0 +1,684 @@
+
+1939_industry_techs = {
+	set_technology = {
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	#
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	}
+}
+1939_dispersed_techs = {
+	set_technology = {
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	}
+}
+1939_concentrated_techs = {
+	set_technology = {
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	concentrated_industry3 = 1
+	}
+}
+1941_industry_techs = {
+	set_technology = {
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	assembly_line_production = 1
+	#
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	}
+}
+1941_dispersed_techs = {
+	set_technology = {
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	}
+}
+1941_concentrated_techs = {
+	set_technology = {
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	concentrated_industry3 = 1
+	concentrated_industry4 = 1
+	}
+}
+1940_infantry_techs = {
+	set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	}
+}
+marines_techs = {
+	set_technology = {
+	marines = 1
+	marines2 = 1
+	}
+}
+mountaineers_techs = {
+	set_technology = {
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	}
+}
+1938_electronics_techs = {
+	set_technology = {
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	}
+}
+1939_electronics_techs = {
+	set_technology = {
+	electronic_mechanical_engineering = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	radio = 1
+	
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	}
+}
+1941_electronics_techs = {
+	set_technology = {
+	electronic_mechanical_engineering = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	radio = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	}
+}
+1939_tanks_techs = {
+	set_technology = {
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	
+	basic_medium_tank_chassis = 1
+	
+	basic_heavy_tank_chassis = 1
+	
+	armor_tech_1 = 1
+	armor_tech_2 = 1
+	
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	}
+}
+
+1941_tanks_techs = {
+	set_technology = {
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	
+	basic_medium_tank_chassis = 1
+	improved_medium_tank_chassis = 1
+	
+	basic_heavy_tank_chassis = 1
+	improved_heavy_tank_chassis = 1
+	
+	armor_tech_1 = 1
+	armor_tech_2 = 1
+	armor_tech_3 = 1
+	
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	engine_tech_3 = 1
+	}
+}
+1942_tanks_techs = {
+	set_technology = {
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	advanced_light_tank_chassis = 1
+	
+	basic_medium_tank_chassis = 1
+	improved_medium_tank_chassis = 1
+	
+	basic_heavy_tank_chassis = 1
+	improved_heavy_tank_chassis = 1
+	
+	armor_tech_1 = 1
+	armor_tech_2 = 1
+	armor_tech_3 = 1
+	
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	engine_tech_3 = 1
+	}
+}
+1942_artillery_techs = {
+	set_technology = {
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	artillery3 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	antitank3 = 1
+	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
+	antiair3 = 1
+	}
+}
+1940_artillery_techs = {
+	set_technology = {
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
+	}
+}
+1940_planes_bomber_focus_techs = {
+	set_technology = {
+	iw_small_airframe = 1
+	basic_small_airframe = 1
+	improved_small_airframe = 1
+	
+	iw_medium_airframe = 1
+	basic_medium_airframe = 1
+	improved_medium_airframe = 1
+	
+	iw_large_airframe = 1
+	basic_large_airframe = 1
+	improved_large_airframe = 1
+	
+	early_bombs = 1
+	heavy_bombs = 1
+	air_torpedoe_1 = 1
+	aa_lmg = 1
+	survivability_studies = 1
+	aa_hmg = 1
+	aa_cannon_1 = 1
+	engines_1 = 1
+	engines_2 = 1
+	engines_3 = 1
+	}
+}
+1940_planes_fighter_focus_techs = {
+	set_technology = {
+	iw_small_airframe = 1
+	basic_small_airframe = 1
+	improved_small_airframe = 1
+	
+	iw_medium_airframe = 1
+	basic_medium_airframe = 1
+	improved_medium_airframe = 1
+	
+	iw_large_airframe = 1
+	basic_large_airframe = 1
+	
+	early_bombs = 1
+	air_torpedoe_1 = 1
+	aa_lmg = 1
+	survivability_studies = 1
+	aa_hmg = 1
+	aa_cannon_1 = 1
+	engines_1 = 1
+	engines_2 = 1
+	engines_3 = 1
+	}
+}
+1940_navy_techs = {
+	set_technology = {
+		improved_depth_charges = 1
+		improved_sonar = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_torpedo = 1
+	    improved_ship_torpedo_launcher = 1
+	    basic_battery = 1
+	    mtg_transport = 1
+        improved_ship_hull_light = 1
+        basic_ship_hull_submarine = 1
+        magnetic_detonator = 1
+        basic_light_battery = 1
+        damage_control_1 = 1
+        fire_control_methods_1 = 1
+        improved_airplane_launcher = 1
+        basic_cruiser_armor_scheme = 1
+        basic_medium_battery = 1
+        basic_heavy_battery = 1
+        basic_light_shell = 1
+        fire_control_methods_2 = 1
+        mtg_landing_craft = 1
+        basic_naval_mines = 1
+        improved_naval_mines = 1
+        submarine_mine_laying = 1
+	}
+}
+1940_supports_techs = {
+	set_technology = {
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	}
+}
+trench_warfare_left_technology = {
+	set_technology = {
+	trench_warfare = 1
+	grand_battle_plan = 1
+	prepared_defense = 1
+	grand_assault = 1
+	grand_mechanized_offensive = 1
+	}
+}
+trench_warfare_right_technology = {
+	set_technology = {
+	trench_warfare = 1
+	grand_battle_plan = 1
+	prepared_defense = 1
+	grand_assault = 1
+	infantry_offensive = 1
+	}
+}
+strategic_destruction_technology = {
+	set_technology = {
+	air_superiority = 1
+	infrastructure_destruction = 1
+	home_defence = 1
+	naval_strike_tactics = 1
+	dogfighting_experience = 1
+	}
+}
+mountaineers_doctrine_tech = {
+	set_technology = {
+	special_forces_mountaineers = 1
+	rangers = 1
+	special_forces_recon = 1
+	mountaineers_combat_2 = 1
+	}
+}
+mass_assault_left_technology = {
+	set_technology = {
+	mass_assault = 1
+	pocket_defence = 1
+	defence_in_depth = 1
+	large_front_operations = 1
+	deep_operations = 1
+	operational_concentration = 1
+	}
+}
+mobile_warfare_left_tech = {
+	set_technology = {
+	mobile_warfare = 1
+	delay = 1
+	elastic_defence = 1
+	mobile_infantry = 1
+	mass_motorization = 1
+	mechanised_offensive = 1
+	}
+}
+mobile_warfare_right_tech = {
+	set_technology = {
+	mobile_warfare = 1
+	delay = 1
+	elastic_defence = 1
+	armored_spearhead = 1
+	schwerpunk = 1
+	blitzkrieg = 1
+	}
+}
+superior_firepower_right = {
+	set_technology = {
+	superior_firepower = 1
+	sup_delay = 1
+	mobile_defence = 1
+	intergrated_support = 1
+	regimental_combat_teams = 1
+	}
+}
+mechanised_tech = {
+	set_technology = {
+	mechanised_infantry = 1
+	armored_car2 = 1
+	}
+}
+trench_warfare_right2_technology = {
+	set_technology = {
+	trench_warfare = 1
+	grand_battle_plan = 1
+	prepared_defense = 1
+	grand_assault = 1
+	infantry_offensive = 1
+	armored_operations = 1
+	infiltration_assault = 1
+	night_assault_tactics = 1
+	attritional_containment = 1
+	}
+}
+set_resistance_in_europe_GER = {
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = POL
+	#has_resistance = yes
+	}
+	set_resistance = 45
+	set_compliance = 10
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = CZE
+	#has_resistance = yes
+	}
+	set_resistance = 0
+	set_compliance = 75
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = FRA
+	#has_resistance = yes
+	}
+	set_resistance = 15
+	set_compliance = 35
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = BEL
+	#has_resistance = yes
+	}
+	set_resistance = 20
+	set_compliance = 40
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = HOL
+	#has_resistance = yes
+	}
+	set_resistance = 15
+	set_compliance = 30
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = NOR
+	#has_resistance = yes
+	}
+	set_resistance = 10
+	set_compliance = 40
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = DEN
+	#has_resistance = yes
+	}
+	set_resistance = 0
+	set_compliance = 60
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = LUX
+	#has_resistance = yes
+	}
+	set_resistance = 0
+	set_compliance = 50
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = GRE
+	#has_resistance = yes
+	}
+	set_resistance = 25
+	set_compliance = 15
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = YUG
+	#has_resistance = yes
+	}
+	set_resistance = 40
+	set_compliance = 10
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = EST
+	#has_resistance = yes
+	}
+	set_resistance = 10
+	set_compliance = 35
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = LIT
+	#has_resistance = yes
+	}
+	set_resistance = 10
+	set_compliance = 35
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = LAT
+	#has_resistance = yes
+	}
+	set_resistance = 10
+	set_compliance = 35
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = GER}
+	is_core_of = SOV
+	#has_resistance = yes
+	}
+	set_resistance = 40
+	set_compliance = 10
+	}
+}
+set_resistance_in_europe_ITA = {
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = ITA}
+	is_core_of = LBA
+	}
+	set_resistance = 0
+	set_compliance = 85
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = ITA}
+	is_core_of = EGY
+	}
+	set_resistance = 0
+	set_compliance = 65
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = ITA}
+	is_core_of = TUN
+	}
+	set_resistance = 0
+	set_compliance = 65
+	}
+	every_controlled_state = {
+	limit = {
+	NOT = {is_core_of = ITA}
+	is_core_of = GRE
+	}
+	set_resistance = 40
+	set_compliance = 10
+	}
+}
+if_is_ai_add_fast_organisation = {
+	if = {
+		limit = {
+		is_ai = yes
+		}
+		add_timed_idea = {
+		idea = Sacred_War_AI_fast_organization
+		days = 5
+		}
+	}
+}
+if_is_ai_add_defence_for_70 = {
+	if = {
+		limit = {
+		is_ai = yes
+		}
+		add_timed_idea = {
+		idea = Sacred_War_AI_stop_attack
+		days = 70
+		}
+	}
+}
+if_is_ai_add_reinf_GER = {
+	if = {
+		limit = {
+		is_ai = yes
+		64 = {is_controlled_by = GER}
+		}
+		load_oob = German_Reinf
+	}
+}
+if_is_ai_add_reinf_GER_SOV_is_player = {
+	hidden_effect = {
+	GER = {
+	if = {
+		limit = {
+		SOV = {is_ai = no}
+		is_ai = yes
+		64 = {is_controlled_by = GER}
+		}
+		load_oob = German_Reinf
+	}
+	}
+	}
+}
+launch_invasion_on_morroco = {
+	damage_units = {
+    state = 461
+    limit = { 
+	OR = {
+	TAG = FRA
+	TAG = ITA
+	}
+	}
+    damage = 1
+    org_damage = 1
+    str_damage = 1
+    ratio = yes
+    army = yes
+    navy = no
+	}
+	USA = { load_oob = American_Invasion_Of_Morroco }
+	news_event = { id = lore_events.39 hours = 2 }
+}
+if_is_ai_add_eq_GER_SOV_is_player = {
+	hidden_effect = {
+	GER = {
+	if = {
+		limit = {
+		SOV = {is_ai = no}
+		is_ai = yes
+		}
+		add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 15000
+		producer = GER
+		}
+		add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 2000
+		producer = GER
+		}
+		add_equipment_to_stockpile = {
+		type = artillery_equipment_2
+		amount = 7000
+		producer = GER
+		}
+	}
+	}
+	}
+}
+soviet_offensive_low_succest = {
+	add_political_power = 100
+	add_command_power = 25
+	add_war_support = 0.02
+	add_stability = 0.02
+}
+soviet_offensive_low_lost = {
+	add_political_power = -250
+	add_war_support = -0.1
+	add_stability = -0.1
+}
+soviet_offensive_medium_succest = {
+	add_political_power = 150
+	add_command_power = 50
+	add_war_support = 0.05
+	add_stability = 0.03
+}
+soviet_offensive_medium_lost = {
+	add_political_power = -200
+	add_war_support = -0.05
+	add_stability = -0.05
+}
+soviet_offensive_high_succest = {
+	add_political_power = 200
+	add_command_power = 100
+	add_war_support = 0.1
+	add_stability = 0.05
+}
+soviet_offensive_high_lost = {
+	add_political_power = -200
+	add_war_support = -0.05
+	add_stability = -0.05
+}
+soviet_military_offensive_effects_sw = {
+	add_dynamic_modifier = {
+		modifier = SOV_soviet_military_offensive_sw
+		days = 70
+		scope = SOV
+	}
+}

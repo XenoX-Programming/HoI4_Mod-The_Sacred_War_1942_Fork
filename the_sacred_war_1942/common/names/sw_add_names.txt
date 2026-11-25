@@ -1,0 +1,3532 @@
+SDT = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+DRV = {
+	male = {
+		names = { 
+			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
+		  }
+	}
+	female = {
+		names = { Indira Aditi Amita Anasuya Kavita Puja Rani Rashmi Sania Dusha Neha Neetu Deepti Deepa Bipasha Preeti Padmavati Uma Vibha }
+	}
+	surnames = { 
+		Neru Gandhi Modi Singh Suhag Rawat Hira Saha Sharma Nimbhorkar Talwar Thoge Hooda Bakshi Negi Hariz Chand Soni Verma Reddy Gupta Cheema Prasad Bharali Shivane Unni Sarin Patyal Chakravarty Bali Datta Naravane Chavan Chandra Bandyopadhyay Krishna Pannu Ambre Ahir Varadarajan Wangchuk Yadav
+		}
+	callsigns = { }
+}
+
+PAT = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano 
+			Baldomero Baltasar Benancio Benigno Benito Bernardino Bernardo 
+			Calixto Cándido Carlos Celestino Claudio Cristóbal Dámaso Diego Dionisio Domingo 
+			Eduardo Eleazar Emilio Ernesto Estanislao Esteban Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Herminio Ignacio Isidro 
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "Jose María" Juan "Juan Manuel" Julián Julio Leopoldo Lorenzo Luis 
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro 
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Valeriano Vicente
+		  }
+	}
+	female = {
+		names = {
+			Adelita Amalia Amaranta Ana Araceli Aurelia Auxilio Beatriz Belén Blanca
+			Camila Candelaria Cándida Carmen Chavela Cirila Consuelo Cristina Delfina Dolores 
+			Eduarda Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia María "María del Carmen" "María del Mar" "María Dolores" Marisol Mercedes 
+			Noemí Nohemi Primitiva Rebeca Remedios Rocío Salvadora Socorro Sofía Soledad
+			Teodora Teófila Úrsula Valentina Valeria Vicenta Ximena
+		}
+	}
+	surnames = { 
+		Acuña Aguirre Allendesalazar Alonso Álvarez Aranda Arcadio Asensio Aznar
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calvo Cano Castillo Castro Cervera Cevallos Cortés
+		"de Albornoz" "de Carvajal" "de la Fuente" "de Irujo" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Franco 
+		Gallego García Garrido González Grande Guisado Heredia Hernández Herrera Hevia Iglesias Jiménez Lasarte Letamendía Linares López 
+		Maroto Márquez Martínez-Campos Maura Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Mola Molina Moreno Muñoz 
+		Narváez Núñez O'Donnell Ortega Pavía Pérez Ramírez Rodríguez Rojo Romero Ruiz Sánchez Sanjurjo Serrano Silvestre Suárez
+		Topete Torres Urkiaga Valdés Varela Vázquez Velasco Villapol Villar Weyler Yagüe Zapatero
+	}
+	callsigns = { }
+}
+
+CNI = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano 
+			Baldomero Baltasar Benancio Benigno Benito Bernardino Bernardo 
+			Calixto Cándido Carlos Celestino Claudio Cristóbal Dámaso Diego Dionisio Domingo 
+			Eduardo Eleazar Emilio Ernesto Estanislao Esteban Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Herminio Ignacio Isidro 
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "Jose María" Juan "Juan Manuel" Julián Julio Leopoldo Lorenzo Luis 
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro 
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Valeriano Vicente
+		  }
+	}
+	female = {
+		names = {
+			Adelita Amalia Amaranta Ana Araceli Aurelia Auxilio Beatriz Belén Blanca
+			Camila Candelaria Cándida Carmen Chavela Cirila Consuelo Cristina Delfina Dolores 
+			Eduarda Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia María "María del Carmen" "María del Mar" "María Dolores" Marisol Mercedes 
+			Noemí Nohemi Primitiva Rebeca Remedios Rocío Salvadora Socorro Sofía Soledad
+			Teodora Teófila Úrsula Valentina Valeria Vicenta Ximena
+		}
+	}
+	surnames = { 
+		Acuña Aguirre Allendesalazar Alonso Álvarez Aranda Arcadio Asensio Aznar
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calvo Cano Castillo Castro Cervera Cevallos Cortés
+		"de Albornoz" "de Carvajal" "de la Fuente" "de Irujo" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Franco 
+		Gallego García Garrido González Grande Guisado Heredia Hernández Herrera Hevia Iglesias Jiménez Lasarte Letamendía Linares López 
+		Maroto Márquez Martínez-Campos Maura Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Mola Molina Moreno Muñoz 
+		Narváez Núñez O'Donnell Ortega Pavía Pérez Ramírez Rodríguez Rojo Romero Ruiz Sánchez Sanjurjo Serrano Silvestre Suárez
+		Topete Torres Urkiaga Valdés Varela Vázquez Velasco Villapol Villar Weyler Yagüe Zapatero
+	}
+	callsigns = { }
+}
+
+BOE = {
+	male = {
+		names = { 
+			Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+		 }
+	}
+	
+	female = {
+		names = { Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus }
+	}
+
+	surnames = { 
+	Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Hollander" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Voorst tot Voorst" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+	  }
+}
+
+OFS = {
+	male = {
+		names = { 
+			Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+		 }
+	}
+	
+	female = {
+		names = { Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus }
+	}
+
+	surnames = { 
+	Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Hollander" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Voorst tot Voorst" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+	  }
+}
+
+SNU = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = {
+			Randa Tabassum 	Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya Fariza Fedada 
+			Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi 
+		}
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}
+
+CSM = {
+	male = {
+		names = { 
+			Abdala Abdou Abdoulaye Aïyb Alioune Amadou Amath Assane Baaba Blaise Cheikh Demba DeSagana Didier Djibril Doudou "El Hadji" Guirane Habib Henri Idrissa Ismaël Ismaila Jimi Lamine Léopold Leyti Macky Mamadou Mansour 
+			Mbaye Mola Mor Morgaro Ndiss Nuru Ousmane Papa Papiss Patrice Paulin Seckou Thione Tony Umar Youssou 
+		}
+	}
+	female = {
+		names = { 
+			Fatou Julia Mariama Safi Ségolène Viviane 
+		}
+	}
+	surnames = { 
+		Awadi Ba Badji Camara Cissé Dansokho Dia Diagne Diakite Faye Dieng Diome Diop Diouf Evra Fall Faye Gomis Guèye Gueye Diouf Kane Keita Konte Lô Lo Maal Mambéty Mbaye Nder "N'Daw" "N'Dour" Ndour Rose Royal Sall Sane Sarr 
+		Seck Senghor Sembène Senghor Sylla Sylva Tal Thiam Vieyra Wade 
+	}
+	callsigns = { }
+}
+
+LES = {
+	male = {
+		names = {
+			Moeketsi Sekhonyana Nehemia Leabua Jonathan Justin Metsing Elias Phisoana Ntsu Hae Pakalitha Thomas Motsoahae John Teboho Ntlhoi Sephiri Enoch Makosini Morena James 
+			Maaparankoe Tate Makalo Mathibeli 
+		}
+	}
+	female = {
+		names = {
+			Dibolelo Mosili Lucy Matabello Magdeline Zanele 
+		}
+	}
+	surnames = {
+		Majoro Maseribane Lekhanya Ramaema Mokhehle Phoofolo Mosisili Thabane Kolane Motsamai Motanyane Chabangu Leraba Letuka
+		Mahao Mahlatsi Makgoe Makuta Mapena Mohale Mokhothu Resha Sifuba
+	}
+	callsigns = {  }
+}
+
+SWA = {
+	male = {
+		names = {
+			Moeketsi Sekhonyana Nehemia Leabua Jonathan Justin Metsing Elias Phisoana Ntsu Hae Pakalitha Thomas Motsoahae John Teboho Ntlhoi Sephiri Enoch Makosini Morena James 
+			Maaparankoe Tate Makalo Mathibeli 
+		}
+	}
+	female = {
+		names = {
+			Dibolelo Mosili Lucy Matabello Magdeline Zanele 
+		}
+	}
+	surnames = {
+		Majoro Maseribane Lekhanya Ramaema Mokhehle Phoofolo Mosisili Thabane Kolane Motsamai Motanyane Chabangu Leraba Letuka
+		Mahao Mahlatsi Makgoe Makuta Mapena Mohale Mokhothu Resha Sifuba
+	}
+	callsigns = {  }
+}
+
+KWN = {
+	male = {
+		names = {
+			Moeketsi Sekhonyana Nehemia Leabua Jonathan Justin Metsing Elias Phisoana Ntsu Hae Pakalitha Thomas Motsoahae John Teboho Ntlhoi Sephiri Enoch Makosini Morena James 
+			Maaparankoe Tate Makalo Mathibeli 
+		}
+	}
+	female = {
+		names = {
+			Dibolelo Mosili Lucy Matabello Magdeline Zanele 
+		}
+	}
+	surnames = {
+		Majoro Maseribane Lekhanya Ramaema Mokhehle Phoofolo Mosisili Thabane Kolane Motsamai Motanyane Chabangu Leraba Letuka
+		Mahao Mahlatsi Makgoe Makuta Mapena Mohale Mokhothu Resha Sifuba
+	}
+	callsigns = {  }
+}
+
+SHN = {
+	male = {
+		names = { 
+			Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+		  }
+	}
+	female = {
+		names = { "Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol" }
+	}
+	surnames = {
+		Suriyawongse Saovabha Chichalerm Nitithada Phonphayuhasena
+	
+	 }
+	callsigns = { }
+}
+
+HJZ = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}
+
+HIL = {
+	male = {
+		names = {  
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+		}
+	}
+	female = {
+		names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	surnames = { 
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+	
+	}
+	callsigns = { }
+}
+
+CRT = {
+	male = {
+		names = { 
+			Andrij Anton Artem Borys Denys Dmytro Fedir Havrylo Henadij Heorhij Hryhorij Ivan Josyp Kazymyr Kostyantyn Kuzma Leontij Maksym Musa Mykola Mykyta Oleh Oleksandr Omelyan Pavlo Pylyp Sava Serhij Stanislav Svyatoslav Trokhym Volodymyr Yaroslav Vitalij Yehor Yukhym Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { 
+			Anastasiya Ayshe Halyna Hanna Ivanna Lina Lyudmyla Nina Olha Olena Oleksandra Kseniya Rayisa Ruslana Tetyana Vladyslava Yevheniya Yuliya Zoya   
+		}
+	}
+	surnames = {
+		Antonenko Bilyk Blyznyuk Bondarchuk Borysenko Demchuk Dmytruk Dorosh Hajduk Havrylenko Havrylyuk Hlushko Holub Horbenko Hrytsaj Ivanov Ishchuk Kolisnyk Kostyuchenko Lyashenko Makarenko Mykytyuk Nahornyj Novak Osadchuk Ostapchuk Pavlov Petruk Protsenko Prykhodko Prysyazhnyuk Pylypenko Ruban Semenyuk Sereda Shevchuk Stadnyk Taranenko Tkachuk Tsymbalyuk Vasylyev Velychko Yakovenko Zaporozhets Zayets Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov         Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+BDN = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+BHR = {
+	male = {
+		names = { 
+			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
+		  }
+	}
+	female = {
+		names = { Indira Aditi Amita Anasuya Kavita Puja Rani Rashmi Sania Dusha Neha Neetu Deepti Deepa Bipasha Preeti Padmavati Uma Vibha }
+	}
+	surnames = { 
+		Neru Gandhi Modi Singh Suhag Rawat Hira Saha Sharma Nimbhorkar Talwar Thoge Hooda Bakshi Negi Hariz Chand Soni Verma Reddy Gupta Cheema Prasad Bharali Shivane Unni Sarin Patyal Chakravarty Bali Datta Naravane Chavan Chandra Bandyopadhyay Krishna Pannu Ambre Ahir Varadarajan Wangchuk Yadav
+		}
+	callsigns = { }
+}
+
+MRD = {
+	male = {
+		names = { Alyok Andryu Andyu Artyo Doro Drigo Gavryo Ilkut Kargata Kariton Khoddey Kiryo Koma Kutskan Kvedor Kvilyo Matyo Mikikor Mosey Nekhot Nuyat Obran Olodya Onton Ovstay ovtay Paksyut Panzi Parush Puchay Sergu Syulga Toray Uchvat Vasyyuk Zakar }
+		   }
+	female = {
+		names = { Anelina Anka Arguma Artana Ashava Baigusha Chipanya Eryana Ganya Istarta Kastusha Kelgan Laymar Mazava Olday Selema Solana Telena Verki Zekhel }
+	}
+	surnames = { 
+		Vergazov Atiakshev 
+		}
+	callsigns = { }
+}
+
+PON = {
+	male = {
+		names = { 
+			Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
+			Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+			Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+			Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+			Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+		  }
+	}
+	female = {
+		names = {
+			Alexandra Adriane Adriana Agathe Agatha Agne Agnes Aikaterine Alexeia Anastasia Anastasia 
+			Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Dorothy Aigidia Eirene Irene Elaiodora Epiphania 
+			Eudokia Eudocia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Helen 
+			Ioanna Joan Ioulia Julia Iouliana Juliana Ioustina Justina Kale Konstantia Constantia 
+			Konstantine Constantina Kyra Kyriake Hypatia Zoe
+		}
+	}
+	surnames = {
+		Altanis Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas 
+		Trikoupis Tsakalotos Tsolakoglou  Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+	 }
+	callsigns = { Zeus Hera Poseidon Ares Athena Aphrodite Hermes Hades Apollo }
+}
+
+ARO = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+ARC = {
+	male = {
+		names = { 
+			Ailen Antiman Antinanco Aucaman Ayelen Aylen Ayun Calfuray Eluney Licarayen Lihuen Liwen Millaray Nahuel Nawel Nehuen Newen Payne Quidel Rayen Sayen
+		  }
+	}
+	female = {
+		names = { Ailen Ailin Aillen Alumine Ayelen Ayme Calfuray Cuyen Huilen Hullen Ipi Kuyen Lican Lilen Malen Manque Pire Piro }
+	}
+	surnames = { Cayancura Huaiquipán Melilán Melilla Namuncurá Quelempan
+	 }
+	callsigns = { }
+}
+
+#ARC = {
+#	male = {
+#		names = { Ailen Antiman Antinanco Aucaman Ayelen Aylen Ayun Calfuray Eluney Licarayen Lihuen Liwen Millaray Nahuel Nawel Nehuen Newen Payne Quidel Rayen Sayen 
+#		}
+#	}
+#	female = {
+#		names = { Ailen Ailin Aillen Alumine Ayelen Ayme Calfuray Cuyen Huilen Hullen Ipi Kuyen Lican Lilen Malen Manque Pire Piro 
+#		}
+#	}
+#	surnames = { }
+#	callsigns = { }
+#}
+#I don't know why this don't work :(
+
+DVR = {
+	male = {
+		names = {
+			"Vira Pandya" Narasa Tenna "Naransa Pillai" "Kuru Kuru Timmappa" "Kattyama Kamaiya" Cimappa "Ayyakarai Veyyapa" Vishvanatha Krishnappa Virappa "Muttu Krishnappa" "Muttu Virappa" Tirumala Chokkanatha "Muttu Linga" "Vijayaranga Chokkanatha" Minaski Yachama Raghunatha Ariyanatha Chanda Ramayyan Shungrasoobyer Seshayya Ramaswami Amarapuyankan Amarabhujanga Aparâcita Aparajita Aparâcitavarman Aparajitavarman Appûtaiyân Arikêcari Arikesari Ariñcaya Arinjaya Arulmolitêvar Arulmolivarman Atirâcêntira Athirajendra Atitta Aditya Avaniyâlappirantâr Avraaham Abraham Brahmamârâyar Cadayan Cankili Cataiyavarman Sadayavarman Catturukâlamakalâtittan Cayantavarman Jayantavarman Celiyancentan Cekarâcacêkaran Segarajasekaran Cevakattevan Ceyavîra Chaacko Jacob Chaandy Alexander Cimmavisnu Simhavishnu Cinkapâku Singhabahu Civakkoluntân Cuntara Sundara Câramutaiyân Câttanân Cîvallapa Seervallabha Cîvallapan Seervallabhan Daniyel Daniel Eappen Stephen Eccavarâkan Eisow Jesus Impânâyarpattan Irattapadikonda Irâcacimman Rajasingan Irâcakecaripanmar Irâcarâca Rajaraja Irâcâcekara Rajasekhara Irâcâtirâca Rajadhiraja Irâcâtirâcatevar Irâcâtitta Rajaditya Irâcêntira Rajendra Ittac Isaac Iyob Job Kadarangkonda Kanakacûriya Kantarâtitta Gandarditya Karaikkiyemarrayilaiyân Karunandadakkan Karunandan Katunkon Kilân Kirâmarâcapattan Kontân Kossy Joshua Kotukulapattan Kulacêkara Kulasekhara Kulacêkaran Kulasekharan Kulôttunka Kulothunga Kunapûsana Kunavîra Kurian Cyrus Kutameratiruvatikal Kôpperuñcimman Kopperunchinga Lukose Luke Makêntiravarman Mahendravarman Manappâkkîlan Manavâlapperumâl Munnûrruvappattan Mâmpâkkamutaiyân Mânaticcuran Mârapanmar Mâravarman Maravarman Mârkantaiyan Markose Marcus Mâtevapattan Mâtevipattan Nantivarman Nandivarman Naracimmavarman Narasimhavarman Nirupatunkavarman Nirupatonkavarman Niyâyaparipâlapattan Nârpattennâyirapattan Nâtittañcâttan Pantâram Pandaram Parakesaripanmar Paramêsvaravarman Parameswaravarman Paranirupacinkam Paranirupasingham Pararâcacêkaran Pararajasekharan Parâkkirama Parakrama Parânkucan Parankusan Parântaka Parantaka Pathrose Peter Pañcavan Paulose Paul Periyapillai Perumâl Peruñcintevar Piramârâyan Piyliypaos Philip Puvirâca Puviraja Pâkkilân Pâlarâvâyan Ranatitta Ranaditya Ranatîran Ranadhiran Ravivarman Samuel Samuel Tantivarman Dantivarman Tennavan Thoma Thomas Tiruccirrampalapattan Tirunattapperumâl Tirupuvanavîratevar Tripuvanacakkaravattikal Uravâkkinân Utaiya Udaya Uttama Varakunan Varagunan Varakunavarman Varagunavarman Varôtaya Varughese George Vellantânkinân Vicayâlaya Vijayalaya Vicayâraka Vijayaraga Vicayâtitta Vijayaditya Vikkirama Vikramâtittâ Vikramaditya Viranârâyanapattan Virâcakecaripanmar Vîracêkara Virasekhara Vîrakêcari Virakhesari Vîrarâcêntira Virarajendra Vîrôtaya Virodaya Yohannaan John Yosef Joseph Zacharria Zachariah Âccinataratippan Ânûrrenmanpiccan Âyirattalipattan
+		}
+	}
+	female = {
+		names = {
+			Indira Aditi Amita Anasuya Kavita Puja Rani Rashmi Sania Dusha Neha Neetu Deepti Deepa Bipasha Preeti Padmavati Uma Vibha
+		}
+	}
+	surnames = {
+		Devi Singh Kumar Das Kaur Nair Pillai Rao Jayaraman Venkatesan Balasubramanium Subramanium Rangan Rangarajan Yadav Jhadav Jaiteley Chauhan Mistry Khan
+	}
+	callsigns = {}
+}
+
+
+MNC = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { Fen Jian Wen Hejing Hejia Hexiao Zhuangjing }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
+
+ISR = {
+	male = {
+		names = {
+			Abraham Yoav Gideon Gershon Henry Avraham Itzhak Eldad Michael Rogel Ariel Shahar Ben Vladislav Alexei Gal Itamar Oren Kehat Andre David Yossef Moshe Leo Yuri Noah Tal Yotam Avi
+		}
+	}
+	female = {
+		names = { Galit Zehava Esther Neta Alona Yarden Udi Irina Delila Noam Lydia Amit Keren }
+	}
+	surnames = { 
+		Gurion Shapiro Chait Chaim Nachum Shmerkin Ze'evi Gadot Tzuberi Amir Shefa Fridman Zeevi Sasson Arad Feldman Goldman Stein Cohen Berger Weinberg Halfin Shorr Vaks Caminski Hatuel Grad Sela
+	}
+	callsigns = { Anvil Star Fury Arrow Storm Devil Eagle Falcon Guardian Gunman Hawk Steel Iron Skull Striker Thunder Warrior }
+}
+
+BIR = {
+	male = {
+		names = {
+			Abraham Yoav Gideon Gershon Henry Avraham Itzhak Eldad Michael Rogel Ariel Shahar Ben Vladislav Alexei Gal Itamar Oren Kehat Andre David Yossef Moshe Leo Yuri Noah Tal Yotam Avi
+		}
+	}
+	female = {
+		names = { Galit Zehava Esther Neta Alona Yarden Udi Irina Delila Noam Lydia Amit Keren }
+	}
+	surnames = { 
+		Gurion Shapiro Chait Chaim Nachum Shmerkin Ze'evi Gadot Tzuberi Amir Shefa Fridman Zeevi Sasson Arad Feldman Goldman Stein Cohen Berger Weinberg Halfin Shorr Vaks Caminski Hatuel Grad Sela
+	}
+	callsigns = { Anvil Star Fury Arrow Storm Devil Eagle Falcon Guardian Gunman Hawk Steel Iron Skull Striker Thunder Warrior }
+}
+
+JOU = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+
+}
+
+RYU = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+
+}
+
+ANU = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+
+}
+
+RHI = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+OPR = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+BRG = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+BHM = {
+	male = {
+		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
+		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
+		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
+	}
+	female = {
+		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
+		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
+		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
+	}
+}
+
+MRV = {
+	male = {
+		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
+		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
+		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
+	}
+	female = {
+		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
+		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
+		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
+	}
+}
+
+PID = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+
+ACA = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+
+LZL = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+
+TEX = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+NEE = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+LOU = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+
+QUE = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
+}
+
+CAL = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+FLD = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+CSP = {
+	male = {
+		names = {  
+			Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
+			Dragutin Draza Dusan Gavrilo Goran Janko Jovan Koca Kosta Krsto
+			Ljubisa Mihailo Milan Miliutin Milivoje Milojko Milos Miodrag Mirko Miroslav
+			Momcilo Nebojsa Nikola Pavle Peko Petar Radomir Ratko Sava Slobodan
+			Stepa Stojan Veljko Vaselien Vladimir Vojislav Zivojin Zivota Zoran Zvezdan
+		 }
+	}
+	female = {
+		names = { Agata Agatha Barbara Branimira Desislava Dubravka Elena Helen Hicela Jelena Karolina }
+	}
+	surnames = {
+		Adzic Arandelovic Belimarkovic Blaznacac Bojovic Bozanovic Bozinovic Brankovic Damjanic Dapcevic
+		Dragutinovic Grujic Hadzilic Horvatovic Isakovic Jankovic Jokic Jovanovic Kadijevic Karadjordjevic
+		Lesjanin Ljubicic Maric Mihailovic Miliutinovic Miloradovic Misic Nad Nedic Novak
+		Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
+		Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
+	}
+	callsigns = { }
+}
+
+OBG = {
+	male = {
+		names = { Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+             Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+             Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+             Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = { 
+			Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+    Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+    Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+    Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+    Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+DAL = {
+	male = {
+		names = { 
+			Mario Andrija Antun Bazilije Breno Dragutin Dzivo Filip Franjo Gaspar Ivan
+			Janko Jero Jerolim Josip Juraj Karlo Kresimir Krsto Ljudevit Lucijan
+			Luka Marijan Marin Matej Matko Maximiliam Medo Mihajlo Mirko Miroslav
+			Niko Nikola Orsat Pavle Petar Rafo Sebastijan Sismundo Slavko Stjepan
+			Svetoslav Svetozar Teo Teodor Toma Tomislav Vicko Vladimir Vlaho Zlatan
+		  }
+	}
+	female = {
+		names = {
+			Adriana Anna Borislava Cededa Doroteja Dorothy Ekaterina Catherine Helena Helen Jadviga 
+			Jovana Kera Ladika Maria Maria Mihaela Nada Petra Viola Yolanda Jadranka Mare
+			Antonija Capeka Dragana Dubravka Emilija Emily Gordana Jagoda Jelena Jelka Lucija Lucia 
+			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija Natasha
+			Rijeka Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja Tatjana Tihana 
+			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
+		}
+	}
+	surnames = {
+		Lasan Alapic Bakaric Bettera Bilic Blazevic Bondic Boroevic Bosnajk Bunic Crnkovic
+		Cuvaj Draskovic Dzamanjic Eltz Erdödy Frankopan Gaj Getaldic Gradic Gregoric
+		Gucetic Gundulic Haulik Jelacic Kabuzic Keglevic Kostrencic Krstulovic Lagimja Mazuranic
+		Mihailovic Mohorovicic Mrazovic Natali Nazor Njegovan Palecek Pejacevic Philippovic Preradovic
+		Pucic Ranjina Sarkotic Sokcevic Sorkocevic Stankovaci Tomasic Tomlejnovic Vakanovic Vlasic
+	
+	 }
+	callsigns = { }
+}
+
+ILL = {
+	male = {
+		names = { 
+			Mario Andrija Antun Bazilije Breno Dragutin Dzivo Filip Franjo Gaspar Ivan
+			Janko Jero Jerolim Josip Juraj Karlo Kresimir Krsto Ljudevit Lucijan
+			Luka Marijan Marin Matej Matko Maximiliam Medo Mihajlo Mirko Miroslav
+			Niko Nikola Orsat Pavle Petar Rafo Sebastijan Sismundo Slavko Stjepan
+			Svetoslav Svetozar Teo Teodor Toma Tomislav Vicko Vladimir Vlaho Zlatan
+		  }
+	}
+	female = {
+		names = {
+			Adriana Anna Borislava Cededa Doroteja Dorothy Ekaterina Catherine Helena Helen Jadviga 
+			Jovana Kera Ladika Maria Maria Mihaela Nada Petra Viola Yolanda Jadranka Mare
+			Antonija Capeka Dragana Dubravka Emilija Emily Gordana Jagoda Jelena Jelka Lucija Lucia 
+			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija Natasha
+			Rijeka Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja Tatjana Tihana 
+			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
+		}
+	}
+	surnames = {
+		Lasan Alapic Bakaric Bettera Bilic Blazevic Bondic Boroevic Bosnajk Bunic Crnkovic
+		Cuvaj Draskovic Dzamanjic Eltz Erdödy Frankopan Gaj Getaldic Gradic Gregoric
+		Gucetic Gundulic Haulik Jelacic Kabuzic Keglevic Kostrencic Krstulovic Lagimja Mazuranic
+		Mihailovic Mohorovicic Mrazovic Natali Nazor Njegovan Palecek Pejacevic Philippovic Preradovic
+		Pucic Ranjina Sarkotic Sokcevic Sorkocevic Stankovaci Tomasic Tomlejnovic Vakanovic Vlasic
+	
+	 }
+	callsigns = { }
+}
+
+ASY = {
+	male = {
+		names = {  
+			Mustafa Ammo Youra Basil Aram Anwar Ayoub Thamer David Daniyel Imad Michel Rebin Gabriel Beneil Tiras Ilyas Paul
+			Ninos Fredydon Lado Naum Jumana Nuri Hurmiz Farid Fares Naguib Andre Eser Issa Raad Farouk Paulus Bishara Ishaya
+		}
+	}
+	female = {
+		names = { 
+			Reine Thea Randa Leena Ramona Larsa Juliana Anna Helena Attiya Theodora Maria Nina
+		}
+	}
+	surnames = {
+		Aho Atturaya Faiq Malik Chikko Nazha Taimoorazy Charr el-Rihani Khabbazi Afacan Ghantous Khofri Morad Parhad Baba Odisho Karam Yousif Simon Agase
+		Hamsho Merza Oshana Shiba Barsom Batan Beitashour Chanko Cicek Cimen Duran Durmaz Haddad Moussa Shabow Ucar Unal Teymur Kiraz Naby Kamber Sado Moorad Petros
+		Asaad Sawa Bashir Aziz Hariri
+	}
+	callsigns = { }
+}
+
+IFI = {
+	male = {
+		names = { 
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+		
+		  }
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+	
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
+}
+
+PDN = {
+	male = {
+		names = { 
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+		
+		  }
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+	
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
+}
+
+FLA = {
+	male = {
+		names = { 
+			Adriaan Albert Alfons Antoon August Bart Christiaan Cornelis Dirk Edward Kamiel Octave Urbanus Frans Fernand Gerard Georges Godfried Hendrik Jacob Jan Johan Johannes Karel Laurens Mathias Matthijs Nicolaas Pieter Philippus Walter Willem Wim Boudewijn Jeroom Lucien Clemens Pol Reimond Odiel Isidoor
+		 }
+	}
+	
+	female = {
+		names = {Frieda An Helena Antje Anneke Louise Liesje }
+	}
+
+	surnames = { 
+	Peeters Janssens Maes Jacobs Mertens Willems Claes Goossens Wouters "De Smet" "Den Bos" "Van Parijs" "De Croo" "De Wever" "De Winter" "Van Lieferinge" "Van Engeland" "Van Brabant" "Molenaars" "Van Der Meulen" Somers Deschacht Vertongen Tielemans "De Mesmaeker" Verwilgen Pastuur "Van Der Wijden" "Van Der Elst" "Van Moer" "De Koninck" "Van den Briel" "Van den Hof" "Van der Bijl" "Van Kleenputte" "Van Liempd" "Van Setten" Bosch Bruggink Bruinier Buijs Buurman Carstens  Giesen Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Lukkien Maas Rijnders Roelofsen Zavelsberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman "Van de Put"
+	  }
+	callsigns = {"Mannetje" "Vos" "Struikgaai" "Kraai" "Leeuw" "Meeuw" "Papegaai" "Potvis" "Hop" "Guldensporen" "Schild en Vriend" "Ridder" "Nijlpaard"}  
+}
+
+WLL = {
+	male = {
+		names = { 
+			Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant 
+			Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges 
+			Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis 
+			Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier 
+			Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner
+			Maurice
+		  }
+	}
+	female = {
+		names = { Marie Isabelle Gilberte Aurore Blanche Henriette Joséphine-Antoinette Lucienne Juliette Martine Louise Nicole Suzanne }
+	}
+	surnames = {
+		Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet 
+		Cools Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort"
+		"de Waha" Defacqz Deguise Delacroix 
+		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand 
+		Lahure Lardinois Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb 
+		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "De Ridder" Wahis Wangermée Wyvekens Zoude
+	
+	 }
+	callsigns = {"L'flamin" "Faucon" "Aigle" "Mouette" "Libellule" "Lion" "Tchanchès" "Chope" "Grenouille" "Grognon"}
+}
+
+CRN = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+ISC = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+ISM = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+GUL = {
+	male = {
+		names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+			Edward Ernes Fionán Frank George Harry Jack James John Joseph
+			Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William
+		  }
+	}
+	female = {
+		names = {
+			Ablach Affraic Euphemia Eva Aileann Agnes Catherine Christina Eleanor Eithne Eithne
+			Eva Euginia Eugenia Finneacht Mary Lucia Lucia Martha Martha Mauda Matilda Mildred Margaret Mona
+			}
+	}
+	surnames = {
+		Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+		FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+		Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White
+	}
+	callsigns = { }
+}
+
+NFK = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Peter Benjamin Dara Jack Stephen 
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			Nicholson Golightly Wilde Shapley Irons Steele Spring Darling Sutherland Black
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+GGU = {
+	male = {
+		names = {
+			Abbas Abdulla Ahmad Akif Ali Alibala Arif Anar Azer
+			Bakhtiyar Baysangur Chingiz Dadash Davud Elnur Elshan
+			Farrukh Farhad Gafur Gasym Geray Hamid Hanifa Hasan Heydar
+			Ibrahim Ikhtiyar Ilkin Isgandar Ismayil Jafar Javad Javid Jeyhun Kamal Kamran Kanan
+			Latif Mabud Mahmud Maharram Mammad Manaf Mirmövsüm Mirkhalyg Mukhtar Murad Musa Mustafa
+			Nadir Nariman Nazim Niftaly Orkhan Osman
+			Rasim Rasul Rauf Rüfat Rüstam
+			Said Sabir Samad Sarkhan Süleyman
+			Tofig Toghrul Vagif Yusif Yunus Ziya Zakariyya
+		}
+	}
+	female = {
+		names = {
+			Aida Alaviyya Almaz Amina Aydan Aygül Aygün Ayna Bikekhanim Chimnaz Dilbar Dostu Fatima Farida Fatmanise Firuza
+			Gülay Gülnara Gülchöhra Gültakin Günel Humay Jamila Khadija Khuraman Lamiya Leman Leyla Madina Matanat Naila Nargiz Nigar Nazrin
+			Rana Rahila Rübaba Saadat Sabina Sakina Saida Sevda Sevinj Shafa Shams Solmaz Tomiris Tutu Ümbülbanu Vajiha Zhala Züleykha Zülfiyya
+		}
+	}
+	surnames = {
+		Abbasli Agharzayev Ahmadzada Akhundzada Alizada Alibeyli Arablinski Arifoghlu Bayramli Baghirzada Bakikhanov Chilingirzada Dadashov Feyzullayev Genceli Hamidlinski Hamidli Hasanzada Hajibeyli Hajinski Ibrahimli Ildirim Imanov Isparzada Garabeyli Garakhanov Garayev Gayibov Jabbarli Javadov Lemberanski Mammadbeyli Mammadli Maharramov Mehmandarov Mirza Muradkhanli Muradli Müshvig Narimanov Narimanbeyli Oghuz Rajabli Sadighli Seyidzada Sharifov Shikhlinski Süleymali Tofigzada Topchubashov Velikhanli
+
+	}
+	callsigns = { "Absheron" "Agha" "Babak" "Bakili" "Bey" "Borchali" "Bozgurd" "Div" "Gargha" "Gartal" "Girat" "Khan" "Koroghlu" "Malikmammad" "Mashtagha" "Müsavatchi" "Nadinc" "Nakhchivan" "Nizami" "Nasimi" "Oghuz" "Ordubad" "Sabail" "Shahin" "Shinabub" "Tatar" "Tülkü" "Yasamal" "Yoldash" "Ulduz" }
+}
+
+PNJ = {
+	male = {
+		names = { 
+			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+		}
+	}
+	female = {
+		names = { "Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" Mahtab Sunayna }
+	}
+	surnames = { 
+			Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
+	}
+	callsigns = { }
+}
+
+BLO = {
+	male = {
+		names = { 
+			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+		}
+	}
+	female = {
+		names = { "Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" Mahtab Sunayna }
+	}
+	surnames = { 
+			Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
+	}
+	callsigns = { }
+}
+
+KSM = {
+	male = {
+		names = { 
+			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+		}
+	}
+	female = {
+		names = { "Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" Mahtab Sunayna }
+	}
+	surnames = { 
+			Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
+	}
+	callsigns = { }
+}
+
+SND = {
+	male = {
+		names = { 
+			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+		}
+	}
+	female = {
+		names = { "Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" Mahtab Sunayna }
+	}
+	surnames = { 
+			Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
+	}
+	callsigns = { }
+}
+
+FAO = {
+	male = {
+		names = { Aage Adam Alber Anders Asmund Axel Carl Christian Edvard Edvin
+		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+		Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+		Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm  }
+	}
+	female = {
+		names = { Karen Alma Elsa Else Monica Grete Gerda Helga Jytte Kaja Asta Astrid Signe }
+	}
+	surnames = { 
+		Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+		Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+		Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+		Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler 
+		}
+	callsigns = { }
+}
+VOJ = {
+	male = {
+		names = {  
+			Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
+			Dragutin Draza Dusan Gavrilo Goran Janko Jovan Koca Kosta Krsto
+			Ljubisa Mihailo Milan Miliutin Milivoje Milojko Milos Miodrag Mirko Miroslav
+			Momcilo Nebojsa Nikola Pavle Peko Petar Radomir Ratko Sava Slobodan
+			Stepa Stojan Veljko Vaselien Vladimir Vojislav Zivojin Zivota Zoran Zvezdan
+		 }
+	}
+	female = {
+		names = { Agata Agatha Barbara Branimira Desislava Dubravka Elena Helen Hicela Jelena Karolina }
+	}
+	surnames = {
+		Adzic Arandelovic Belimarkovic Blaznacac Bojovic Bozanovic Bozinovic Brankovic Damjanic Dapcevic
+		Dragutinovic Grujic Hadzilic Horvatovic Isakovic Jankovic Jokic Jovanovic Kadijevic Karadjordjevic
+		Lesjanin Ljubicic Maric Mihailovic Miliutinovic Miloradovic Misic Nad Nedic Novak
+		Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
+		Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
+	}
+	callsigns = { }
+}
+
+KHM = {
+	male = {
+		names = { Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang   }
+	}
+	female = {
+		names = { Kamala Indira Dawa Dechen Diki Choden Dohna Dolkar Karma Sonam Sangmu }
+	}
+	surnames = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi  }
+	callsigns = { }
+}
+
+ING = {
+	male = {
+		names = { 
+			Lauri Pekka Mauno Jussi Alpo Petri Kari Juha Risto Viljo Paavo Eino Arvo Ville Mikko Petteri Aleksi Allu Ahti Ahto Erikki Eero Jani Jarno Johannes Kauko Kalevi Ilkka Eljas Erkki Auno Ilmo Kaarle
+		 }
+	}
+	
+	female = {
+		names = { Anna Helvi Hilda Nea Mirjam Kirsi Raili Elina Kaja Ilona Ingrid }
+	}
+
+	surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
+	  }
+}
+
+MCA = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+CJN = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+LFM = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+CDS = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+TJC = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+CDJ = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+EZN = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+YUC = {
+	male = {
+		names = { 
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
+	}
+	callsigns = { }
+}
+
+TYL = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+GSP = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+GHH = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+GHG = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+GHM = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+WAL = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+BCV = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+BNR = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+DBJ = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+BNT = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+MOD = {
+	male = {
+		names = { 
+			Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea Adriana Beatrice Bianca Juliana Ina Eugenia Nadia Sanda Sabina Raluca Ramona Rodica Patricia Liliana Felicia Corina }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+SZK = {
+	male = {
+		names = { 
+			Alajos Albert Álmos Anasztáz András Arisztid Aurél Béla Benedek Béni
+			Bertalan Dániel Dávid Edvárd Éliás Erno Ferencz Gábor Gábriel Gáspár
+			György Gyula Ignác Imre István Izidor János József Kálmán
+			Károly Katalin Kelemen Krisztian Lajos László Manó Mihály Mór Myklós
+			Ödön Ottó Péter Rafael Sándor Simon Tivadar Vilmos Virág Zsigmond
+		}
+	}
+	female = {
+		names = {
+			Agnes Eva Adelaida Adelaide Agáta Agatha Amelia Angyalka Aranka 
+			Bertha Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emese Erika 
+			Elisabeth Eszter Berta Anna
+			Etel Euphemia Euphemia Gizella Gisela Györgyi Georgia Hajnal Hedwig Hedwig Ibolya 
+			Irene Juliana Judith Judith Kamilla Camilla Katalin 
+			Kinga Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Maria Martha 
+			Magdolna Magdalena Margaréta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
+			Panni Piroska Rosa Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Terezia Teresa Viola Viola Sophia
+		}
+	}
+	surnames = { 
+		Vajlok Andrássy Apponyi Aulich Bacher Baross Batthyány Beöthy Bothmer Damjanich Dessewffy
+		Egressy FaRKHs Goldziher Gungl Hauszmann Heller Horthy Izsó
+		Joseffy Katona Kaufman Kéler Kiss Knezich Kogutowicz Lahner Lázár 
+		Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi
+		Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey
+	}
+	callsigns = { }
+}
+
+PRT = {
+	male = {
+		names = { 
+			Alajos Albert Álmos Anasztáz András Arisztid Aurél Béla Benedek Béni
+			Bertalan Dániel Dávid Edvárd Éliás Erno Ferencz Gábor Gábriel Gáspár
+			György Gyula Ignác Imre István Izidor János József Kálmán
+			Károly Katalin Kelemen Krisztian Lajos László Manó Mihály Mór Myklós
+			Ödön Ottó Péter Rafael Sándor Simon Tivadar Vilmos Virág Zsigmond
+		}
+	}
+	female = {
+		names = {
+			Agnes Eva Adelaida Adelaide Agáta Agatha Amelia Angyalka Aranka 
+			Bertha Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emese Erika 
+			Elisabeth Eszter Berta Anna
+			Etel Euphemia Euphemia Gizella Gisela Györgyi Georgia Hajnal Hedwig Hedwig Ibolya 
+			Irene Juliana Judith Judith Kamilla Camilla Katalin 
+			Kinga Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Maria Martha 
+			Magdolna Magdalena Margaréta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
+			Panni Piroska Rosa Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Terezia Teresa Viola Viola Sophia
+		}
+	}
+	surnames = { 
+		Vajlok Andrássy Apponyi Aulich Bacher Baross Batthyány Beöthy Bothmer Damjanich Dessewffy
+		Egressy FaRKHs Goldziher Gungl Hauszmann Heller Horthy Izsó
+		Joseffy Katona Kaufman Kéler Kiss Knezich Kogutowicz Lahner Lázár 
+		Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi
+		Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey
+	}
+	callsigns = { }
+}
+
+GAL = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+
+SRB = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+
+SUS = {
+	male = {
+		names = { 
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Algeria Specific
+			Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina
+		}
+	}
+	female = {
+		names = { 
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Israa Jathibiyya Khalida Latifa Maha Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Algeria Specific
+			Ahlam Assia Hélène
+		}
+	}
+	surnames = { 
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman
+		#Algeria Specific
+		Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal 
+		Sellal Yacine Zakaria
+	}
+	callsigns = { }
+}
+
+TUA = {
+	male = {
+		names = { 
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Algeria Specific
+			Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina
+		}
+	}
+	female = {
+		names = { 
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Israa Jathibiyya Khalida Latifa Maha Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Algeria Specific
+			Ahlam Assia Hélène
+		}
+	}
+	surnames = { 
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman
+		#Algeria Specific
+		Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal 
+		Sellal Yacine Zakaria
+	}
+	callsigns = { }
+}
+
+NKR = {
+	male = {
+		names = { "Hee-Seok" "Jae-Hoon" "Shin-Woo" Sang Gun Kwang Woong Chul Hyuk "Yoon-Gi" "Han-gyeol" }
+	}
+	female = {
+		names = { "Ae-jung" Bora "Chae-won" "Hye-ja" "Ji-young" "Seong-ja" Sora "Yeo-jin" "Kyung-hee" }
+	}
+	surnames = { Kim Cho Lee Park Jeong Choe Jang Yun Rim Ryu Gang }
+	callsigns = { }
+}
+
+KHV = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
+
+IMN = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
+
+DZN = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
+
+GUD = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+ZHL = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+THV = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+SIH = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+ETS = {
+	male = {
+		names = {
+			Arslan Azat Mergen
+		}
+	}
+	female = {
+		names = {
+			Annagül Aýnabat Bahargül Nyazik
+		}
+	}
+	surnames = {
+		Abdulin Ashyrow Babayev Garayev Ibragimov Jumayew Kadyrov Niyazov Nyýazow Orazgeldiyew Orazow Ramazanov Yusupov
+	}
+	callsigns = {}
+}
+
+TNG = {
+	male = {
+		names = {
+			Arslan Azat Mergen
+		}
+	}
+	female = {
+		names = {
+			Annagül Aýnabat Bahargül Nyazik
+		}
+	}
+	surnames = {
+		Abdulin Ashyrow Babayev Garayev Ibragimov Jumayew Kadyrov Niyazov Nyýazow Orazgeldiyew Orazow Ramazanov Yusupov
+	}
+	callsigns = {}
+}
+
+XIA = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+HNA = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+WLR = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+NXM = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+GSM = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+NKI = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+FJU = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+BXR = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+NIE = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+KUM = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+GUZ = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+SHA = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+ANH = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+FNC = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+TAW = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+TNS = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+NVR = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+ZHR = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RGT = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+MUS = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+REV = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RKH = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RMD = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RAL = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RIK = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RCH = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RMR = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RGY = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+NOV = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RSA = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RVY = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RVL = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+TRG = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RPM = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RUY = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RAH = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RMV = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RNO = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RBR = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RKY = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RTM = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RMS = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RZL = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RSR = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RFA = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RTY = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RVO = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+
+RYG = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+		}
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Anastasiya Elena Elvira Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Yelena
+		}
+		surnames = {
+			#New
+			Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova Bratishcheva Bulatova Bulgakova 
+			Chuikova Fedutenko Filippova Fyodorova 
+			Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova Loginova Lukichyova 
+			Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Nikoloyeva Novozhilova Nurmukhambetovna Onilova Orlova
+			Popova Posazhnikova Prokopeva Pustobrikova
+			Romanova Romashova Rudneva Ryasina Saikina Sanfirova Selina
+			Tanailova Ulyanenko Vashchenko Vorontsova Yartseva Yegorova Zhukova
+		}
+	}
+	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}

@@ -1,0 +1,12 @@
+british_eastern_minor_ally = {
+	OR = {
+	original_tag = CAN
+	original_tag = SAF
+	original_tag = AST
+	original_tag = NZL
+	original_tag = YEM
+	original_tag = OMA
+	original_tag = BRA
+	original_tag = MEX
+	}
+}

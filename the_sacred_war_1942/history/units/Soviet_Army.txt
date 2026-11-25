@@ -1,0 +1,3231 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya [41]"
+	division_names_group = SOV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		light_armor = { x = 4 y = 0 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		light_tank_recon = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Strelkovaya Diviziya [42]"
+	division_names_group = SOV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		light_tank_recon = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Gvardyeiskaya Strelk. Div."
+	division_names_group = SOV_GRD_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		light_armor = { x = 4 y = 0 }
+		light_armor = { x = 4 y = 1 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		light_tank_recon = { x = 0 y = 3 }
+		sniper = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Narodnoe Opolcheniyve Division"
+	division_names_group = SOV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Tankovaya Diviziya"
+	division_names_group = SOV_ARM_01
+	override_model = SOV_medium_armor_2_entity
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+	}
+	support = {
+		anti_tank = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Gornostrelkovaya Diviziya"		# Mountain Rifle Division
+	division_names_group = SOV_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 			# Cavalry Division
+	division_names_group = SOV_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 	
+		artillery = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Kazachya Kavaleriyskaya Diviziya" 			# Cavalry Division
+	division_names_group = SOV_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 	
+		artillery = { x = 0 y = 1 } 
+	}
+}
+units = {
+	##### 7 Divisions of Kazachya Kavaleriyskaya Diviziya #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 468
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6758
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9720
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6525
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6541
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3582
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6587
+		division_template = "Kazachya Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.84
+	}
+	##### 20 Divisions of Kavaleriyskaya Diviziya #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6035
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3321
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6022
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6283
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11268
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3356
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9339
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3582
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6525
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6541
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3503
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6602
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3459
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3667
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3672
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 728
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	#JAPAN
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4719
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12622
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10559
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12543
+		division_template = "Kavaleriyskaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	##### 14 Divisions of Gornostrelkovaya Diviziya #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3667
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 670
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3672
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9626
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1530
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 672
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 654
+		division_template = "Gornostrelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3653
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11599
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11617
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11647
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 672
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	# JAPAN
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12189
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12189
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	##### 14 Divisions of Tankovaya Diviziya #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11706
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6760
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9753
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3459
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11484
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6602
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6587
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11408
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6341
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6317
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6262
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6283
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6414
+		division_template = "Tankovaya Diviziya"
+		force_equipment_variants = { medium_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "T-34 Model 1941" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	##### 20 Divisions of Gvardyeiskaya Strelk. Div. #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6283
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6283
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6414
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6414
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6348
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6290
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9278
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9345
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11282
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9046
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3323
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6022
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3151
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3151
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 149
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 149
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11485
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3539
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9564
+		division_template = "Gvardyeiskaya Strelk. Div."
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	##### 55 Divisions of Narodnoe Opolcheniyve Division #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3151
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3151
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 149
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 149
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3151
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6348
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6290
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6396
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9395
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11268
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6348
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6414
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11268
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6262
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6262
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6262
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6398
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6341
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6317
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9339
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11540
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6553
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3504
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9529
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11408
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11408
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3539
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11485
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 579
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3582
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3653
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11724
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3698
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3672
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 670
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3667
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11617
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1599
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3672
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 742
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 728
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11706
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3622
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3459
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 477
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6380
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11174
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 70
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	#JAPAN
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10559
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12543
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7851
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10678
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4725
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11485
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12380
+		division_template = "Narodnoe Opolcheniyve Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.57
+	}
+	##### 220 Divisions of 1942 Rifle Divisions #####
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11174
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6022
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9046
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11248
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9395
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6398
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6341
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3504
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9045
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3078
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11212
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11159
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 90
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6057
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11153
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 70
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11174
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3110
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6035
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 71
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 117
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6154
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9212
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 8
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3321
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9333
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 226
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11315
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3215
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 333
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6022
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3323
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9046
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6346
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9345
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9278
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6283
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11282
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6414
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6348
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6290
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6396
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6262
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9395
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11268
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11379
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11248
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3356
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6279
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6230
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6398
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6341
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6317
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9339
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11540
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6553
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3504
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9529
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3566
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6587
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11408
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9564
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3539
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11485
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 579
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3582
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6602
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11484
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3503
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6541
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6525
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11282
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 468
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 477
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3459
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3622
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11736
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11736
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9753
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11706
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6760
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9720
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3774
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9594
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6463
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3439
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 481
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3413
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11566
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11724
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3746
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 759
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 742
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 728
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 712
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11632
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4534
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1530
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9626
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 654
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 672
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11617
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11647
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3698
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3698
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11599
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6671
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9702
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11282
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12320
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 481
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3439
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6463
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9594
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3774
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3698
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11724
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11566
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11457
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11457
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 468
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 468
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3503
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6541
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11484
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3566
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9529
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6230
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6230
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6279
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11248
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11379
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6346
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6346
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 333
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3215
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11315
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 226
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9333
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3321
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 8
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9212
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6154
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 117
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 71
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3110
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3110
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 70
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11159
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 90
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6057
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11153
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9045
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3078
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11212
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11225
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3170
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3012
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9201
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11088
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9115
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12657
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3356
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10655
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10722
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7672
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4805
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4805
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7672
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10722
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7266
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3756
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 753
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6774
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11719
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6774
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 753
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3756
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7266
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7868
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7868
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 226
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7661
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12320
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12380
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12380
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12380
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9702
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 6671
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11632
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 712
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3746
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3746
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3413
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3578
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10558
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12539
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1853
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1723
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4655
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10575
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4873
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12629
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12557
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4792
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4719
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12622
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10559
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4534
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9753
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 579
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3582
+		division_template = "Strelkovaya Diviziya [42]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7 Model 1942" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 3356
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 6602
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 11484
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 117
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}.
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 9212
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 3323
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 9345
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 32}
+		location = 3151
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 33}
+		location = 3151
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 34}
+		location = 149
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 35}
+		location = 149
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 36}
+		location = 149
+		division_template = "Strelkovaya Diviziya [41]"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.95
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "SOV"
+		}
+		requested_factories = 40
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 1.0
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_2
+			creator = "SOV"
+		}
+		requested_factories = 20
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 7
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_2
+			creator = "SOV"
+		}
+		requested_factories = 15
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_2
+			creator = "SOV"
+		}
+		requested_factories = 5
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_2
+			creator = "SOV"
+			version_name = "BT-7 Model 1942"
+		}
+		requested_factories = 7
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_chassis_2
+			creator = "SOV"
+			version_name = "T-34 Model 1942"
+		}
+		requested_factories = 15
+		progress = 1.0
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_2
+			creator = "SOV"
+			version_name = "LaGG-3"
+		}
+		requested_factories = 10
+		progress = 1.0
+		efficiency = 100
+	}
+}

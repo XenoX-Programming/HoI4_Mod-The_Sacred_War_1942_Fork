@@ -1,0 +1,771 @@
+ideas = {
+	hidden_ideas = {
+		Sacred_War_AI_stop_attack = {
+			removal_cost = -1
+				
+			allowed = {
+				is_ai = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				ai_focus_aggressive_factor = -10
+				ai_focus_defense_factor = 1
+			}
+		}
+		Sacred_War_AI_attack = {
+			removal_cost = -1
+				
+			allowed = {
+				is_ai = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				ai_focus_aggressive_factor = 1
+			}
+		}
+		Sacred_War_AI_fast_organization = {
+			removal_cost = -1
+				
+			allowed = {
+				is_ai = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = 0.5
+			}
+		}
+	}
+	country= {
+		imperial_protection = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = british_protection
+			modifier = {
+				
+			}
+			targeted_modifier = {
+			tag = ENG
+			mic_to_target_factor = 1
+			cic_to_target_factor = 0.5
+			}
+		}
+		######## FRANCE 
+		Armistice_of_22_June_1940 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = armiste_of_june
+			modifier = {
+				war_support_factor = -0.1
+			}
+			targeted_modifier = {
+			tag = GER
+			cic_to_target_factor = 0.33
+			}
+		}
+		FRA_antistate_resistance = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = antifascist_resistance
+			modifier = {
+				stability_factor = -0.35
+				recruitable_population_factor = -0.33
+				production_speed_buildings_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = -0.25
+			}
+		}
+		FRA_fascist_communist_ally = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = alliance_with_communist
+			modifier = {
+				democratic_drift = -0.1
+				stability_factor = 0.1
+			}
+		}
+		FSR_socialist_economy = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = alliance_with_communist
+			modifier = {
+				stability_factor = 0.05
+				global_building_slots_factor = 0.1
+				production_factory_start_efficiency_factor = 0.15
+			}
+		}
+		FSR_corporatist_economy = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = alliance_with_communist
+			modifier = {
+				political_power_cost = 0.2
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		TUR_in_axis = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = turkey_in_axis
+			modifier = {
+				political_power_cost = 0.2
+				surrender_limit = -0.3
+			}
+		}
+		TUR_ITA_cooperation = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = ita_tur_cooperation
+			modifier = {
+				research_speed_factor = 0.03
+				production_speed_buildings_factor = 0.04
+				war_stability_factor = 0.1
+				fascism_drift = 0.1
+			}
+		}
+		CHI_ITA_cooperation = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = ita_chi_cooperation
+			modifier = {
+				research_speed_factor = 0.05
+				org_loss_when_moving = -0.1
+				experience_gain_army = 0.1
+				fascism_drift = 0.05
+			}
+			targeted_modifier = {
+			tag = ITA
+			trade_cost_for_target_factor = -0.7
+			}
+		}
+		ITA_chi_cooperation = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = ita_chi_cooperation
+			modifier = {
+			}
+			targeted_modifier = {
+			tag = CHI
+			trade_cost_for_target_factor = -0.7
+			}
+		}
+		BRA_expeditionary_force = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = r56_idea_BRA_company_feb_pic
+			modifier = {
+			terrain_penalty_reduction = 0.1
+			acclimatization_hot_climate_gain_factor = 0.35
+			}
+		}
+		British_Empire_Focus_on_Italy = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = focus_on_italy
+			targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.05
+			defense_bonus_against = 0.05
+			}
+		}
+		British_Armed_Forces = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = british_armed_forces
+			modifier = {
+			drift_defence_factor = 0.5
+			research_speed_factor = 0.07
+			special_forces_cap = 0.05
+			special_forces_training_time_factor = -0.1
+			acclimatization_hot_climate_gain_factor = 0.1
+			production_speed_bunker_factor = 0.1
+			production_speed_coastal_bunker_factor = 0.1
+			max_command_power = 20
+			command_power_gain_mult = 0.1
+			planning_speed = 0.1
+			experience_gain_air = 0.05
+			experience_gain_air_factor = 0.1
+			air_mission_xp_gain_factor = 0.05
+			air_training_xp_gain_factor = 0.2
+			}
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				cv_small_plane_airframe = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		Italian_East_African_Army_Buff = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = east_african_army
+			modifier = {
+			heat_attrition_factor = -0.3
+			supply_consumption_factor = -0.1
+			modifier_army_sub_unit_irregular_infantry_attack_factor = 0.1
+			modifier_army_sub_unit_irregular_infantry_defence_factor = 0.15
+			modifier_army_sub_unit_irregular_infantry_speed_factor = 0.05
+			modifier_army_sub_unit_irregular_infantry_max_org_factor = 0.1
+			}
+		}
+		Disunited_China = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_morale_bonus
+			modifier = {
+				industrial_capacity_factory = -0.4
+				consumer_goods_factor = 0.2
+			}
+		}
+		Chinese_War_Of_Resistance = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = china_at_war
+			modifier = {
+				max_dig_in_factor = 0.25
+				supply_consumption_factor = -0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.15
+				hidden_modifier = {
+				ai_focus_defense_factor = 1
+				}
+			}
+			
+		}
+		Fall_Of_Stalingrad = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = red_army_humialiated
+			modifier = {
+				conscription_factor = -0.05
+				army_org_factor = -0.05
+				stability_factor = -0.1
+				war_support_factor = -0.15
+				command_power_gain_mult = -0.25
+			}
+			
+		}
+		Fall_Of_Moscow = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = red_army_humialiated
+			modifier = {
+				conscription_factor = -0.1
+				army_org_factor = -0.1
+				stability_factor = -0.2
+				war_support_factor = -0.3
+				command_power_gain_mult = -0.50
+			}
+			
+		}
+		Offensive_Battle_Of_Moscow = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = battle_of_moscow_idea
+			modifier = {
+				army_speed_factor = 0.05
+				ground_attack_factor = 0.15
+				hidden_modifier = {
+				planning_speed = 1
+				supply_consumption_factor = -0.2
+				ai_focus_aggressive_factor = 1
+				}
+			}
+			targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.1
+			}
+			
+		}
+		Soviet_Offensive = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_morale_bonus
+			modifier = {
+				army_morale_factor = 0.33
+				command_abilities_cost_factor = -0.25
+				supply_consumption_factor = -0.1
+				hidden_modifier = {
+				ai_focus_aggressive_factor = 1
+				}
+			}
+			targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.1
+			}
+			
+		}
+		Offensive_Battle_Of_Egypt = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = british_armed_forces
+			modifier = {
+				heat_attrition_factor = -0.3
+				supply_consumption_factor = -0.15
+				ground_attack_factor = 0.1
+				hidden_modifier = {
+				planning_speed = 1
+				ai_focus_aggressive_factor = 1
+				}
+			}
+			targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.1
+			}
+			
+		}
+		Offensive_Battle_Of_Egypt_minor = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = british_armed_forces
+			modifier = {
+				hidden_modifier = {
+				ai_focus_aggressive_factor = 1
+				planning_speed = -0.2
+				}
+			}
+			targeted_modifier = {
+			tag = ITA
+			attack_bonus_against = 0.1
+			}
+			
+		}
+		Blocked_Lend_Lease = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = blocked_trade_lend_lease
+			rule = {
+				can_access_market = no
+				desc = can_not_access_market_closed_economy
+			}
+			modifier = {
+			}
+			
+		}
+		TUR_secret_agreement_with_Red_Army = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_army_problems
+			modifier = {
+			ai_focus_aggressive_factor = -1
+			conscription_factor = -0.65
+			army_morale_factor = -0.55
+			army_defence_factor = -0.8			
+			}
+			targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = -0.4
+			defense_bonus_against = -0.4
+			}
+			
+		}
+		Stalins_Paranoia_Reborns = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = SOV_stalin_does_not_trust_his_generals
+			modifier = {
+			planning_speed = -0.33
+			max_planning_factor = -0.15
+			}
+		}
+		ITA_demoralized_army = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_army_problems
+			modifier = {
+			army_morale_factor = -0.1
+			army_org_factor = -0.15	
+			}
+			targeted_modifier = {
+			tag = USA
+			attack_bonus_against = -0.2
+			defense_bonus_against = -0.1
+			}
+			
+		}
+		FRA_konsekwencje_upadku_francji = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_army_problems
+			modifier = {
+			stability_factor = -0.15
+			war_support_factor = -0.1
+			non_core_manpower = 0.1
+			}
+			targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+			}
+			
+		}
+		GER_prepare_your_defence_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_fortify_the_borders
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+			}
+		}
+		GER_prepare_your_defence_idea1 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_fortify_the_borders
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+			}
+		}
+		American_Protection_Idea = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = american_protection
+			modifier = {
+			}
+			targeted_modifier = {
+			tag = USA
+			mic_to_target_factor = 0.8
+			}
+		}
+		SOV_lend_lease_program = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = generic_foreign_capital
+			modifier = {
+			}
+			targeted_modifier = {
+			tag = ENG
+			trade_cost_for_target_factor = -0.5
+			}
+			targeted_modifier = {
+			tag = USA
+			trade_cost_for_target_factor = -0.5
+			}
+		}
+		SOV_rokossovsky_doctrine1 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = rokko # needed icon
+			modifier = {
+			mechanized_attack_factor = 0.05
+			mechanized_defence_factor = 0.05
+			army_infantry_defence_factor = 0.05
+			enemy_army_bonus_air_superiority_factor = -0.1
+			max_planning_factor = 0.05
+			}
+		}
+		SOV_rokossovsky_doctrine2 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = rokko # needed icon
+			modifier = {
+			mechanized_attack_factor = 0.1
+			mechanized_defence_factor = 0.05
+			army_armor_attack_factor = 0.05
+			army_infantry_defence_factor = 0.1
+			enemy_army_bonus_air_superiority_factor = -0.15
+			planning_speed = 0.1
+			max_planning_factor = 0.1
+			}
+		}
+		SOV_rokossovsky_doctrine3 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = rokko # needed icon
+			modifier = {
+			mechanized_attack_factor = 0.15
+			mechanized_defence_factor = 0.1
+			army_armor_attack_factor = 0.1
+			army_armor_speed_factor = 0.05
+			army_infantry_defence_factor = 0.1
+			enemy_army_bonus_air_superiority_factor = -0.15
+			planning_speed = 0.2
+			max_planning_factor = 0.15
+			}
+		}
+		SOV_rokossovsky_doctrine4 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = rokko # needed icon
+			modifier = {
+			mechanized_attack_factor = 0.25
+			mechanized_defence_factor = 0.15
+			army_armor_attack_factor = 0.15
+			army_armor_speed_factor = 0.05
+			army_infantry_defence_factor = 0.1
+			enemy_army_bonus_air_superiority_factor = -0.15
+			planning_speed = 0.3
+			max_planning_factor = 0.25
+			}
+		}
+		SOV_zhukov_doctrine1 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = zukko # needed icon
+			modifier = {
+			conscription_factor = 0.05
+			supply_consumption_factor = -0.05
+			army_infantry_attack_factor = 0.05
+			org_loss_when_moving = -0.05
+			command_abilities_cost_factor = -0.1
+			command_power_gain_mult = 0.1
+			}
+		}
+		SOV_zhukov_doctrine2 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = zukko # needed icon
+			modifier = {
+			conscription_factor = 0.1
+			supply_consumption_factor = -0.1
+			army_infantry_attack_factor = 0.1
+			org_loss_when_moving = -0.05
+			terrain_penalty_reduction = 0.05
+			command_abilities_cost_factor = -0.15
+			command_power_gain_mult = 0.15
+			}
+		}
+		SOV_zhukov_doctrine3 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = zukko # needed icon
+			modifier = {
+			conscription_factor = 0.15
+			supply_consumption_factor = -0.15
+			army_infantry_attack_factor = 0.1
+			org_loss_when_moving = -0.1
+			terrain_penalty_reduction = 0.1
+			command_abilities_cost_factor = -0.15
+			command_power_gain_mult = 0.33
+			}
+		}
+		SOV_zhukov_doctrine4 = {
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = { 
+				always = no 
+			}
+			cancel_if_invalid = no
+			picture = zukko # needed icon
+			modifier = {
+			conscription_factor = 0.2
+			supply_consumption_factor = -0.2
+			army_infantry_attack_factor = 0.1
+			org_loss_when_moving = -0.15
+			terrain_penalty_reduction = 0.1
+			command_abilities_cost_factor = -0.15
+			command_power_gain_mult = 0.33
+			}
+		}
+	}
+}

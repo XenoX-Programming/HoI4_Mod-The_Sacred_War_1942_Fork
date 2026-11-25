@@ -1,0 +1,40 @@
+
+state={
+	id=246
+	name="STATE_246"
+	manpower = 1025458
+	
+	state_category = rural
+	resources={
+		steel=16 # was: 24
+	}
+
+	history={
+		owner = SOV
+		controller = GER
+		SOV = {
+		set_province_controller = 3215
+		set_province_controller = 333
+		set_province_controller = 11315
+		set_province_controller = 3101
+		set_province_controller = 187
+		set_province_controller = 9333
+		set_province_controller = 2999
+		set_province_controller = 226
+		set_province_controller = 3321
+		}
+		victory_points = {
+			11349 1
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		187 226 287 333 2999 3101 3215 3235 3321 3344 6264 6303 6367 6400 9242 9265 9287 9333 9343 11224 11272 11315 11326 11349 
+	}
+
+	local_supplies=0.0 
+}

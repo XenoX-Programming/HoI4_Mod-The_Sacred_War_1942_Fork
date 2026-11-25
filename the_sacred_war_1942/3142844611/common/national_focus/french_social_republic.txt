@@ -1,0 +1,178 @@
+focus_tree = {
+	id = french_social_republic_tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = FRA
+		}
+	}
+	#Towards a new Europe
+	focus = {
+		id = FSR_towards_a_new_europe
+		icon = GFX_FSR_towards_new_europe
+		x = 3
+		y = 0
+		cost = 7
+		available = {
+			has_government = fascism
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.1
+		}
+	}
+
+	#Strengthen the Fascist Government
+	focus = {
+		id = FRA_strengthen_the_fascist_government
+		icon = GFX_goal_generic_political_pressure
+		x = 3
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FSR_towards_a_new_europe  }
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_stability = 0.1
+		}
+	}
+
+	#Socialist Economy
+	focus = {
+		id = FRA_socialist_economy
+		icon = GFX_goal_generic_soviet_construction
+		x = 2
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_strengthen_the_fascist_government  }
+		mutually_exclusive = { focus = FRA_corporatist_economy  }
+		completion_reward = {
+		add_ideas = FSR_socialist_economy
+		}
+	}
+
+	#Corporatist Economy
+	focus = {
+		id = FRA_corporatist_economy
+		icon = GFX_focus_generic_stockpile_fuel
+		x = 4
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_strengthen_the_fascist_government  }
+		mutually_exclusive = { focus = FRA_socialist_economy  }
+		completion_reward = {
+		add_ideas = FSR_corporatist_economy
+		}
+	}
+
+	#Strengthen the Secret Police
+	focus = {
+		id = FRA_strengthen_the_secret_police
+		icon = GFX_goal_generic_secret_weapon
+		x = 3
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_strengthen_the_fascist_government  }
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_stability = 0.05
+		}
+	}
+
+	#State Propaganda
+	focus = {
+		id = FRA_state_propaganda
+		icon = GFX_goal_generic_propaganda
+		x = 5
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_strengthen_the_secret_police  }
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_war_support = 0.05
+		}
+	}
+
+	#Expand the National Guard
+	focus = {
+		id = FRA_expand_the_national_guard
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_strengthen_the_secret_police  }
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_war_support = 0.05
+		}
+		
+	}
+
+	#French Fascist Youth
+	focus = {
+		id = FRA_french_fascist_youth
+		icon = GFX_goal_generic_demand_territory
+		x = 1
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_strengthen_the_secret_police  }
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_stability = 0.05
+		}
+	}
+
+	#French Social Republic will triumph
+	focus = {
+		id = FRA_french_social_republic_will_triumph
+		icon = GFX_FSR_french_social_republic
+		x = 3
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_expand_the_national_guard  } prerequisite = { focus = FRA_french_fascist_youth  } prerequisite = { focus = FRA_state_propaganda  }
+		completion_reward = {
+		remove_ideas = FRA_antistate_resistance
+		}
+	}
+
+}

@@ -1,0 +1,172 @@
+BOE_Minors_FIRST_AOI = {
+	allowed = {
+		OR = {
+		original_tag = CAN
+		original_tag = SAF
+		original_tag = AST
+		original_tag = NZL
+		original_tag = MEX
+		original_tag = BRA
+		original_tag = BEL
+		original_tag = GRE
+		}
+	}
+	enable = {
+		has_war_with = AOI
+	}
+	abort = {
+		AOI = {has_capitulated = yes}
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = AOI
+    value = 100
+	}
+	ai_strategy = {
+		type = front_control
+		TAG = AOI
+		ratio = 0.6
+		priority = 100
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+	}
+}
+BOE_Minors_Attack_ITA = {
+	allowed = {
+		OR = {
+		original_tag = CAN
+		original_tag = SAF
+		original_tag = AST
+		original_tag = NZL
+		original_tag = MEX
+		original_tag = BRA
+		original_tag = BEL
+		original_tag = GRE
+		}
+	}
+	enable = {
+		AOI = {has_capitulated = yes}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    tag = ITA
+    value = 20
+	}
+	ai_strategy = {
+    type = front_armor_score
+    id = ITA
+    value = 20
+	}
+	ai_strategy = {
+    type = garrison
+    value = -10
+	}
+	ai_strategy = {
+		type = front_control
+		TAG = ITA
+		ratio = 0.6
+		priority = 100
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+	}
+}
+BOE_Majors_Attack_ITA = {
+	allowed = {
+		OR = {
+		original_tag = ENG
+		original_tag = USA
+		}
+	}
+	enable = {
+		has_global_flag = Battle_of_Egypt_Flag_AI_STRATEGY
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = front_unit_request
+    tag = ITA
+    value = 100
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = AOI
+    value = -100
+	}
+	ai_strategy = {
+    type = front_armor_score
+    id = ITA
+    value = 100
+	}
+	ai_strategy = {
+    type = garrison
+    value = -100
+	}
+	ai_strategy = {
+    type = naval_invasion_focus
+    value = -100
+	}
+	ai_strategy = {
+		type = front_control
+		TAG = ITA
+		ratio = 0.6
+		priority = 100
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+	}
+}
+Battle_Of_Egypt_War_In_The_Air = {
+	allowed = {
+		OR = {
+		original_tag = ITA
+		original_tag = ENG
+		original_tag = USA
+		original_tag = CAN
+		original_tag = SAF
+		original_tag = AST
+		original_tag = NZL
+		original_tag = MEX
+		original_tag = BRA
+		original_tag = BEL
+		original_tag = GRE
+		}
+	}
+	enable = {
+		has_global_flag = Battle_of_Egypt_Flag_AI_STRATEGY
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = { type = strategic_air_importance id = 128 value = 50000 }
+}
+Battle_Of_Egypt_GER = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_global_flag = Battle_of_Egypt_Flag_AI_STRATEGY
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = naval_invasion_focus
+    value = -100
+	}
+}
+ITA_defend_italy = {
+	allowed = {
+		TAG = ITA
+	}
+	enable = {
+		has_war_with = ENG
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = garrison
+    value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 1
+	}
+}

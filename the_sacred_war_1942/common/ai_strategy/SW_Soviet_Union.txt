@@ -1,0 +1,45 @@
+Soviet_AI_Setting = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		has_war_with = GER
+		has_war_with = JAP
+	}
+	abort = {
+		OR = {
+		NOT = {has_war_with = GER}
+		NOT = {has_war_with = JAP}
+		}
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = GER
+    value = 300
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = JAP
+    value = 34
+	}
+}
+SOV_stalemate_in_siberia = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = front_control
+		tag = JAP
+		ratio = 0
+		priority = 100
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+	}
+}

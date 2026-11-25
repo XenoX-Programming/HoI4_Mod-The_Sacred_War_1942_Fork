@@ -1,0 +1,206 @@
+﻿division_template = {
+	name = "Infantry Division"
+	division_names_group = SAF_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "District Militia"
+	division_names_group = SAF_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	##### Royal South African Army #####
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12589
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4696
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12589
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4696
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10400
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= { 
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1468
+		division_template = "District Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6020 # Capetown
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 5196 # Durbin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5210  # Bloemfontein
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 2096 # East London
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10877 # Pretoria
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12800 # Johannesburg
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 12887 # Johannesburg
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 10860 # Johannesburg
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11999 # Johannesburg
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1206 # Johannesburg
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+
+	##### No Naval OOB #####
+}
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SAF"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}

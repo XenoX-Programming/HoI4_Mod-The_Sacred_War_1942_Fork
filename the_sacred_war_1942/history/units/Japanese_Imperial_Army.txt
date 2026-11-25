@@ -1,0 +1,1443 @@
+﻿division_template = {
+	name = "Hohei Shidan" 		#Infantry Division - Represents both frontline and garrison divisions
+	division_names_group = JAP_INF_01
+	# Note: In 1940 the IJA reorganized infantry divisions into triangular formations
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Chugata Hohei Shidan" 	# Triangular infantry division
+	division_names_group = JAP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Dokuritsu Konsei Ryodan" 	# Independent Mixed Brigade: 5 infantry battalions (4k men total), 1 field artillery basttalion - abstracted into infantry,
+	division_names_group = JAP_IMB_01
+										# 1 engineering battalion
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		light_armor = { x= 2 y = 0 }
+		light_armor = { x= 2 y = 1 }
+		artillery_brigade = { x= 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kihei Shidan" 				# Represents both Japanese and Manchurian cavalry (MAN has older equipment, lower experience)
+	division_names_group = JAP_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Jidousha Shidan" 			#  Motorized Infantry - Represents 5th Infantry Division (later Guards 'Konoe Shidan' Division(s))
+	division_names_group = JAP_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Senshadan"				# Tank Group - Groupings of tank 'regiments' (battalion-sized units)
+	division_names_group = JAP_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}	
+}
+division_template = {
+	name = "Rikusentai"				# Groupings of various SNLF marine forces (can be 1000-3000 men per 'regiment')
+	division_names_group = JAP_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		artillery_brigade = { x= 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}	
+	priority = 2
+}
+division_template = {
+	name = "Chuton-chi Shidan" 			# Manchukuo Shidan  Represents Imperial Manchukuo Army infantry divisions (militia; lowest experience, oldest equipment)
+	division_names_group = JAP_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Thai Infantry Division"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}	
+}
+units = {
+	# 33 Hohei Shidan, 24 Chugata Hohei Shidan, 14 Dokuritsu Konsei Ryodan, 15 Kihei Shidan, 5 Jidousha Shidan, 2 Senshadan, 7 Rikusentai, 40 Chuton-chi Shidan
+	# Additionai 11 Chugata Hohei Shidan 
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4052
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7125
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4056
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1153
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11938
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11938
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4174
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12300
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10854
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1959
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12880
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		name = "Burma Independence Army"
+		location = 1492
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division= {
+		name = "1st Thai Infantry Division"
+		location = 7408
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		name = "2nd Thai Infantry Division"
+		location = 1330
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		name = "3rd Thai Infantry Division"
+		location = 4318
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		name = "4th Thai Infantry Division"
+		location = 1197
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		name = "5th Thai Infantry Division"
+		location = 4087
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		name = "6th Thai Infantry Division"
+		location = 4588
+		division_template = "Thai Infantry Division"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4087
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4588
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1742
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1742
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3962
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9859
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7169
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1117
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10032
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1182
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10125
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1136
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7072
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1092
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9950
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4986
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3427
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4525
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7631
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10507
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4634
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1575
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4606
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4114
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11988
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4038
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4185
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1125
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1125
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1125
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7058
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7058
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9974
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4608
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7381
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7381
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10325
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10237
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7371
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1208
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12299
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4652
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13038
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13021
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13043
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13041
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13046
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13035
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13034
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13036
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13030
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3995
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13047
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13026
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13025
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.76
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10265
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4357
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13029
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13033
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13023
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13052
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 13052
+		division_template = "Rikusentai"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1182
+		division_template = "Senshadan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1182
+		division_template = "Senshadan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1055
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7071
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7071
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1055
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10486
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12537
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12690
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10638
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10675
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1693
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10698
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1732
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10521
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1796
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4555
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10629
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7571
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10079
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4158
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10114
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.31
+		start_equipment_factor = 0.91
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10675
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1693
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10541
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12537
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7697
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10638
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4555
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4222
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7571
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10079
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10098
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4158
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7035
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1628
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.36
+		start_equipment_factor = 0.88
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1139
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9937
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4203
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7653
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7007
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10014
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1096
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4196
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4196
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9938
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 9938
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7152
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1202
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12095
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4050
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1202
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12095
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12095
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11941
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11941
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7152
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 12300
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7135
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4023
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1018
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10004
+		division_template = "Chugata Hohei Shidan"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.84
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3753
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3753
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3723
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3723
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 725
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 725
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 739
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 739
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10466
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10466
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10521
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4551
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4551
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10368
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7832
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7743
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1142
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1142
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7122
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7122
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11966
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 11966
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3999
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3999
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4454
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4454
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 10004
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7093
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1018
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 4203
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 3992
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 7129
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+	division= {
+		division_name = { is_name_ordered = yes name_order = 1}
+		location = 1519
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.94
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 8
+		progress = 0.1
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 100
+		industrial_manufacturer = mio:JAP_nissan_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "JAP" 
+			version_name = "Type 95 Ha-Go"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+		industrial_manufacturer = mio:JAP_osaka_army_arsenal_organization
+	}
+
+}

@@ -1,0 +1,1652 @@
+﻿add_namespace = lore_events
+country_event = { #ITALIA LORE
+	id = lore_events.1
+	title = lore_events.1.t
+	desc = lore_events.1.desc
+	picture = GFX_report_event_italian_army
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.1.a
+	if = {
+    limit = {
+        is_ai = yes 
+		OR = {
+		SOV = {is_ai = no}
+		ENG = {is_ai = no}
+		USA = {is_ai = no}
+		}
+    }   
+    load_oob = Italian_Additional_Army
+	}
+	}
+}
+country_event = { #GERMANIA LORE
+	id = lore_events.2
+	title = lore_events.2.t
+	desc = lore_events.2.desc
+	picture = GFX_report_event_german_army
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.2.a
+	add_timed_idea = {
+    idea = Offensive_Battle_Of_Moscow
+    days = 61
+	}
+	set_global_flag = Battle_of_Moscow_Flag
+	set_global_flag = Battle_of_Egypt_Flag_AI_STRATEGY
+	hidden_effect = { 
+	news_event = { hours = 10 id = lore_events.18 }
+	}
+	if = {
+    limit = {
+        is_ai = yes 
+		OR = {
+		SOV = {is_ai = no}
+		ENG = {is_ai = no}
+		USA = {is_ai = no}
+		}
+    }   
+    load_oob = German_Additinial_Army
+	}
+	}
+}
+country_event = { #BRITANNICA LORE
+	id = lore_events.3
+	title = lore_events.3.t
+	desc = lore_events.3.desc
+	picture = GFX_report_event_royal_parade
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.3.a
+	if = {
+    limit = {
+        is_ai = yes 
+		OR = {
+		JAP = {is_ai = no}
+		GER = {is_ai = no}
+		ITA = {is_ai = no}
+		FRA = {is_ai = no}
+		}
+    }   
+    load_oob = British_Add
+	}
+	}
+}
+country_event = { #SOVIETICA LORE
+	id = lore_events.4
+	title = lore_events.4.t
+	desc = lore_events.4.desc
+	picture = GFX_report_event_red_army
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.4.a
+	country_event = lore_events.32
+	if = {
+    limit = {
+        is_ai = yes
+    }   
+    #load_oob = Soviet_Add # pointless
+	}
+	hidden_effect = { country_event = { days = 2 id = lore_events.24 } }
+	hidden_effect = { country_event = { hours = 15 id = lore_events.24 } }
+	}
+}
+country_event = { #IAPONNE LORE
+	id = lore_events.5
+	title = lore_events.5.t
+	desc = lore_events.5.desc
+	picture = GFX_report_event_japan_army
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.5.a
+	if = {
+    limit = {
+        is_ai = yes 
+		OR = {
+		SOV = {is_ai = no}
+		ENG = {is_ai = no}
+		USA = {is_ai = no}
+		CHI = {is_ai = no}
+		}
+    }   
+    load_oob = Japan_Add
+	}
+	}
+}
+country_event = { #AMERICANA LORE
+	id = lore_events.6
+	title = lore_events.6.t
+	desc = lore_events.6.desc
+	picture = GFX_report_event_americadsn_army
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.6.a
+	if = {
+    limit = {
+        is_ai = yes 
+		OR = {
+		JAP = {is_ai = no}
+		GER = {is_ai = no}
+		ITA = {is_ai = no}
+		FRA = {is_ai = no}
+		}
+    }   
+    load_oob = American_Add
+	}
+	}
+}
+country_event = { #Partition of Czechoslovakia
+	id = lore_events.7
+	title = lore_events.7.t
+	desc = lore_events.7.desc
+	picture = GFX_report_event_cze_divided_nation
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.7.a
+	country_event = lore_events.10
+	}
+}
+country_event = { #Spanish Civil War
+	id = lore_events.8
+	title = lore_events.8.t
+	desc = lore_events.8.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.8.a
+	country_event = lore_events.9
+	}
+}
+country_event = { #Sino-Japanese War
+	id = lore_events.9
+	title = lore_events.9.t
+	desc = lore_events.9.desc
+	picture = GFX_report_event_chinese_soldiers_02
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.9.a
+	country_event = lore_events.7
+	}
+}
+country_event = { #Invasion of Poland
+	id = lore_events.10
+	title = lore_events.10.t
+	desc = lore_events.10.desc
+	picture = GFX_report_event_polish_tanks_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.10.a
+	country_event = lore_events.11
+	}
+}
+country_event = { #Blitzkrieg
+	id = lore_events.11
+	title = lore_events.11.t
+	desc = lore_events.11.desc
+	picture = GFX_report_event_german_troops
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.11.a
+	country_event = lore_events.12
+	}
+}
+
+country_event = { #Campaign of Egypt
+	id = lore_events.12
+	title = lore_events.12.t
+	desc = lore_events.12.desc
+	picture = GFX_report_event_campaign_of_egypt
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.12.a
+	country_event = lore_events.13
+	}
+}
+country_event = { #Landing on Malta
+	id = lore_events.13
+	title = lore_events.13.t
+	desc = lore_events.13.desc
+	picture = GFX_report_event_malta_campaign
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.13.a
+	country_event = lore_events.14
+	}
+}
+country_event = { #
+	id = lore_events.14
+	title = lore_events.14.t
+	desc = lore_events.14.desc
+	picture = GFX_report_event_german_volunteers
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.14.a
+	country_event = lore_events.15
+	}
+}
+country_event = { #
+	id = lore_events.15
+	title = lore_events.15.t
+	desc = lore_events.15.desc
+	picture = GFX_report_event_usa_pearl_harbor_airphoto
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.14.a
+	}
+}
+news_event = { #
+	id = lore_events.16
+	title = lore_events.16.t
+	desc = lore_events.16.desc
+	picture = GFX_news_event_battle_of_moscow_news_event
+	major = yes
+	is_triggered_only = yes
+	immediate = { hidden_effect = {play_song = "we_are_army_of_the_people"}}
+	option = { 
+	name = lore_events.16.a
+	trigger = {
+		has_war_with = SOV
+	}
+	}
+	option = { 
+	name = lore_events.16.b
+	trigger = {
+		has_war_with = GER
+	}
+	}
+	option = { 
+	name = lore_events.16.c
+	trigger = {
+		NOT = {has_war_with = SOV}
+		NOT = {has_war_with = GER}
+	}
+	}
+}
+news_event = { #
+	id = lore_events.17
+	title = lore_events.17.t
+	desc = lore_events.17.desc
+	picture = GFX_news_event_german_army1
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.17.a
+	trigger = {
+		has_war_with = SOV
+	}
+	}
+	option = { 
+	name = lore_events.17.b
+	trigger = {
+		has_war_with = GER
+	}
+	}
+	option = { 
+	name = lore_events.17.c
+	trigger = {
+		NOT = {has_war_with = SOV}
+		NOT = {has_war_with = GER}
+	}
+	}
+}
+news_event = { #
+	id = lore_events.18
+	title = lore_events.18.t
+	desc = lore_events.18.desc
+	picture = GFX_news_event_battle_of_moscow_news_event
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.18.a
+	effect_tooltip = {
+	GER = {
+	add_timed_idea = {
+    idea = Offensive_Battle_Of_Moscow
+    days = 60
+	}
+	}
+	}
+	}
+}
+country_event = { # Offensive Kalinin # NOT USED
+	id = lore_events.19
+	title = lore_events.19.t
+	desc = lore_events.19.desc
+	picture = GFX_report_event_soviet_offensive3
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.19.a
+	activate_mission = SOV_reconquer_kalinin
+	set_country_flag = offensive_kalinin_flag
+	add_ideas = Soviet_Offensive
+	}
+}
+country_event = { #
+	id = lore_events.20
+	title = lore_events.20.t
+	desc = lore_events.20.desc
+	picture = GFX_report_event_polish_divisions
+	fire_only_once = yes
+	trigger = {
+	original_tag = SOV
+	}
+	mean_time_to_happen = {
+	days = 56
+	}
+	option = { 
+	name = lore_events.20.a
+			division_template = {
+				name = "Polish Infantry Division"
+				regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 }
+				infantry = { x = 2 y = 0 }
+				infantry = { x = 2 y = 1 }
+				infantry = { x = 2 y = 2 }
+				artillery_brigade = { x = 3 y = 0 }
+				artillery_brigade = { x = 3 y = 1 }
+				light_armor = { x = 4 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					recon = { x = 0 y = 1 }
+					artillery = { x = 0 y = 2 }
+					anti_tank = { x = 0 y = 3 }
+				} 
+				is_locked = yes
+			}
+			capital_scope = {
+			create_unit = { 
+				division = "name = \"1.Dywizja Piechoty im. Tadeusza Kościuszki\" division_template = \"Polish Infantry Division\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"2.Dywizja Piechoty im. Henryka Dąbrowskiego\" division_template = \"Polish Infantry Division\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+			}
+			}
+			add_war_support = 0.04
+			hidden_effect = {
+			country_event = {
+				id = lore_events.23
+				days = 280
+			}
+			}
+		add_manpower = 100000
+	}
+}
+country_event = { #
+	id = lore_events.21
+	title = lore_events.21.t
+	desc = lore_events.21.desc
+	picture = GFX_report_event_soviet_tank_burning
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.21.a
+	}
+}
+country_event = { #
+	id = lore_events.22
+	title = lore_events.22.t
+	desc = lore_events.22.desc
+	picture = GFX_report_event_rokosovsky_chad
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.22.a
+	}
+}
+country_event = { #
+	id = lore_events.23
+	title = lore_events.23.t
+	desc = lore_events.23.desc
+	picture = GFX_report_event_polish_divisions
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.23.a
+	capital_scope = {
+			create_unit = { 
+				division = "name = \"3.Dywizja Piechoty im. Romualda Traugutta\" division_template = \"Polish Infantry Division\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"4.Dywizja Piechoty im. Jana Kilińskiego\" division_template = \"Polish Infantry Division\" start_experience_factor = 1 start_equipment_factor = 1.0" owner = ROOT
+			}
+	}
+	}
+}
+country_event = { # Kujbyszew nową stolicą
+	id = lore_events.24
+	title = lore_events.24.t
+	desc = lore_events.24.desc
+	picture = GFX_report_event_red_army_39
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { # TAK
+	name = lore_events.24.a 
+	add_victory_points = {
+	province = 11225
+	value = 22
+	}
+	}
+	option = { # NIE
+	name = lore_events.24.b
+	add_war_support = 0.05
+	ai_chance = { factor = 100 }
+	}
+}
+country_event = { # Offensive Stalingrad # NOT USED
+	id = lore_events.25
+	title = lore_events.25.t
+	desc = lore_events.25.desc
+	picture = GFX_report_event_soviet_offensive2
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.25.a
+	activate_mission = SOV_reconquer_stalingrad
+	set_country_flag = offensive_stalingrad_flag
+	add_ideas = Soviet_Offensive
+	}
+}
+country_event = { # Offensive Rostov NOT USED
+	id = lore_events.26
+	title = lore_events.26.t
+	desc = lore_events.26.desc
+	picture = GFX_report_event_soviet_offensive1
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.26.a
+	activate_mission = SOV_reconquer_rostov
+	set_country_flag = offensive_rostov_flag
+	add_ideas = Soviet_Offensive
+	}
+}
+country_event = {
+	id = lore_events.27
+	title = lore_events.27.t
+	desc = lore_events.27.desc
+	picture = GFX_report_event_soviet_female_snipers
+	fire_only_once = yes
+	trigger = {
+	original_tag = SOV
+	GER = {casualties > 200000}
+	}
+	mean_time_to_happen = {
+	days = 12
+	}
+	option = { 
+	name = lore_events.27.a
+	add_war_support = 0.02
+	}
+}
+country_event = {
+	id = lore_events.28
+	title = lore_events.27.t
+	desc = lore_events.27.desc
+	picture = GFX_report_event_soviet_female_snipers
+	fire_only_once = yes
+	trigger = {
+	original_tag = SOV
+	GER = {casualties > 850000}
+	}
+	mean_time_to_happen = {
+	days = 21
+	}
+	option = { 
+	name = lore_events.27.a
+	add_war_support = 0.02
+	}
+}
+country_event = {
+	id = lore_events.29
+	title = lore_events.27.t
+	desc = lore_events.27.desc
+	picture = GFX_report_event_soviet_female_snipers
+	fire_only_once = yes
+	trigger = {
+	original_tag = SOV
+	GER = {casualties > 1350000}
+	}
+	mean_time_to_happen = {
+	days = 29
+	}
+	option = { 
+	name = lore_events.27.a
+	add_war_support = 0.02
+	}
+}
+country_event = { # Turkish Peace
+	id = lore_events.30
+	title = lore_events.30.t
+	desc = lore_events.30.desc
+	picture = GFX_report_event_soviet_offensive2
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.30.a
+	TUR = {add_ideas = TUR_secret_agreement_with_Red_Army}
+	}
+	option = { 
+	name = lore_events.30.b
+	set_global_flag = SOV_TUR_PEACE_2_OPTION
+	hidden_effect = {
+	news_event = my_event.31
+	GER = {
+	transfer_state = 341
+	transfer_state = 797
+	}
+	ITA = {
+	transfer_state = 339
+	transfer_state = 342
+	transfer_state = 187
+	transfer_state = 164
+	}
+	}
+	
+	TUR = {
+	leave_faction = yes
+	white_peace = { tag = SOV }
+	white_peace = { tag = ENG }
+	white_peace = { tag = USA }
+	white_peace = { tag = MON }
+	set_capital = {
+	state = 354
+	remember_old_capital = yes
+	}
+	start_civil_war = {
+    ideology = fascism
+	army_ratio = 0.15
+	navy_ratio = 0
+	air_ratio = 0
+    states = {
+        347 340 343 346 345 49 356 798 348 349 355 353 344 350 352 799
+    }
+	keep_all_characters = yes
+	ITA = {
+	puppet = {
+    target = PREV
+    end_wars = no
+	}
+	}
+	hidden_effect = {SOV = {add_to_faction = TUR}}
+	}
+	}
+	hidden_effect = {
+	random_other_country = {
+	limit = { 
+	original_tag = TUR 
+	has_government = fascism
+	}
+	create_country_leader = {
+		name = "Royal Italian Army"
+		desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+		picture = "gfx/leaders/ITA/portrait_ita_military_junta.dds"
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {
+		}
+	}
+	set_party_name = { 
+		ideology = fascism  
+		long_name = ITA_army_party_long
+		name = ITA_army_party_long
+	}
+	add_stability = -0.2
+	add_war_support = -0.5
+	add_ideas = draft_dodging 
+	add_ideas = strikes_1 
+	country_event = stability.22
+	add_ideas = mutiny_1 
+	country_event = stability.23
+	}
+	}
+	ai_chance = { factor = 100 }
+	}
+	option = { 
+	name = lore_events.30.c
+	TUR = {
+	add_war_support = -0.1
+	add_popularity = { ideology = democratic popularity = 0.1 }
+	}
+	}
+}
+news_event = { #
+	id = lore_events.31
+	title = lore_events.31.t
+	desc = lore_events.31.desc
+	picture = GFX_news_event_italian_army2
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.31.a
+	}
+}
+country_event = {
+	id = lore_events.32
+	title = lore_events.32.t
+	desc = lore_events.32.desc
+	picture = GFX_report_event_soviet_offensive3
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.32.a
+	217 = {
+	damage_building = { type = industrial_complex damage = 1 }
+	damage_building = { type = arms_factory damage = 2 }
+	damage_building = { type = infrastructure damage = 4 }
+	}
+	hidden_effect = { 
+	country_event = { 
+			id = lore_events.51
+			days = 12
+	}
+	}
+	}
+}
+country_event = {
+	id = lore_events.33
+	title = lore_events.33.t
+	desc = lore_events.33.d
+	picture = GFX_report_event_spr_franco_victory
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GER
+		has_government = fascism
+		AND = {
+			SPR = { 
+				OR = {
+					is_in_faction = no
+					is_in_faction_with = GER
+				}
+			}
+			country_exists = SPR
+			OR = {
+				AND = {
+					251 = { is_controlled_by = GER } #Kuybyszeh
+				}
+				NOT = { country_exists = SOV }
+			}
+		}
+	}
+
+	option = {
+		name = lore_events.33.a
+		ai_chance = { factor = 100 }
+		SPR = { country_event = { id = lore_events.34 } }
+		unlock_national_focus = SPA_join_the_axis
+	}
+
+	option = {
+		name = lore_events.33.b
+	}
+}
+country_event = {
+	id = lore_events.34
+	title = lore_events.34.t
+	desc = lore_events.34.d
+	picture = GFX_report_event_spr_franco_victory
+
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = lore_events.34.a
+		ai_chance = { factor = 100 }
+		GER = { add_to_faction = SPR }
+	}
+
+	option = {
+		name = lore_events.34.b
+	}
+}
+country_event = {
+	id = lore_events.35
+	title = lore_events.35.t
+	desc = lore_events.35.desc
+	picture = GFX_report_event_stalin_speech
+	fire_only_once = yes
+	trigger = { 
+	original_tag = SOV
+	has_war_with = GER
+	controls_state = 219
+	}
+	mean_time_to_happen = {
+	days = 4
+	}
+	option = { 
+	name = lore_events.35.a
+	add_war_support = 0.04
+	add_command_power = 40
+	}
+}
+news_event = { #
+	id = lore_events.36
+	title = lore_events.36.t
+	desc = lore_events.36.desc
+	picture = GFX_news_event_battle_of_africa_news_event
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.36.a
+	effect_tooltip = {
+	ENG = {
+	add_timed_idea = {
+    idea = Offensive_Battle_Of_Egypt
+    days = 70
+	}
+	}
+	}
+	}
+}
+news_event = { # ITA WINS 
+	id = lore_events.37
+	title = lore_events.37.t
+	desc = lore_events.37.desc
+	picture = GFX_news_event_italian_army2
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.37.a
+	trigger = {
+		has_war_with = ENG
+	}
+	effect_tooltip = {
+	ITA = {
+	add_stability = 0.1
+	add_war_support = 0.15
+	}
+	}
+	}
+	option = { 
+	name = lore_events.37.b
+	trigger = {
+		has_war_with = ITA
+	}
+	effect_tooltip = {
+	ITA = {
+	add_stability = 0.1
+	add_war_support = 0.1
+	}
+	}
+	}
+	option = { 
+	name = lore_events.37.c
+	trigger = {
+		NOT = {
+		has_war_with = ITA
+		}
+		NOT = {
+		has_war_with = ENG
+		}
+	}
+	effect_tooltip = {
+	ITA = {
+	add_stability = 0.1
+	add_war_support = 0.15
+	}
+	}
+	}
+}
+news_event = { # ENG WINS 
+	id = lore_events.38
+	title = lore_events.38.t
+	desc = lore_events.38.desc
+	picture = GFX_news_event_battle_of_africa_news_event
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.38.a
+	trigger = {
+		has_war_with = ENG
+	}
+	effect_tooltip = {
+	ITA = {
+		add_stability = -0.1
+		add_war_support = -0.15
+		add_popularity = { ideology = fascism popularity = -0.1 }
+	}
+	}
+	}
+	option = { 
+	name = lore_events.38.b
+	trigger = {
+		has_war_with = ITA
+	}
+	effect_tooltip = {
+	ITA = {
+		add_stability = -0.1
+		add_war_support = -0.15
+		add_popularity = { ideology = fascism popularity = -0.1 }
+	}
+	}
+	}
+	option = { 
+	name = lore_events.38.c
+	trigger = {
+		NOT = {
+		has_war_with = ITA
+		}
+		NOT = {
+		has_war_with = ENG
+		}
+	}
+	effect_tooltip = {
+	ITA = {
+		add_stability = -0.1
+		add_war_support = -0.15
+		add_popularity = { ideology = fascism popularity = -0.1 }
+	}
+	}
+	}
+}
+news_event = { # Operation Torch
+	id = lore_events.39
+	title = lore_events.39.t
+	desc = lore_events.39.desc
+	picture = GFX_news_event_american_army
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.39.a
+	set_global_flag = Operation_Torch_Begins
+	hidden_effect = { 
+		country_event = { 
+			id = lore_events.40
+			days = 100
+		}
+	}
+	}
+}
+country_event = { # Operation Torch reset
+	id = lore_events.40
+	title = lore_events.40.t
+	desc = lore_events.40.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	fire_only_once = yes
+	immediate = { 
+	clr_global_flag = Operation_Torch_Begins
+	}
+}
+country_event = { # Italian Civil War
+	id = lore_events.41
+	title = lore_events.41.t
+	desc = lore_events.41.desc
+	picture = GFX_report_event_ITA_italian_civil_war
+	trigger = {
+		TAG = ITA 
+		NOT = { 907 = { is_controlled_by = ITA } }
+		NOT = { 448 = { is_controlled_by = ITA } }
+		NOT = { 458 = { is_controlled_by = ITA } }
+		surrender_progress > 0.09
+	}
+	fire_only_once = yes
+	option = { 
+	name = lore_events.41.a
+			ITA_set_special_characters_as_fascist_effect = yes
+			ITA_start_civil_war_effect = yes
+			complete_national_focus = ITA_the_italian_social_republic
+			RDS = { country_event = { id = BBA_italy_civil_war.0 hours = 1 } }
+			news_event = { id = bba_news.110 hours = 2 }
+			set_global_flag = Italian_Civil_War_SW
+			
+	}
+}
+news_event = { # Italian Civil War
+	id = lore_events.42
+	title = lore_events.42.t
+	desc = lore_events.42.desc
+	picture = GFX_news_event_ITA_civil_war
+	major = yes
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.39.a
+	}
+}
+news_event = { # Liberation of Stalingrad
+	id = lore_events.43
+	title = lore_events.43.t
+	desc = lore_events.43.desc
+	picture = GFX_news_event_liberation_stalingrad
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		clr_global_flag = fall_of_stalingrad
+		set_global_flag = liberation_of_stalingrad
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes}
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		SOV = {remove_ideas = Fall_Of_Stalingrad}
+		SOV = {remove_ideas = Fall_Of_Moscow}
+		}
+	}
+	trigger = {
+		217 = {is_controlled_by = SOV}
+		has_global_flag = fall_of_stalingrad
+		NOT = {has_global_flag = liberation_of_stalingrad}
+	}
+	option = { 
+	name = lore_events.43.a
+	effect_tooltip = {
+	SOV = {remove_ideas = Fall_Of_Stalingrad}
+	}
+	}
+}
+news_event = { # Liberation of Sevastopol
+	id = lore_events.44
+	title = lore_events.44.t
+	desc = lore_events.44.desc
+	picture = GFX_news_event_liberation_generic
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		clr_global_flag = fall_of_sevastopol
+		set_global_flag = liberation_of_sevastopol
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes} 
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		}
+	}
+	trigger = {
+		137 = {is_controlled_by = SOV}
+		has_global_flag = fall_of_sevastopol
+		NOT = {has_global_flag = liberation_of_sevastopol}
+	}
+	option = { 
+	name = lore_events.44.a
+	}
+}
+news_event = { # Liberation of Smolensk
+	id = lore_events.45
+	title = lore_events.45.t
+	desc = lore_events.45.desc
+	picture = GFX_news_event_liberation_smolensk
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = liberation_of_smolensk
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes} 
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		}
+	}
+	trigger = {
+		242 = {is_controlled_by = SOV}
+		NOT = {has_global_flag = liberation_of_smolensk}
+	}
+	option = { 
+	name = lore_events.45.a
+	}
+}
+news_event = { # Liberation of Minsk
+	id = lore_events.46
+	title = lore_events.46.t
+	desc = lore_events.46.desc
+	picture = GFX_news_event_liberation_generic
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = liberation_of_minsk
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes} 
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		}
+	}
+	trigger = {
+		206 = {is_controlled_by = SOV}
+		NOT = {has_global_flag = liberation_of_minsk}
+	}
+	option = { 
+	name = lore_events.46.a
+	}
+}
+news_event = { # Liberation of Kiev
+	id = lore_events.47
+	title = lore_events.47.t
+	desc = lore_events.47.desc
+	picture = GFX_news_event_liberation_kiev
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = liberation_of_kiev
+		clr_global_flag = fall_of_kiev
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes} 
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		}
+	}
+	trigger = {
+		202 = {is_controlled_by = SOV}
+		NOT = {has_global_flag = liberation_of_kiev}
+		has_global_flag = fall_of_kiev
+	}
+	option = { 
+	name = lore_events.47.a
+	}
+}
+#news_event = {
+#	id = lore_events.48
+#	title = lore_events.48.t
+#	desc = lore_events.48.desc
+#	picture = GFX_news_event_french_liberation_army
+#	major = yes
+#	is_triggered_only = ytes
+#	option = { 
+#	name = lore_events.48.a
+#	}
+#}
+news_event = { # Liberation of Kharhkov
+	id = lore_events.49
+	title = lore_events.49.t
+	desc = lore_events.49.desc
+	picture = GFX_news_event_liberation_generic
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = liberation_of_kharkhov
+		hidden_effect = {
+		GER = {if_is_ai_add_reinf_GER = yes} 
+		if_is_ai_add_eq_GER_SOV_is_player = yes
+		}
+	}
+	trigger = {
+		221 = {is_controlled_by = SOV}
+		NOT = {has_global_flag = liberation_of_kharkhov}
+	}
+	option = { 
+	name = lore_events.49.a
+	}
+}
+news_event = { # Liberation of Rostov_on_Don
+	id = lore_events.50
+	title = lore_events.50.t
+	desc = lore_events.50.desc
+	picture = GFX_news_event_liberation_generic
+	major = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = liberation_of_rostov
+		hidden_effect = {GER = {if_is_ai_add_reinf_GER = yes} }
+	}
+	trigger = {
+		218 = {is_controlled_by = SOV}
+		NOT = {has_global_flag = liberation_of_rostov}
+	}
+	option = { 
+	name = lore_events.50.a
+	}
+}
+country_event = {
+	id = lore_events.51
+	title = lore_events.51.t
+	desc = lore_events.51.desc
+	picture = GFX_report_event_soviet_general_meeting
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { 
+	name = lore_events.51.a	
+	set_country_flag = Rokosowski_Doctrine_Flag
+	unlock_decision_category_tooltip = Development_Of_Rokossovsky_Doctrine
+	ai_chance = { factor = 45 }
+	hidden_effect = {
+		country_event = {
+		id = lore_events.70
+		days = 25
+		}
+	}
+	}
+	option = { 
+	name = lore_events.51.b
+	set_country_flag = Zhukov_Doctrine_Flag
+	unlock_decision_category_tooltip = Development_Of_Zhukov_Doctrine
+	remove_ideas = konstantin_rokossovsky
+	add_ideas = georgy_zhukov
+	ai_chance = { factor = 55 }
+	hidden_effect = {
+		country_event = {
+		id = lore_events.70
+		days = 25
+		}
+	}
+	}
+}
+country_event = { # Partisans Uprising
+	id = lore_events.52
+	title = lore_events.52.t
+	desc = lore_events.52.desc
+	picture = GFX_report_event_yugoslavian_partisans2
+	fire_only_once = yes
+	trigger = {
+		TAG = CRO
+		date > 1943.3.4 
+	}
+	option = { 
+	name = lore_events.41.a
+	104 = { damage_building = { type = infrastructure damage = 2 } }
+	804 = { damage_building = { type = infrastructure damage = 2 } }
+	109 = { damage_building = { type = infrastructure damage = 2 } }
+	107 = { damage_building = { type = infrastructure damage = 2 } }
+	108 = { damage_building = { type = infrastructure damage = 2 } }
+	CRO = { 
+	add_manpower = -9000
+	}
+	SER = { 
+	add_manpower = -9000
+	}
+	ITA = { 
+	add_manpower = -9000
+	}
+	GER = { 
+	add_manpower = -9000
+	}
+	news_event = lore_events.53
+	}
+}
+news_event = {
+	id = lore_events.53
+	title = lore_events.52.t
+	desc = lore_events.52.desc
+	picture = GFX_news_event_yugoslavian_partisans
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { 
+	name = lore_events.52.a
+	effect_tooltip = {
+	104 = { damage_building = { type = infrastructure damage = 2 } }
+	804 = { damage_building = { type = infrastructure damage = 2 } }
+	109 = { damage_building = { type = infrastructure damage = 2 } }
+	107 = { damage_building = { type = infrastructure damage = 2 } }
+	108 = { damage_building = { type = infrastructure damage = 2 } }
+	ITA = { 
+	add_manpower = -9000
+	}
+	GER = { 
+	add_manpower = -9000
+	}
+	}
+	}
+}
+country_event = { # Partisans Uprising
+	id = lore_events.54
+	title = lore_events.52.t
+	desc = lore_events.52.desc
+	picture = GFX_report_event_yugoslavian_partisans2
+	fire_only_once = yes
+	trigger = {
+		TAG = CRO
+		date > 1944.4.4 
+	}
+	option = { 
+	name = lore_events.41.a
+	104 = { damage_building = { type = infrastructure damage = 2 } }
+	804 = { damage_building = { type = infrastructure damage = 2 } }
+	109 = { damage_building = { type = infrastructure damage = 2 } }
+	107 = { damage_building = { type = infrastructure damage = 2 } }
+	108 = { damage_building = { type = infrastructure damage = 2 } }
+	CRO = { 
+	add_manpower = -9000
+	}
+	SER = { 
+	add_manpower = -9000
+	}
+	ITA = { 
+	add_manpower = -9000
+	}
+	GER = { 
+	add_manpower = -9000
+	}
+	news_event = lore_events.53
+	}
+}
+news_event = { # Siege of Leningrad Lifted
+	id = lore_events.55
+	title = lore_events.55.t
+	desc = lore_events.55.desc
+	picture = GFX_news_event_liberation_stalingrad
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { 
+	name = lore_events.55.a
+	}
+}
+country_event = { # Turkey be puppet of GER
+	id = lore_events.56
+	title = lore_events.56.t
+	desc = lore_events.56.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	has_global_flag = SOV_TUR_PEACE_2_OPTION
+	has_global_flag = Italian_Civil_War_SW
+	original_tag = TUR
+	OR = {
+	is_subject_of = ITA
+	is_subject_of = RSI
+	is_subject_of = RDS
+	}
+	}
+	immediate = { 
+	GER = {
+	set_autonomy = {
+		target = FROM
+		autonomous_state = autonomy_satellite
+	}
+	}
+	}
+}
+country_event = { # Cult of Chuikov
+	id = lore_events.57
+	title = lore_events.57.t
+	desc = lore_events.57.desc
+	picture = GFX_report_event_vasily_chuikov
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.57.a
+	add_war_support = 0.1
+	add_popularity = { ideology = communism popularity = 0.05 }
+	}
+}
+country_event = { # L6/42
+	id = lore_events.58
+	title = lore_events.58.t
+	desc = lore_events.58.desc
+	picture = GFX_report_event_vasily_chuikov
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.58.a
+	}
+}
+country_event = { # South America Declares War on Germany
+	id = lore_events.59
+	title = lore_events.59.t
+	desc = lore_events.59.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	TAG = BOL
+	date > 1943.4.1
+	}
+	immediate = { 
+	ENG = {
+	add_to_faction = BOL
+	}
+	BOL = {add_ideas = American_Protection_Idea}
+	}
+}
+country_event = { # South America Declares War on Germany
+	id = lore_events.60
+	title = lore_events.60.t
+	desc = lore_events.60.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	TAG = COL
+	date > 1943.11.20
+	}
+	immediate = { 
+	ENG = {
+	add_to_faction = COL
+	}
+	COL = {add_ideas = American_Protection_Idea}
+	}
+}
+country_event = { # South America Declares War on Germany
+	id = lore_events.61
+	title = lore_events.61.t
+	desc = lore_events.61.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	date > 1944.11.20
+	}
+	immediate = { 
+	ENG = {
+	add_to_faction = URG
+	add_to_faction = PRU
+	add_to_faction = ECU
+	add_to_faction = PAR
+	add_to_faction = VEN
+	}
+	URG = {add_ideas = American_Protection_Idea}
+	PRU = {add_ideas = American_Protection_Idea}
+	ECU = {add_ideas = American_Protection_Idea}
+	PAR = {add_ideas = American_Protection_Idea}
+	VEN = {add_ideas = American_Protection_Idea}
+	}
+}
+country_event = { # Moscow fall after Battle Of Moscow
+	id = lore_events.62
+	title = lore_events.62.t
+	desc = lore_events.62.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	has_country_flag = Battle_of_Moscow_SOV_win
+	TAG = SOV
+	219 = {is_controlled_by = GER}
+	}
+	immediate = { 
+	swap_ideas = {
+	remove_idea = Fall_Of_Stalingrad
+	add_idea = Fall_Of_Moscow
+	}
+	}
+}
+country_event = { # Moscow fall after Battle Of Moscow
+	id = lore_events.63
+	title = lore_events.63.t
+	desc = lore_events.63.desc
+	hidden = yes
+	picture = GFX_news_event_american_army
+	trigger = {
+	TAG = SOV
+	219 = {is_controlled_by = GER}
+	}
+	immediate = { 
+	set_capital = {state = 251}
+	}
+}
+country_event = { # Anti Soviet Sentiment in Central Asia 
+	id = lore_events.64
+	title = lore_events.64.t
+	desc = lore_events.64.desc
+	picture = GFX_report_event_turkestan_event
+	trigger = {
+	TAG = SOV
+	casualties > 1000000
+	OR = {
+	219 = {is_controlled_by = GER}
+	217 = {is_controlled_by = GER}
+	195 = {is_controlled_by = GER}
+	}
+	}
+	fire_only_once = yes
+	option = { 
+	name = lore_events.64.a
+	add_political_power = -85
+	add_war_support = -0.05
+	831 = {
+	remove_core_of = SOV
+	start_resistance = KHI
+	add_resistance = 25
+	}
+	832 = {
+	remove_core_of = SOV
+	start_resistance = KHI
+	add_resistance = 25
+	}
+	hidden_effect = {
+		country_event = {
+		id = lore_events.65
+		days = 42
+		}
+	}
+	set_global_flag = Khivan_Resistance
+	}
+}
+country_event = { # Buhkaran Resistance
+	id = lore_events.65
+	title = lore_events.65.t
+	desc = lore_events.65.desc
+	picture = GFX_report_event_resistance_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { 
+	name = lore_events.65.a
+	set_global_flag = Bukharan_Resistance
+	830 = {
+	remove_core_of = SOV
+	start_resistance = BUK
+	add_resistance = 25
+	}
+	742 = {
+	remove_core_of = SOV
+	start_resistance = BUK
+	add_resistance = 25
+	}
+	}
+}
+country_event = {
+	id = lore_events.66
+	title = lore_events.66.t
+	desc = lore_events.66.desc
+	picture = GFX_report_event_report_event_bve
+	trigger = {
+	TAG = SOV
+	219 = {is_controlled_by = GER}
+	217 = {is_controlled_by = GER}
+	195 = {is_controlled_by = GER}
+	239 = {is_controlled_by = GER}
+	263 = {is_controlled_by = GER}
+	always = no
+	}
+	option = { 
+	name = lore_events.66.a
+	add_political_power = -300
+	add_stability = -0.1
+	custom_effect_tooltip = the_fall_of_the_soviet_union_tooltip
+	}
+}
+country_event = { #Coup D'Etat
+	id = lore_events.67
+	title = lore_events.67.t
+	desc = lore_events.67.desc
+	picture = GFX_report_event_soviet_tank_moscow2
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.67.a
+	add_political_power = -500
+	add_stability = -0.4
+	add_war_support = -0.4
+	add_manpower = -75000
+	custom_effect_tooltip = sov_military_council_becomes_leader
+	hidden_effect = {
+	create_country_leader = {
+	name = "Sov_military_council"
+	desc = ""
+	picture = "gfx/leaders/SOV/portrait_sov_military_junta.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+	}
+	}
+	}
+}
+country_event = {
+	id = lore_events.68
+	title = lore_events.68.t
+	desc = lore_events.68.desc
+	picture = GFX_report_event_soviet_german_meeting
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.68.a
+	hidden_effect = {
+	country_event = { days = 7 id = lore_events.69 }
+	white_peace = GER
+	GER = {transfer_state = 97}
+	GER = {transfer_state = 91}
+	GER = {transfer_state = 93}
+	GER = {transfer_state = 89}
+	GER = {transfer_state = 94}
+	GER = {transfer_state = 95}
+	GER = {transfer_state = 96}
+	GER = {transfer_state = 784}
+	GER = {transfer_state = 11}
+	GER = {transfer_state = 814}
+	GER = {transfer_state = 815}
+	GER = {transfer_state = 189}
+	GER = {transfer_state = 190}
+	GER = {transfer_state = 809}
+	GER = {transfer_state = 810}
+	GER = {transfer_state = 808}
+	GER = {transfer_state = 12}
+	GER = {transfer_state = 13}
+	GER = {transfer_state = 811}
+	GER = {transfer_state = 812}
+	GER = {transfer_state = 813}
+	GER = {transfer_state = 191}
+	GER = {transfer_state = 199}
+	GER = {transfer_state = 201}
+	GER = {transfer_state = 194}
+	GER = {transfer_state = 204}
+	GER = {transfer_state = 206}
+	GER = {transfer_state = 207}
+	GER = {transfer_state = 210}
+	GER = {transfer_state = 209}
+	GER = {transfer_state = 208}
+	GER = {transfer_state = 195}
+	GER = {transfer_state = 244}
+	GER = {transfer_state = 263}
+	GER = {transfer_state = 246}
+	GER = {transfer_state = 242}
+	GER = {transfer_state = 243}
+	GER = {transfer_state = 241}
+	GER = {transfer_state = 224}
+	GER = {transfer_state = 193}
+	GER = {transfer_state = 202}
+	GER = {transfer_state = 203}
+	GER = {transfer_state = 205}
+	GER = {transfer_state = 219}
+	GER = {transfer_state = 247}
+	GER = {transfer_state = 264}
+	GER = {transfer_state = 254}
+	GER = {transfer_state = 257}
+	GER = {transfer_state = 223}
+	GER = {transfer_state = 222}
+	GER = {transfer_state = 220}
+	GER = {transfer_state = 225}
+	GER = {transfer_state = 259}
+	GER = {transfer_state = 221}
+	GER = {transfer_state = 240}
+	GER = {transfer_state = 260}
+	GER = {transfer_state = 258}
+	GER = {transfer_state = 265}
+	GER = {transfer_state = 217}
+	GER = {transfer_state = 236}
+	GER = {transfer_state = 197}
+	GER = {transfer_state = 226}
+	GER = {transfer_state = 200}
+	GER = {transfer_state = 227}
+	GER = {transfer_state = 228}
+	GER = {transfer_state = 233}
+	GER = {transfer_state = 234}
+	GER = {transfer_state = 235}
+	GER = {transfer_state = 238}
+	GER = {transfer_state = 237}
+	GER = {transfer_state = 245}
+	GER = {transfer_state = 248}
+	GER = {transfer_state = 253}
+	GER = {transfer_state = 218}
+	GER = {transfer_state = 196}
+	GER = {transfer_state = 137}
+	GER = {transfer_state = 826}
+	GER = {transfer_state = 827}
+	GER = {transfer_state = 828}
+	GER = {transfer_state = 821}
+	GER = {transfer_state = 232}
+	GER = {transfer_state = 231}
+	GER = {transfer_state = 230}
+	GER = {transfer_state = 229}
+	FIN = {transfer_state = 146}
+	FIN = {transfer_state = 216}
+	FIN = {transfer_state = 215}
+	FIN = {transfer_state = 213}
+	FIN = {transfer_state = 722}
+	FIN = {transfer_state = 147}
+	ROM = {transfer_state = 198}
+	ROM = {transfer_state = 834}
+	ROM = {transfer_state = 192}
+	ROM = {transfer_state = 78}
+	ROM = {transfer_state = 80}
+	ROM = {transfer_state = 766}
+	}
+	}
+}
+country_event = { 
+	id = lore_events.69
+	title = lore_events.69.t
+	desc = lore_events.69.desc
+	picture = GFX_report_event_japanese_soldiers_01
+	is_triggered_only = yes
+	option = { 
+	name = lore_events.69.a
+	add_political_power = 50
+	hidden_effect = {
+	country_event = { days = 7 id = lore_events.69 }
+	white_peace = JAP
+	JAP = {transfer_state = 408}
+	JAP = {transfer_state = 409}
+	JAP = {transfer_state = 655}
+	JAP = {transfer_state = 637}
+	}
+	}
+}
+# Reworked Missions
+country_event = { # Choose - Mikhaylovka or Kalinin or Astrakhan
+	id = lore_events.70
+	title = lore_events.70.t
+	desc = lore_events.70.desc
+	picture = GFX_report_event_soviet_offensive3
+	is_triggered_only = yes
+	immediate = { set_country_flag = First_offensive_happened } 
+	option = { #Mikhaylovka
+	trigger = { 265 = { CONTROLLER = { has_war_with = ROOT } } }
+	name = lore_events.70.a 
+	activate_mission = SOV_reconquer_mikhaylovka
+	set_country_flag = offensive_mikhaylovka_flag
+	265 = {soviet_military_offensive_effects_sw = yes}
+	custom_effect_tooltip = if_you_achieve_this_you_will_receive
+	effect_tooltip = {soviet_offensive_low_succest = yes}
+	custom_effect_tooltip = enemy_will_try_to_hold_this_HUN_ROM
+	}
+	option = { 
+	trigger = { 247 = { CONTROLLER = { has_war_with = ROOT } } }
+	name = lore_events.70.b 
+	activate_mission = SOV_reconquer_kalinin
+	set_country_flag = offensive_kalinin_flag
+	247 = {soviet_military_offensive_effects_sw = yes}
+	custom_effect_tooltip = if_you_achieve_this_you_will_receive
+	effect_tooltip = {soviet_offensive_high_succest = yes}
+	custom_effect_tooltip = enemy_will_try_to_hold_this_GER_FRF
+	}
+	option = { 
+	trigger = { 236 = { CONTROLLER = { has_war_with = ROOT } } }
+	name = lore_events.70.c
+	activate_mission = SOV_reconquer_astrakhan
+	set_country_flag = offensive_astrakhan_flag
+	236 = {soviet_military_offensive_effects_sw = yes}
+	custom_effect_tooltip = if_you_achieve_this_you_will_receive
+	effect_tooltip = {soviet_offensive_medium_succest = yes}
+	custom_effect_tooltip = enemy_will_try_to_hold_this_ROM
+	}
+}

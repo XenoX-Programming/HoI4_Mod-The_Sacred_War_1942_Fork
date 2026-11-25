@@ -1,0 +1,340 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_armiste_of_june"
+		texturefile = "gfx/interface/ideas/armiste_of_june.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_china_at_war"
+		texturefile = "gfx/interface/ideas/GFX_idea_china_at_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_red_army_humialiated"
+		texturefile = "gfx/interface/ideas/red_army_humialiated.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_antifascist_resistance"
+		texturefile = "gfx/interface/ideas/antifascist_resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alliance_with_communist"
+		texturefile = "gfx/interface/ideas/alliance_with_communist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_turkey_in_axis"
+		texturefile = "gfx/interface/ideas/turkey_in_axis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ita_tur_cooperation"
+		texturefile = "gfx/interface/ideas/ita_tur_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ita_chi_cooperation"
+		texturefile = "gfx/interface/ideas/ita_chi_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_focus_on_italy"
+		texturefile = "gfx/interface/ideas/focus_on_italy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_east_african_army"
+		texturefile = "gfx/interface/ideas/east_african_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_british_armed_forces"
+		texturefile = "gfx/interface/ideas/british_armed_forces.dds"
+	}
+	spriteType = { # ROAD TO 56 ICON
+		name = "GFX_idea_r56_idea_BRA_company_feb_pic"
+		texturefile = "gfx/interface/ideas/r56_idea_BRA_company_feb_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_battle_of_moscow_idea"
+		texturefile = "gfx/interface/ideas/battle_of_moscow_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_blocked_trade_lend_lease"
+		texturefile = "gfx/interface/ideas/blocked_trade_lend_lease.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_american_protection"
+		texturefile = "gfx/interface/ideas/american_protection.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_british_protection"
+		texturefile = "gfx/interface/ideas/british_protection.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_stalin_does_not_trust_his_generals"
+		texturefile = "gfx/interface/ideas/SOV_stalin_does_not_trust_his_generals.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rokko"
+		texturefile = "gfx/interface/ideas/rokko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zukko"
+		texturefile = "gfx/interface/ideas/zukko.dds"
+	}
+	#FSR_towards_new_europe
+	SpriteType = { 
+		name = "GFX_FSR_towards_new_europe"
+		texturefile = "gfx/interface/goals/FSR_towards_new_europe.dds"
+	}
+	spriteType = {
+        name = "GFX_report_event_italian_army"
+        texturefile = "gfx/event_pictures/italian_army.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_german_army"
+        texturefile = "gfx/event_pictures/german_army.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_red_army"
+        texturefile = "gfx/event_pictures/red_army.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_japan_army"
+        texturefile = "gfx/event_pictures/japan_army.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_americadsn_army"
+        texturefile = "gfx/event_pictures/americadsn_army.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_campaign_of_egypt"
+        texturefile = "gfx/event_pictures/campaign_of_egypt.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_malta_campaign"
+        texturefile = "gfx/event_pictures/malta_campaign.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_battle_of_moscow"
+        texturefile = "gfx/event_pictures/battle_of_moscow.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_polish_divisions"
+        texturefile = "gfx/event_pictures/polish_divisions.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_tank_burning"
+        texturefile = "gfx/event_pictures/soviet_tank_burning.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_rokosovsky_chad"
+        texturefile = "gfx/event_pictures/rokosovsky_chad.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_red_army_39"
+        texturefile = "gfx/event_pictures/red_army_39.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_female_snipers"
+        texturefile = "gfx/event_pictures/soviet_female_snipers.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_offensive1"
+        texturefile = "gfx/event_pictures/soviet_offensive1.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_offensive2"
+        texturefile = "gfx/event_pictures/soviet_offensive2.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_offensive3"
+        texturefile = "gfx/event_pictures/soviet_offensive3.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_stalin_speech"
+        texturefile = "gfx/event_pictures/stalin_speech.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_general_meeting"
+        texturefile = "gfx/event_pictures/soviet_general_meeting.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_yugoslavian_partisans2"
+        texturefile = "gfx/event_pictures/yugoslavian_partisans2.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_vasily_chuikov"
+        texturefile = "gfx/event_pictures/vasily_chuikov.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_turkestan_event"
+        texturefile = "gfx/event_pictures/turkestan_event.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_resistance_event"
+        texturefile = "gfx/event_pictures/resistance_event.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_tank_moscow"
+        texturefile = "gfx/event_pictures/soviet_tank_moscow.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_tank_moscow2"
+        texturefile = "gfx/event_pictures/soviet_tank_moscow2.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_soviet_german_meeting"
+        texturefile = "gfx/event_pictures/soviet_german_meeting.dds"
+    }
+	spriteType = {
+        name = "GFX_report_event_report_event_bve"
+        texturefile = "gfx/event_pictures/report_event_bve.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_battle_of_moscow_news_event"
+        texturefile = "gfx/event_pictures/battle_of_moscow_news_event.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_battle_of_africa_news_event"
+        texturefile = "gfx/event_pictures/battle_of_africa_news_event.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_italian_army2"
+        texturefile = "gfx/event_pictures/italian_army2.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_italian_army3"
+        texturefile = "gfx/event_pictures/italian_army3.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_german_army1"
+        texturefile = "gfx/event_pictures/german_army1.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_american_army"
+        texturefile = "gfx/event_pictures/american_army.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_liberation_kiev"
+        texturefile = "gfx/event_pictures/liberation_kiev.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_liberation_generic"
+        texturefile = "gfx/event_pictures/liberation_generic.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_liberation_smolensk"
+        texturefile = "gfx/event_pictures/liberation_smolensk.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_liberation_stalingrad"
+        texturefile = "gfx/event_pictures/liberation_stalingrad.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_french_liberation_army"
+        texturefile = "gfx/event_pictures/french_liberation_army.dds"
+    }
+	spriteType = {
+        name = "GFX_news_event_yugoslavian_partisans"
+        texturefile = "gfx/event_pictures/yugoslavian_partisans.dds"
+    }
+	spriteType = {
+		name = "GFX_idea_we_are_the_army_of_the_people"
+		texturefile = "gfx/interface/officer_corp/spirits/we_are_the_army_of_the_people.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_FSR_towards_new_europe_shine"
+		texturefile = "gfx/interface/goals/FSR_towards_new_europe.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/FSR_towards_new_europe.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/FSR_towards_new_europe.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_FSR_french_social_republic"
+		texturefile = "gfx/interface/goals/FSR_french_social_republic.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_FSR_french_social_republic"
+		texturefile = "gfx/interface/goals/FSR_french_social_republic.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/FSR_french_social_republic.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/FSR_french_social_republic.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = GFX_portrait_Draza_Michailowic_TSW
+		texturefile = "gfx/leaders/SER/Portrait_SER_Draza_Mihailovic.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_chi_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_irregular_infantry_icon.dds" 
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_unit_chi_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_irregular_infantry_icon.dds" 
+		noOfFrames = 2	
+	}
+	spriteType = { name = "GFX_unit_sniper_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_sniper_icon.dds" noOfFrames = 2 }
+	spriteType = {
+		name = "GFX_unit_sniper_icon_small"
+		texturefile = "gfx/texticons/support_sniper_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_modifiers_siege_of_leningrad"
+		textureFile = "gfx/interface/state_modifiers/modifiers_siege_of_leningrad.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_soviet_offensive_sw"
+		textureFile = "gfx/interface/state_modifiers/modifiers_soviet_offensive_sw.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_sov_military_junta"
+		texturefile = "gfx/leaders/JAP/portrait_sov_military_junta.dds"
+	}
+}
