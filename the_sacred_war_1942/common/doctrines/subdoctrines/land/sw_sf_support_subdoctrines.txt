@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_sf_support'
+# The Sacred War 1942 - subdoctrines for track 'sw_sf_support'
 # Old branch: intergrated_support -> regimental_combat_teams -> dispersed_support -> overwhelming_firepower -> sup_mechanized_offensive
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

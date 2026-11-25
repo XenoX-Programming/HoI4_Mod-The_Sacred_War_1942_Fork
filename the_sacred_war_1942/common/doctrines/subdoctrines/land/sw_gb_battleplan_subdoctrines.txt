@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_gb_battleplan'
+# The Sacred War 1942 - subdoctrines for track 'sw_gb_battleplan'
 # Old branch: prepared_defense -> grand_assault -> grand_mechanized_offensive -> assault_concentration -> branch_interoperation -> assault_breakthrough -> central_planning -> c3i_theory
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

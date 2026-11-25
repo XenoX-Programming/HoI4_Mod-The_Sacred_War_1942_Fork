@@ -1,4 +1,4 @@
-﻿Operation_Torch_USA = {
+Operation_Torch_USA = {
 	allowed = {
 		original_tag = USA
 	}

@@ -241,8 +241,8 @@ def convert_text(text, tech_index, fname, log, hoist):
         payload = ["",
                    "# The Sacred War 1942 land doctrine, HoI4 1.17+ system (converted",
                    "# from the old technology tree by tools/convert_history_doctrines.py).",
-                   "# set_sub_doctrine is repeated once per tier of the track the country",
-                   "# used to have; each further tier costs 100 mastery in game."]
+                   "# Tiers beyond the first are bought with add_mastery, as in",
+                   "# other 1.17+ mods' country history."]
         payload += cmds
         # Insert at top level, in the file's header of simple commands (after
         # `capital`, `oob`, the first set_technology, ...), which is where EaW
@@ -322,7 +322,13 @@ def main():
     log = []
     n_files = 0
     for path in targets:
-        raw = open(path, encoding="utf-8-sig", errors="replace").read()
+        # Preserve each file's own encoding: HoI4's parser chokes on a UTF-8
+        # BOM ("unexpected token ... ( \ufeff )"), so never add one that the
+        # original file did not already have.
+        with open(path, "rb") as fh:
+            blob = fh.read()
+        had_bom = blob.startswith(b"\xef\xbb\xbf")
+        raw = blob.decode("utf-8-sig", errors="replace")
         fname = os.path.relpath(path, mod)
         hoist = '/history/' in path.replace(os.sep, '/')
         new, _s = convert_text(raw, tech_index, fname, log, hoist)
@@ -330,7 +336,8 @@ def main():
         if new != raw:
             n_files += 1
             if args.apply:
-                with open(path, "w", encoding="utf-8-sig", newline="") as fh:
+                enc = "utf-8-sig" if had_bom else "utf-8"
+                with open(path, "w", encoding=enc, newline="") as fh:
                     fh.write(new)
 
     head = [

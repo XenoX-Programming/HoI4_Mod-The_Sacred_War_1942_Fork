@@ -13,7 +13,7 @@ set_research_slots = 4
 # used to have; each further tier costs 100 mastery in game.
 set_grand_doctrine = sw_grand_battleplan
 set_sub_doctrine = sw_gb_battleplan
-set_sub_doctrine = sw_gb_battleplan
+add_mastery = { amount = 100 sub_doctrine = sw_gb_battleplan }
 set_grand_doctrine = new_base_strike
 set_grand_doctrine = new_battlefield_support
 set_fuel_ratio = 1.0

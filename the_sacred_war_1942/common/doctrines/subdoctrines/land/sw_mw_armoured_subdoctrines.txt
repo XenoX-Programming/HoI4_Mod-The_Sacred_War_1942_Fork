@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_mw_armoured'
+# The Sacred War 1942 - subdoctrines for track 'sw_mw_armoured'
 # Old branch: armored_spearhead -> schwerpunk -> blitzkrieg -> volkssturm -> nd_conscription -> werwolf_guerillas
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

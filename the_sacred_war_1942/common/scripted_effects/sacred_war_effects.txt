@@ -1,4 +1,4 @@
-﻿
+
 1939_industry_techs = {
 	set_technology = {
 	basic_machine_tools = 1

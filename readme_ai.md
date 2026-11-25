@@ -229,15 +229,12 @@ add_mastery = { amount = 200 sub_doctrine = sw_gb_battleplan }
 ```
 
 * `set_grand_doctrine` takes the grand doctrine.
-* `set_sub_doctrine` takes the next tier of that track. **Repeating it buys
-  further tiers**, so N repeats = tier N.
+* `set_sub_doctrine` takes tier 1 of that track.
 * **Mastery is the only way to advance** (100 per reward, 500 completes a track),
-  but history does not use `add_mastery`: it repeats `set_sub_doctrine` once per
-  tier the country used to have. This is deliberate. `add_mastery` is not used by
-  any of the mature 1.17+ mods examined, and its failure mode is worse — an
-  out-of-range amount could disturb folder mastery, whereas the worst case for
-  repeated `set_sub_doctrine` is one under-levelled track that is still playable.
-* `tier n` → `n` calls to `set_sub_doctrine`; `M.split_commands_for_history()`.
+  `add_mastery` is how history buys the tiers a country "already had": 100 per
+  extra tier, emitted only when a country starts above tier 1. This is the
+  documented form and the one Cold War: Iron Curtain uses in its country
+  history. `M.split_commands_for_history()` builds the command list.
 
 The converter inserts these in the file header, after `capital`/`oob`/the first
 `set_technology`, and always before the first top-level `if`/`date` block. In
@@ -275,11 +272,21 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 
 ## 7. What is still unverified
 
-> **Status at time of writing:** the user reports the game *crashes on load*.
-> Their `error.log` has not reached the sandbox (uploads are not arriving), so the
-> cause is **not yet known**. Two speculative hardening changes were made in
-> response — empty reward blocks removed and `add_mastery` replaced — neither of
-> which is confirmed to be the fix. **Get the log before guessing further.**
+> **Known cause of the first crash on load: a UTF-8 BOM.** A real 1.20 error log
+> (`error_log_251126_1948.log`) showed `Error: unexpected token in file: ...
+> near line: N ( \ufeff )` in ten `common/doctrines/**` files, `common/ideas/
+> army_spirits.txt`, `common/ideas/SOV.txt`,
+> `common/dynamic_modifiers/0_dynamic_modifiers.txt` and
+> `common/scripted_effects/sacred_war_effects.txt`. HoI4's script parser treats
+> the BOM as a stray token, so **the whole file fails to load**; every id it
+> defines then reads as undefined, which is what produced the flood of
+> "Unknown effect-type", "Grand doctrine ﻿ has no folder assigned" and
+> "Unknown History Command" errors. Cause: `tools/migrate_1_20.py` rewrote
+> matched files with `encoding="utf-8-sig"`. That is fixed, the BOMs are gone,
+> and `tools/check_mod.py` now fails on a BOM in `common/doctrines`,
+> `common/ideas`, `common/scripted_effects` and `common/dynamic_modifiers`.
+> **`localisation/**/*.yml` must keep a BOM** — that is a different parser and
+> every other loc file in this mod has one.
 
 **The mod has never been loaded in HoI4 in this environment.** There is no game
 install in the sandbox. Everything below is "should work" logic-checked, not
@@ -309,10 +316,10 @@ observed. Ask the user for `error.log` (they were told to drop it in
    because their old branch had fewer tiers. Confirm 1.17+ accepts fewer than
    five reward entries (vanilla always has exactly five). If it does not, pad the
    short ones by splitting an existing merged reward.
-5. **Repeated `set_sub_doctrine` in history.** Confirm the game accepts the
-   same subdoctrine being set several times so it lands on a higher tier. If
-   tiers do not show up, replace the repeats with
-   `add_mastery = { amount = N sub_doctrine = X }` (100 per tier) and re-test.
+5. **`add_mastery` in history.** Only 8 of the 34 seeded countries need it
+   (tier > 1), at 100 per extra tier. Confirm the tiers actually apply at
+   scenario start. The log from the BOM run did not reach history validation
+   for the doctrine files, so this is still untested in game.
 6. **The six dropped techs** (§4.5) — check nothing downstream (naval designers,
    equipment variants, AI templates) depended on them.
 7. **Naval/air grand doctrines.** 34 of the 37 country files now also carry the

@@ -1,4 +1,4 @@
-﻿motorized_SOV = {	#Motostrelkovaya Div.
+motorized_SOV = {	#Motostrelkovaya Div.
 
 	available_for = {
 		SOV

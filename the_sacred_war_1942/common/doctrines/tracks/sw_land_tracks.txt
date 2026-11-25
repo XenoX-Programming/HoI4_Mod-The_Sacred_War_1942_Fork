@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - land doctrine tracks
+# The Sacred War 1942 - land doctrine tracks
 # Game format: HoI4 1.17+ grand-doctrine system
 # GENERATED FILE - produced by tools/gen_doctrines.py, do not hand-edit.
 # The tree is described in tools/doctrine_map.py.

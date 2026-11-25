@@ -407,14 +407,16 @@ def one_per_folder(commands, log, fname):
 def buys_for_tier(sub_id, tier):
     """Explicit unlock commands for `tier` tiers of a subdoctrine.
 
-    `set_sub_doctrine` takes tier 1; each further tier is bought with the same
-    command. This is deliberately used instead of `add_mastery`, because
-    add_mastery interacts with the mastery cap and is not used by the mature
-    1.17+ mods examined, whereas repeated set_sub_doctrine is unambiguous.
-    Its failure mode is limited to one track (under-levelled start, still
-    playable) rather than resetting a whole folder's mastery.
+    `set_sub_doctrine` takes tier 1. Any further tier is bought with
+    `add_mastery`, 100 mastery per tier -- the documented way for country
+    history to hand a country the tiers it "already had"; a mature 1.17+ mod
+    (Cold War: Iron Curtain) does exactly this in its country history files.
     """
-    return [f"set_sub_doctrine = {sub_id}"] * max(1, min(tier, MAX_REWARDS + 1))
+    out = [f"set_sub_doctrine = {sub_id}"]
+    if tier > 1:
+        out.append(f"add_mastery = {{ amount = {(tier - 1) * 100}"
+                   f" sub_doctrine = {sub_id} }}")
+    return out
 
 
 def split_commands_for_history(school_id, tiers):

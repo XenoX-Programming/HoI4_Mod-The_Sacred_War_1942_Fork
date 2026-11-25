@@ -5,8 +5,7 @@
 # used to have; each further tier costs 100 mastery in game.
 set_grand_doctrine = sw_mobile_warfare
 set_sub_doctrine = sw_mw_armoured
-set_sub_doctrine = sw_mw_armoured
-set_sub_doctrine = sw_mw_armoured
+add_mastery = { amount = 200 sub_doctrine = sw_mw_armoured }
 set_grand_doctrine = new_operational_integrity
 set_grand_doctrine = new_convoy_raiding
 capital = 64

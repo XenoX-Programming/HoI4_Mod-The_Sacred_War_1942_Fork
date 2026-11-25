@@ -58,6 +58,37 @@ def read(path):
 # ---------------------------------------------------------------------------
 # 1. brace balance
 # ---------------------------------------------------------------------------
+def check_bom(files, mod_dir):
+    """HoI4's parser rejects a UTF-8 BOM as a stray token.
+
+    The engine reports it as `Error: unexpected token ... ( \ufeff )` and then
+    fails to register any id defined in that file, which cascades into
+    "unknown effect", "has no folder assigned" and similar errors everywhere
+    the missing id is referenced. A BOM therefore has to be treated as a hard
+    error, not a style nit.
+    """
+    # The error log from a real 1.20 run shows a BOM being fatal in these
+    # directories ("Error: unexpected token ... ( \ufeff )", followed by every
+    # id in the file becoming unknown). Elsewhere the mod has shipped BOMs for
+    # a long time without complaint, so those are only a warning.
+    fatal = ("common/doctrines/", "common/ideas/", "common/scripted_effects/",
+             "common/dynamic_modifiers/")
+    errors, warns = [], []
+    for f in files:
+        rel = os.path.relpath(f, mod_dir).replace(os.sep, "/")
+        try:
+            with open(f, "rb") as fh:
+                if fh.read(3) != b"\xef\xbb\xbf":
+                    continue
+        except OSError:
+            continue
+        detail = ("starts with a UTF-8 BOM, which HoI4's parser rejects here; "
+                  "the whole file becomes unreadable")
+        rec = {"check": "bom", "file": rel, "detail": detail}
+        (errors if rel.startswith(fatal) else warns).append(rec)
+    return errors, warns
+
+
 def check_balance(files, mod_dir):
     errors = []
     for path in files:
@@ -316,9 +347,10 @@ def main():
     mod_dir = args.mod_dir
 
     files = list(iter_script_files(mod_dir))
-    errors = check_balance(files, mod_dir)
+    errors, warns = check_bom(files, mod_dir)
+    errors += check_balance(files, mod_dir)
     errors += check_duplicates(mod_dir)
-    warns = check_focus_prereqs(mod_dir)
+    warns += check_focus_prereqs(mod_dir)
 
     print(f"parsed {len(files)} script files in {mod_dir}\n")
     if errors:

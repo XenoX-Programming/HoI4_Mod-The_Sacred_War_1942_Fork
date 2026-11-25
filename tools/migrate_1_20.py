@@ -106,6 +106,7 @@ def remap_removed_techs(mod_dir, apply):
     own = techs_defined_by_mod(mod_dir)
     for path in iter_files(mod_dir, ["common/technologies", "history", "common/scripted_effects",
                                      "common/ai_strategy", "common/on_actions"]):
+        text_had_bom = open(path, "rb").read(3) == b"\xef\xbb\xbf"
         text = open(path, encoding="utf-8-sig", errors="replace").read()
         new = text
         for old, repl in REMOVED_TECH_MAP.items():
@@ -124,7 +125,12 @@ def remap_removed_techs(mod_dir, apply):
                 return f"{m.group(1)}{repl}"
             new = pat2.sub(sub2, new)
         if new != text and apply:
-            open(path, "w", encoding="utf-8-sig", newline="").write(new)
+            # Preserve the file's own encoding. HoI4's script parser rejects a
+            # UTF-8 BOM ("unexpected token ... (U+FEFF)") and then treats
+            # every id in that file as undefined, so never add one. Localisation
+            # is the exception: .yml files are expected to carry a BOM.
+            enc = "utf-8-sig" if (text_had_bom or path.endswith(".yml")) else "utf-8"
+            open(path, "w", encoding=enc, newline="").write(new)
     return changes
 
 

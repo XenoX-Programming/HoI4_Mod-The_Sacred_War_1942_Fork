@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - land grand doctrines
+# The Sacred War 1942 - land grand doctrines
 # The mod's four original schools, carried over from the old technology tree.
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Modifier blocks are copied verbatim from

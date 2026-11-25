@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_gb_infiltration'
+# The Sacred War 1942 - subdoctrines for track 'sw_gb_infiltration'
 # Old branch: infantry_offensive -> armored_operations -> infiltration_assault -> night_assault_tactics -> attritional_containment -> infiltration_in_depth
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

@@ -615,7 +615,8 @@ def main():
     for relpath, content in outputs.items():
         full = os.path.join(mod, relpath)
         os.makedirs(os.path.dirname(full), exist_ok=True)
-        with open(full, "w", encoding="utf-8-sig", newline="\n") as fh:
+        # Plain UTF-8, no BOM: HoI4's parser rejects a BOM as a stray token.
+        with open(full, "w", encoding="utf-8", newline="\n") as fh:
             fh.write(content)
         print(f"  wrote {relpath:66s} {len(content.splitlines()):5d} lines")
 

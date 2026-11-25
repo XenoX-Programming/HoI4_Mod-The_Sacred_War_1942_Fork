@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_sf_fires'
+# The Sacred War 1942 - subdoctrines for track 'sw_sf_fires'
 # Old branch: centralized_fire_control -> forward_observers -> advanced_firebases -> shock_and_awe -> concentrated_fire_plans -> combined_arms -> tactical_control -> air_land_battle
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

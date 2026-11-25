@@ -1,4 +1,4 @@
-﻿ideas = {
+ideas = {
 	academy_spirit = {
 		
 		bold_attack_spirit = {

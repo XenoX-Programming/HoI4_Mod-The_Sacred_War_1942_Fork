@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_ma_peoples'
+# The Sacred War 1942 - subdoctrines for track 'sw_ma_peoples'
 # Old branch: peoples_army -> human_infantry_offensive -> large_front_offensive -> human_wave_offensive -> guerilla_warfare
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

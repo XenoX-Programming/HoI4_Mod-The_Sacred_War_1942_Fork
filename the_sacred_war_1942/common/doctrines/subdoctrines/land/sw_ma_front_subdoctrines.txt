@@ -1,4 +1,4 @@
-﻿# The Sacred War 1942 - subdoctrines for track 'sw_ma_front'
+# The Sacred War 1942 - subdoctrines for track 'sw_ma_front'
 # Old branch: defence_in_depth -> large_front_operations -> deep_operations -> operational_concentration -> vast_offensives -> breakthrough_priority -> mechanized_wave -> continuous_offensive
 # GENERATED FILE - produced by tools/gen_doctrines.py.
 # Effects are copied from design_record/land_doctrine_1942_original.txt.

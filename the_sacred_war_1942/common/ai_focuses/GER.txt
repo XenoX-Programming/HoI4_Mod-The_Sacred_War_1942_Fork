@@ -1,4 +1,4 @@
-﻿ai_focus_defense_GER = {
+ai_focus_defense_GER = {
 	research = {
 		defensive = 5.0	
 		radar_tech = 1.0

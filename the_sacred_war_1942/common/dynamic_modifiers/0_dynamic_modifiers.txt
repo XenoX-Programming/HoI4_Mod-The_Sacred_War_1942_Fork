@@ -1,4 +1,4 @@
-﻿#	Example:
+#	Example:
 # 
 #	example_dynamic_modifier = {
 #		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
