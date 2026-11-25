@@ -276,70 +276,70 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 Every error log belongs in **`Mod_Development_Tools_&_Files/Logs/`**. That is the
 only place to look for a new one.
 
-Filename convention, given by the user: `error_log_YYMMDD_HHMM.<ext>`, where the
-**first number is the date and the second is the hour the log was created**.
-So `error_log_251126_1948.log` is 2025-11-26, 19:48 and
-`error_log_251126_2005.log` was created at 20:05 the same day. Later logs
-therefore sort naturally by name. The original upload was a `.txt`; the user
-renamed it, and future logs will be **`.log`**.
+Filename convention, given by the user:
 
-Uploads do **not** reach the agent sandbox as files. The user instead commits the
-log to this repository through the GitHub web UI. So when a new log is expected:
-`git fetch` and look in `Mod_Development_Tools_&_Files/Logs/`.
+```
+error_log_DDMMYY_HHMM
+```
+
+**Date first, then hour.** The `DDMMYY` group is day-month-year, *not*
+year-month-day — reading it as YYMMDD is a mistake and was made once already.
+So:
+
+| file | means |
+| --- | --- |
+| `error_log_251126_1853` | 25 Nov 2026, 18:53 |
+| `error_log_251126_1948` | 25 Nov 2026, 19:48 |
+| `error_log_251126_2005` | 25 Nov 2026, 20:05 |
+
+Newest is therefore the **largest** HHMM, and the logs sort chronologically by
+name only as long as they are from the same day. Check the trailing HHMM rather
+than trusting filename order.
+
+The user's own uploads are not always perfectly formed: `error_log251126_1853.txt`
+(no underscore before the date, `.txt` extension). Normalise anything that turns
+up to `error_log_DDMMYY_HHMM.log` in `Logs/` and delete the original so there is
+never a duplicate.
+
+Uploads do **not** reach the agent sandbox as files. The user commits them to
+this repository through the GitHub web UI. Two failure modes have already
+happened:
+
+1. **The upload was never submitted** — files open in the GitHub UI but the user
+   forgot to click *Commit changes* / *Upload*. Always **ask** rather than
+   concluding the log does not exist.
+2. **The upload went to `main` instead of this feature branch** — files then do
+   not appear after `git fetch`. Check `git ls-tree -r --name-only origin/main`
+   and `gh api repos/.../contents/<dir>?ref=main` before saying a file is absent.
+
+So when a log is expected: `git fetch --all`, look in
+`Mod_Development_Tools_&_Files/Logs/`, then check `origin/main` and the GitHub
+API, and if it is still missing, **ask whether the upload was actually
+submitted.**
 
 ---
 
 ## 7. What is still unverified
 
-> **Known cause of the first crash on load: a UTF-8 BOM.** A real 1.20 error log
-> (`error_log_251126_1948.log`) showed `Error: unexpected token in file: ...
-> near line: N ( \ufeff )` in ten `common/doctrines/**` files, `common/ideas/
-> army_spirits.txt`, `common/ideas/SOV.txt`,
-> `common/dynamic_modifiers/0_dynamic_modifiers.txt` and
-> `common/scripted_effects/sacred_war_effects.txt`. HoI4's script parser treats
-> the BOM as a stray token, so **the whole file fails to load**; every id it
-> defines then reads as undefined, which is what produced the flood of
-> "Unknown effect-type", "Grand doctrine ﻿ has no folder assigned" and
-> "Unknown History Command" errors. Cause: `tools/migrate_1_20.py` rewrote
-> matched files with `encoding="utf-8-sig"`. That is fixed, the BOMs are gone,
-> and `tools/check_mod.py` now fails on a BOM in `common/doctrines`,
-> `common/ideas`, `common/scripted_effects` and `common/dynamic_modifiers`.
-> **`localisation/**/*.yml` must keep a BOM** — that is a different parser and
-> every other loc file in this mod has one.
-
-### The second log (`error_log_251126_2005.log`, 20:05)
-
-The BOM problem is **fixed and confirmed gone**: the new log contains zero
-U+FEFF characters, and the whole cascade it caused has disappeared —
-
-| error | 19:48 log | 20:05 log |
-| --- | --- | --- |
-| `unexpected token ... ( U+FEFF )` | 13 files | **0** |
-| `Grand doctrine has no folder assigned` | yes | **0** |
-| `Subdoctrine has no track/rewards` | yes | **0** |
-| `Unknown effect-type <scripted effect>` | 6+ | **0** |
-| any `sw_*` id mentioned in an error | many | **0** |
-
-What is left is **all pre-existing and unrelated to the port**:
-
-* 562 `unexpected token` — every single one is a **vanilla** file the mod does
-  not ship (`events/WUW_*.txt`, `common/scripted_effects/JAP_scripted_effects.txt`,
-  `music/aat_songs.txt`, …). This mod overwrites vanilla focus/event files, so
-  those files' ids break. Present before the port too.
-* 742 `Province with id N is already added to state` + 10 `State ID conflict` —
-  `history/states/` overriding vanilla states under different filenames.
-* `Malformed token: @chief_experience_gain_medium` (`country_leader/sw_traits.txt`)
-  and `Unknown modifier: supply_consumption` (`dynamic_modifiers/0_dynamic_modifiers.txt`)
-  — mod-only tokens the engine cannot resolve. Also pre-existing.
-* The log **ends** at the normal last line, `The game has loc key collisions`,
-  at 20:05:29, i.e. validation completed. So the failure is **after** validation,
-  and an error.log alone will not name it. `logs/crash.txt` and the exception
-  dump in `logs/` (if present) are what is needed now.
+> **Read §6b before trying to fix the crash again.** Two things are established:
+>
+> 1. A UTF-8 BOM was a real, fatal bug the port introduced — 13 files, fixed,
+>    and `check_mod.py` now blocks a regression. That was genuinely our fault.
+> 2. It was **not** the crash the user is reporting. The 18:53 log, taken from
+>    the **unported** mod, has an error profile identical to the fixed 20:05
+>    log. The mod was already failing on this machine before the port, so the
+>    remaining crash is **pre-existing** and is not explained by doctrines.
+>
+> Do not spend more time on the doctrine tree. The error.log stops at the same
+> place in all three runs, which is the end of validation — the real fault is
+> downstream of that and needs `crash.txt` / `game.log`, or the answer to
+> "does it die on the loading bar or when a scenario starts?".
 
 **The mod has never been loaded in HoI4 in this environment.** There is no game
-install in the sandbox. Everything below is "should work" logic-checked, not
-observed. Ask the user for `error.log` (they were told to drop it in
-`Mod_Development_Tools_&_Files/`; it is still absent). Check in this order:
+install in the sandbox, so every check below is static ("should work"), not
+observed. The logs now live in `Mod_Development_Tools_&_Files/Logs/` and the
+newest one is always the one to read. Remaining doctrine questions are listed
+after this preamble; they affect *behaviour*, not the load crash.
 
 1. **Doctrine load errors.** If `common/doctrines` is malformed the game logs it
    and falls back to vanilla. Symptoms: no new doctrines in the officer corps.
