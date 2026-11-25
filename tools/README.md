@@ -3,8 +3,12 @@
 Machinery used to bring The Sacred War – 1942 from game version 1.14.6 to 1.20.
 Everything is Python 3, standard library only, and idempotent.
 
+All of these default to `--mod-dir Mod/the_sacred_war_1942`, i.e. they expect to
+be run from the repository root. Error logs to read live in
+`Mod_Development_Tools_&_Files/Logs/`.
+
 ```bash
-python3 tools/gen_doctrines.py                      # write common/doctrines/**
+python3 tools/gen_doctrines.py                      # write Mod/**/common/doctrines/**
 python3 tools/convert_history_doctrines.py --apply  # seed doctrines in history/**
 python3 tools/migrate_1_20.py --apply               # small mechanical migrations + report
 python3 tools/check_mod.py                          # braces, duplicate ids
@@ -29,7 +33,7 @@ python3 tools/check_vanilla_ids.py --vanilla "/path/to/Hearts of Iron IV"
 | `convert_history_doctrines.py` | Rewrites doctrine grants in history and scripted effects. |
 | `migrate_1_20.py` | Mechanical migrations and the migration report. |
 | `check_mod.py` | Generic syntax/id checks. |
-| `check_doctrines.py` | Doctrine-specific checks (tracks, 5 rewards, milestones, loc keys). |
+| `check_doctrines.py` | Doctrine-specific checks (tracks, 1-5 rewards, milestones, loc keys). |
 | `check_vanilla_ids.py` | Validates every referenced id against vanilla. |
 | `vanilla_1_20_ids.json` | Cached vanilla id lists. |
 

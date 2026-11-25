@@ -127,7 +127,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--vanilla", default=os.environ.get("HOI4_VANILLA", ""),
                     help="path to a Hearts of Iron IV install")
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     ap.add_argument("--known", default="tools/vanilla_1_20_ids.json",
                     help="cached id dump (used when --vanilla is absent)")
     args = ap.parse_args()

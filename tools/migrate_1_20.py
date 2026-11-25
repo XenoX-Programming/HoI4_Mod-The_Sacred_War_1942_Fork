@@ -28,7 +28,7 @@ Four jobs, all idempotent (safe to run twice):
    Writes tools/migration_report.txt with every change and every leftover.
 
 Usage:
-  python3 tools/migrate_1_20.py --mod-dir the_sacred_war_1942 [--apply]
+  python3 tools/migrate_1_20.py --mod-dir Mod/the_sacred_war_1942 [--apply]
 Without --apply nothing is written (dry run).
 """
 import argparse
@@ -166,7 +166,7 @@ def report_history_bloat(mod_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="tools/migration_report.txt")
     args = ap.parse_args()

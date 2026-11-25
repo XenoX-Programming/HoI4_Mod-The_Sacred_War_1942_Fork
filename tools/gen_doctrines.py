@@ -5,7 +5,7 @@ from the mod's ORIGINAL technology-tree doctrines.
 
 Structure comes from tools/doctrine_map.py (one source of truth).
 Effects are copied VERBATIM from
-    the_sacred_war_1942/common/technologies/land_doctrine.txt
+    Mod/the_sacred_war_1942/common/technologies/land_doctrine.txt
 which stays in place as the design record. No modifiers are invented.
 
 Outputs (all overwritten on each run):
@@ -14,7 +14,7 @@ Outputs (all overwritten on each run):
     common/doctrines/subdoctrines/land/sw_<track>_subdoctrines.txt
     localisation/english/sw_doctrines_l_english.yml
 
-Usage: python3 tools/gen_doctrines.py [--mod-dir the_sacred_war_1942]
+Usage: python3 tools/gen_doctrines.py [--mod-dir Mod/the_sacred_war_1942]
 """
 import argparse
 import glob
@@ -580,7 +580,7 @@ RU_PRETTY = {
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     args = ap.parse_args()
     mod = args.mod_dir
     src = os.path.join(mod, "design_record", "land_doctrine_1942_original.txt")
@@ -615,8 +615,11 @@ def main():
     for relpath, content in outputs.items():
         full = os.path.join(mod, relpath)
         os.makedirs(os.path.dirname(full), exist_ok=True)
-        # Plain UTF-8, no BOM: HoI4's parser rejects a BOM as a stray token.
-        with open(full, "w", encoding="utf-8", newline="\n") as fh:
+        # Script files must NOT have a BOM: HoI4's script parser rejects it as a
+        # stray token and drops the whole file. Localisation is the opposite --
+        # .yml is expected to start with one, like the mod's other loc files.
+        enc = "utf-8-sig" if full.endswith(".yml") else "utf-8"
+        with open(full, "w", encoding=enc, newline="\n") as fh:
             fh.write(content)
         print(f"  wrote {relpath:66s} {len(content.splitlines()):5d} lines")
 

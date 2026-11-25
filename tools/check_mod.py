@@ -16,7 +16,7 @@ Checks
   3. references to game objects that the mod's own files define, for
      cross-checking (dangling focus prerequisites, event event_targets etc.)
 
-Usage: python3 tools/check_mod.py [--mod-dir the_sacred_war_1942] [--json out.json]
+Usage: python3 tools/check_mod.py [--mod-dir Mod/the_sacred_war_1942] [--json out.json]
 Exit code 0 = no errors, 1 = errors found (warnings alone -> 0).
 """
 import argparse
@@ -341,7 +341,7 @@ def check_focus_prereqs(mod_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     ap.add_argument("--json")
     args = ap.parse_args()
     mod_dir = args.mod_dir

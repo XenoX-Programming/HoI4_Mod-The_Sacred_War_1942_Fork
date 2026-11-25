@@ -20,7 +20,7 @@ Checks
      English localisation (catches missing or mistyped loc keys)
   9. `visible`/`available` of a subdoctrine reference a doctrine that exists
 
-Usage: python3 tools/check_doctrines.py [--mod-dir the_sacred_war_1942]
+Usage: python3 tools/check_doctrines.py [--mod-dir Mod/the_sacred_war_1942]
 Exit code 1 if anything fails.
 """
 import argparse
@@ -98,7 +98,7 @@ def load_loc(mdir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     args = ap.parse_args()
     mdir = args.mod_dir
 

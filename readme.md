@@ -62,10 +62,21 @@ into mastery.
 
 ## Installing
 
-1. Copy the folder `the_sacred_war_1942` into
+Both files you need sit side by side in `Mod/` in this repository:
+
+1. Copy the folder `Mod/the_sacred_war_1942` into
    `Documents/Paradox Interactive/Hearts of Iron IV/mod/`.
-2. Copy `mod_descriptor/The Sacred War - 1942.mod` into that same `mod/` folder.
+2. Copy `Mod/The Sacred War - 1942.mod` into that same `mod/` folder, next to
+   the folder from step 1.
 3. Start the launcher, enable **The Sacred War – 1942**, and play.
+
+The two must end up as siblings under `mod/`:
+
+```
+Hearts of Iron IV/mod/
+  The Sacred War - 1942.mod
+  the_sacred_war_1942/
+```
 
 The `.mod` file points at `path="mod/the_sacred_war_1942"`. If you install
 somewhere unusual, fix that one line.

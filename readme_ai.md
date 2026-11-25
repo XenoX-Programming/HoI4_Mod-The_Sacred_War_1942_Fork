@@ -52,26 +52,27 @@ What changed, in numbers:
 ## 2. Repository layout that matters
 
 ```
-the_sacred_war_1942/                 the mod itself (56 MB)
-  descriptor.mod                     rewritten for 1.20
-  common/doctrines/                  NEW - the ported doctrine tree
-    grand_doctrines/sw_land_grand_doctrines.txt
-    tracks/sw_land_tracks.txt
-    subdoctrines/land/sw_*_subdoctrines.txt   (8 files)
-  design_record/
-    land_doctrine_1942_original.txt  the OLD 64-tech tree, kept, NOT parsed
-  common/technologies/
-    special_techs.txt                only file left; 2 mod-only techs
-  common/scripted_effects/sacred_war_effects.txt   doctrine "bundles" live here
-  history/countries/*.txt            37 files, doctrine seeding lives here
-  localisation/english|russian/sw_doctrines_l_english.yml / _l_russian.yml
+Mod/
+  The Sacred War - 1942.mod         the launcher descriptor (only .mod file now)
+  the_sacred_war_1942/              the mod itself (56 MB)
+    common/doctrines/                NEW - the ported doctrine tree
+      grand_doctrines/sw_land_grand_doctrines.txt
+      tracks/sw_land_tracks.txt
+      subdoctrines/land/sw_*_subdoctrines.txt   (8 files)
+    design_record/
+      land_doctrine_1942_original.txt  the OLD 64-tech tree, kept, NOT parsed
+    common/technologies/
+      special_techs.txt                only file left; 2 mod-only techs
+    common/scripted_effects/sacred_war_effects.txt   doctrine "bundles" here
+    history/countries/*.txt            37 files, doctrine seeding lives here
+    localisation/english|russian/sw_doctrines_l_english.yml / _l_russian.yml
 
-mod_descriptor/The Sacred War - 1942.mod   external .mod file for the launcher
-
-tools/                               all the machinery, see §3
+Mod_Development_Tools_&_Files/
+  Logs/                             ALL error logs go here (see below)
+tools/                              all the machinery, see §3
 ```
 
-`the_sacred_war_1942/3142844611/` is gone. Do not restore it: it was a nested
+`Mod/the_sacred_war_1942/3142844611/` is gone. Do not restore it: it was a nested
 copy of somebody else's mod, 953 files, that the game would try to load twice.
 
 ---
@@ -270,6 +271,24 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 
 ---
 
+## 6b. Where the error logs live (READ THIS FIRST)
+
+Every error log belongs in **`Mod_Development_Tools_&_Files/Logs/`**. That is the
+only place to look for a new one.
+
+Filename convention, given by the user: `error_log_YYMMDD_HHMM.<ext>`, where the
+**first number is the date and the second is the hour the log was created**.
+So `error_log_251126_1948.log` is 2025-11-26, 19:48 and
+`error_log_251126_2005.log` was created at 20:05 the same day. Later logs
+therefore sort naturally by name. The original upload was a `.txt`; the user
+renamed it, and future logs will be **`.log`**.
+
+Uploads do **not** reach the agent sandbox as files. The user instead commits the
+log to this repository through the GitHub web UI. So when a new log is expected:
+`git fetch` and look in `Mod_Development_Tools_&_Files/Logs/`.
+
+---
+
 ## 7. What is still unverified
 
 > **Known cause of the first crash on load: a UTF-8 BOM.** A real 1.20 error log
@@ -287,6 +306,35 @@ file as a whole would have collapsed all seven doctrine bundles into one).
 > `common/ideas`, `common/scripted_effects` and `common/dynamic_modifiers`.
 > **`localisation/**/*.yml` must keep a BOM** — that is a different parser and
 > every other loc file in this mod has one.
+
+### The second log (`error_log_251126_2005.log`, 20:05)
+
+The BOM problem is **fixed and confirmed gone**: the new log contains zero
+U+FEFF characters, and the whole cascade it caused has disappeared —
+
+| error | 19:48 log | 20:05 log |
+| --- | --- | --- |
+| `unexpected token ... ( U+FEFF )` | 13 files | **0** |
+| `Grand doctrine has no folder assigned` | yes | **0** |
+| `Subdoctrine has no track/rewards` | yes | **0** |
+| `Unknown effect-type <scripted effect>` | 6+ | **0** |
+| any `sw_*` id mentioned in an error | many | **0** |
+
+What is left is **all pre-existing and unrelated to the port**:
+
+* 562 `unexpected token` — every single one is a **vanilla** file the mod does
+  not ship (`events/WUW_*.txt`, `common/scripted_effects/JAP_scripted_effects.txt`,
+  `music/aat_songs.txt`, …). This mod overwrites vanilla focus/event files, so
+  those files' ids break. Present before the port too.
+* 742 `Province with id N is already added to state` + 10 `State ID conflict` —
+  `history/states/` overriding vanilla states under different filenames.
+* `Malformed token: @chief_experience_gain_medium` (`country_leader/sw_traits.txt`)
+  and `Unknown modifier: supply_consumption` (`dynamic_modifiers/0_dynamic_modifiers.txt`)
+  — mod-only tokens the engine cannot resolve. Also pre-existing.
+* The log **ends** at the normal last line, `The game has loc key collisions`,
+  at 20:05:29, i.e. validation completed. So the failure is **after** validation,
+  and an error.log alone will not name it. `logs/crash.txt` and the exception
+  dump in `logs/` (if present) are what is needed now.
 
 **The mod has never been loaded in HoI4 in this environment.** There is no game
 install in the sandbox. Everything below is "should work" logic-checked, not

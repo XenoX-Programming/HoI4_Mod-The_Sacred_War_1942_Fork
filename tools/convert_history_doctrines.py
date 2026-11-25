@@ -29,7 +29,7 @@ Everything else in the file is left byte-identical.  Idempotent: once converted
 there are no doctrine tech lines left, so a second run is a no-op.
 
 Usage:
-    python3 tools/convert_history_doctrines.py [--mod-dir the_sacred_war_1942] [--apply]
+    python3 tools/convert_history_doctrines.py [--mod-dir Mod/the_sacred_war_1942] [--apply]
 """
 import argparse
 import glob
@@ -298,7 +298,7 @@ def convert_has_tech(text, tech_index, log, fname):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mod-dir", default="the_sacred_war_1942")
+    ap.add_argument("--mod-dir", default="Mod/the_sacred_war_1942")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="tools/doctrine_conversion_report.txt")
     args = ap.parse_args()

@@ -6,7 +6,7 @@ tools/convert_history_doctrines.py (which seeds countries in history/**)
 import this module, so the tree is described in exactly one place.
 
 The structure below is a faithful transcription of the `path/leads_to_tech`
-graph in the_sacred_war_1942/common/technologies/land_doctrine.txt:
+graph in Mod/the_sacred_war_1942/common/technologies/land_doctrine.txt:
 
     mobile_warfare  --+-- delay -> elastic_defence --+-- mobile_infantry -> mass_motorization
                       |                             |      -> mechanised_offensive -> kampfgruppe
