@@ -18,15 +18,6 @@ state={
 			infrastructure = 1
 			arms_factory = 3
 			industrial_complex = 3
-			10733 = {
-		
-			}
-			12156 = {
-		
-			}
-			5007 = {
-		
-			}
 
 		}
 

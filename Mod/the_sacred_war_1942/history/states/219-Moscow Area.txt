@@ -30,10 +30,6 @@ state={
 			industrial_complex = 3
 			air_base = 10
 			anti_air_building = 3
-			6380 ={
-					}
-			6414 ={
-					}
 		}
 		add_core_of = SOV
 		1939.1.1 = {

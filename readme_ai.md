@@ -627,6 +627,69 @@ loading and resetting completed at 23:16:09, then history execution starts at
 
 ---
 
+### The 22:35 run: crash persists at Executing History (building fix tested)
+
+`Logs/261126/2235/` is the newest full log set — this run tested the **invalid
+province building fix** (removed `bunker = X` from 19 state files). The crash
+pattern is identical to all previous runs: still at `Executing History`.
+
+**`game.log` (22:35 run)**
+
+```
+[22:31:45][no_game_date]: 4490 defines loaded
+[22:35:05][no_game_date]: Loaded 13414 provinces.
+[22:35:27][no_game_date]: Resetting game
+[22:35:28][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+The game **finishes loading** and **starts executing country history** at
+22:35:28. The crash still occurs at `Executing History`, **not** during the
+checksum screen phase. The building fix did **not** resolve the crash.
+
+**`error.log` (22:35 run)**
+
+- **`invalid province building` errors are GONE** (count **0**). The `bunker =`
+  removal from 19 state files took effect — confirmed by the absence of these
+  errors in the log.
+- **BOM in `763-Konigsberg.txt` fixed** — the file had a UTF-8 BOM (`ï»¿`)
+  which caused `Unexpected token: ﻿` and `Missing State ID 763` / `MAP_ERROR:
+  Definition for state id 763 is either missing or invalid`. BOM removed.
+- **Empty province blocks cleaned** — the bunker removal left empty blocks like
+  `549 = { }` in 8 state files; these were cleaned up.
+- **`coastal_bunker = X` entries KEPT** — this is a valid building type (used
+  in vanilla state files like Norway, Crimea, etc.) and does not cause errors.
+- **State ID conflicts:** still **1113** lines (`Province with id N is already
+  added to state`) — unchanged from 23:15/23:05 baselines.
+- **State file structure issues:** duplicate state files from the old
+  `the_sacred_war_1942/3142844611/history/states/` path still conflict with
+  the new `history/states/` path on the user's Windows installation (paths like
+  `E:h...	he_sacred_war_1942\history\states88-Burma.txt`). The user's
+  installation may still have old files alongside new ones.
+- **Other pre-existing noise:** `Not a valid value` (0 doctrine refs), texture
+  errors, DLC warnings, other-mod `Invalid supported_version` errors —
+  unchanged, environmental.
+
+**`system_debug.log` / `memory.log`**
+
+- `memory.log` ends cleanly at `InitGame() takes ~1.8GB memory`. No assertion
+  or crash dump.
+- `system_debug.log` logs GUI layout warnings and telemetry, stops without a
+  crash dump.
+
+**Conclusion:**
+The building fix (removing `bunker = X`) resolved the `invalid province building`
+errors but **did not** stop the crash at `Executing History`. The BOM fix in
+`763-Konigsberg.txt` resolved the `Missing State ID 763` error. The crash
+persists at history execution.
+
+**Prime remaining suspect: the 1113 state ID conflicts.**
+Provinces claimed by two mod states (e.g., 371 distinct provinces). The engine
+might die when it encounters a specific conflicted province during history
+execution. **Next test: Variant D from `tools/bisect_doctrines.py`** — remove
+`history/states/` (409 files) to see if the crash stops without state conflicts.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
