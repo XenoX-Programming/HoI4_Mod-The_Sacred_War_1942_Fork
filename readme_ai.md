@@ -893,6 +893,35 @@ Currently set up: restoring full mod, then will remove `history/units/`.
 
 ---
 
+### The 23:32 run: real errors found in error.log
+
+`Logs/261126/2332/` — Variant F (no `history/units/`). Still crashes at `Executing History` (23:33:21).
+
+**BUT** — found real mod errors in `error.log` that were previously overlooked:
+
+**1. Undefined country tags referenced in national_focus triggers**
+Tags `KHM`, `GSM`, `NXM`, `SND` are defined in `common/names/sw_add_names.txt` but NOT in `common/country_tags/00_countries.txt`. Vanilla national_focus files reference them as triggers, causing:
+- `Unknown trigger-type: KHM/GSM/NXM/SND` — cascades into `Unexpected token` errors
+- 1375 national_focus errors total
+
+**FIX:** Added KHM, GSM, NXM, SND to `country_tags/00_countries.txt` and created minimal country files:
+- `common/countries/KHM.txt`
+- `common/countries/GSM.txt`
+- `common/countries/NXM.txt`
+- `common/countries/SND.txt`
+
+**2. Mod's own national_focus syntax errors**
+- `common/national_focus/norway.txt`: "Non assign trigger is not enclosed in {}" (3 lines)
+- `common/national_focus/turkey.txt`: "Non assign trigger is not enclosed in {}" (1 line)
+- `common/national_focus/soviet.txt`: Duplicate `ca_tech` technology category
+
+**3. Provinces without continent**
+- prov 13363–13413 (51 provinces) have no continent — these are beyond the mod's map range (max province 13362 in definition.csv)
+
+**4. Crash still at `Executing History`** — variant tests (A–F) all crash identically. None ruled out the crash cause yet.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
