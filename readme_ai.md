@@ -854,6 +854,45 @@ Currently set up in `Mod/the_sacred_war_1942/`. Ready for testing.
 
 ---
 
+### The 23:26 run: Variant E (no countries) also crashed
+
+`Logs/261126/2326/` — this run used Variant E
+(no `history/countries/`, states and doctrines present). Still crashes at `Executing History` (23:27:12).
+
+**`game.log` (23:26 run)**
+
+```
+[23:26:51][no_game_date]: 4490 defines loaded
+[23:27:06][no_game_date]: Loaded 13414 provinces.
+[23:27:10][no_game_date]: Resetting game
+[23:27:12][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+**`error.log` (23:26 run)**
+- `invalid province building`: 0 (building fix confirmed)
+- State ID conflicts: 1113 (states present)
+- Missing State ID 763: 0 (BOM fix confirmed)
+- `Not a valid value`: 97 (pre-existing)
+- `Unknown history file in country database`: 182 (country tags without history files)
+
+**Variant E test result: STILL CRASHED** — confirms country history files are NOT the cause.
+
+**Summary of all history variants tested:**
+
+| Variant | What's removed | Result |
+|---------|---------------|--------|
+| Building fix | `bunker = X` from 19 states | Still crashes |
+| BOM fix | BOM from `763-Konigsberg.txt` | Still crashes |
+| Variant D | `history/states/` (409 files) | Still crashes — states NOT the cause |
+| Variant A | `common/doctrines/` + 140 doctrine cmds | Still crashes — doctrines NOT the cause |
+| Variant E | `history/countries/` (37 files) | Still crashes — countries NOT the cause |
+
+**Next test: Variant F** — no `history/units/` (52 unit files removed), states and doctrines present.
+
+Currently set up: restoring full mod, then will remove `history/units/`.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
