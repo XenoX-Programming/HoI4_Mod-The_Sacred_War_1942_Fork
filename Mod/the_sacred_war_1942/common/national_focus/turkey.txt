@@ -2079,12 +2079,12 @@ focus_tree = {
 				SOV = { NOT = { controls_state = 231 } } #APPROPRIATE CONDITIONS FOR GENERIC ICON
 			}
 		}
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		prerequisite = { focus = TUR_halk_ve_devlet }
-		x = -2
-		y = 1
-		relative_position_id = TUR_halk_ve_devlet
-		cost = 10
+	icon = { GFX_focus_chi_mission_to_the_soviet_union }
+	prerequisite = { focus = TUR_halk_ve_devlet }
+	x = -2
+	y = 1
+	relative_position_id = TUR_halk_ve_devlet
+	cost = 10
 		ai_will_do = {
 			base = 10
 		}
@@ -6815,9 +6815,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = TUR_renew_the_turkish_soviet_non_aggression_pact
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		available = { NOT = { has_country_flag = TUR_ottoman_officers_invited_back } }
+	id = TUR_renew_the_turkish_soviet_non_aggression_pact
+	icon = { GFX_focus_chi_mission_to_the_soviet_union }
+	available = { NOT = { has_country_flag = TUR_ottoman_officers_invited_back } }
 		prerequisite = { focus = TUR_reconfigure_our_foreign_policy }
 		x = 14
 		y = 1

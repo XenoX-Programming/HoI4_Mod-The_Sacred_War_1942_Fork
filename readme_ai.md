@@ -922,6 +922,36 @@ Tags `KHM`, `GSM`, `NXM`, `SND` are defined in `common/names/sw_add_names.txt` b
 
 ---
 
+### The 23:47 run: country tag fix reduced errors but crash persists
+
+`Logs/261126/2347/` — Variant F + country tag fixes. Still crashes at `Executing History` (23:47:49).
+
+**My fixes from 23:32 run DID reduce errors:**
+- Invalid tag: 6 → 1 (only GDC remains — added to country_tags)
+- Unknown trigger-type (KHM/GSM/NXM/SND): eliminated completely
+- national_focus errors: 1375 → 1274
+- Unexpected token: 2005 → 1861
+- `has no continent`: 51 (unchanged — vanilla provinces beyond mod map)
+
+**Still need to fix (mod's own syntax errors):**
+1. **norway.txt**: Fixed `value = GFX_...` → `value = { GFX_... }` (3 icon blocks)
+2. **turkey.txt**: Fixed `icon = GFX_...` → `icon = { GFX_... }` (2 icon lines)
+3. **soviet.txt**: Removed duplicate `category = ca_tech`
+4. **GDC**: Added to country_tags + created GDC.txt country file
+
+**Changes pushed as part of this fix batch:**
+- country_tags: Added GDC
+- New country files: GDC.txt (KHM, GSM, NXM, SND added previously)
+- norway.txt: Fixed 3 icon value syntax errors
+- turkey.txt: Fixed 2 icon bare-value syntax errors
+- soviet.txt: Removed duplicate ca_tech category
+
+**Crash still at `Executing History`** — syntax errors fixed but crash cause still unknown.
+
+Next: test game with these syntax fixes. If still crashes, try removing `common/national_focus/` entirely (Variant G) since 1274 errors remain.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just

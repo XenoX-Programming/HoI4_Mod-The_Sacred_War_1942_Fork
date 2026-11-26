@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -3286,8 +3286,7 @@ focus_tree = {
 				name = SOV_offensive_maritime_strategy
 				bonus = 1.0
 				uses = 1
-				category = ca_tech
-				category = ca_tech
+		category = ca_tech
 			}
 
 			#Kronshtadt Class Battlecruiser
