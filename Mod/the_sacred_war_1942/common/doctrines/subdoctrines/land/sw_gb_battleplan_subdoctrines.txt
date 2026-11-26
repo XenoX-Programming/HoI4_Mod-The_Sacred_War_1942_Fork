@@ -1,0 +1,97 @@
+# The Sacred War 1942 - subdoctrines for track 'sw_gb_battleplan'
+# Old branch: prepared_defense -> grand_assault -> grand_mechanized_offensive -> assault_concentration -> branch_interoperation -> assault_breakthrough -> central_planning -> c3i_theory
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_gb_battleplan_doctrine = {
+	track = sw_gb_battleplan
+	name = SW_GB_BATTLEPLAN_NAME
+	description = SW_GB_BATTLEPLAN_DESC
+	icon = GFX_doctrine_grand_battleplan_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_grand_battleplan
+	}
+	visible = {
+		has_doctrine = sw_grand_battleplan
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: prepared_defense
+	category_all_infantry = {
+		defense = 0.10
+		max_organisation = 10
+	}
+
+	# 5 rewards (1.17+ allows at most 5;
+	# this branch only had 5 tiers to translate).
+	# 100 mastery each.
+	rewards = {
+		# reward 1: merged tiers grand_assault, grand_mechanized_offensive (branch had more than 5)
+		sw_gb_battleplan_tier1 = {
+			category_army = {
+				breakthrough = 0.10
+				soft_attack = 0.05
+			}
+			enable_tactic = tactic_planned_attack
+			enable_tactic = tactic_blitz
+			enable_tactic = tactic_elastic_defense
+			motorized = {
+				max_organisation = 5
+			}
+			armored_car = {
+				max_organisation = 5
+			}
+			mechanized = {
+				max_organisation = 5
+			}
+			amphibious_mechanized = {
+				max_organisation = 5
+			}
+			additional_brigade_column_size = 1
+		}
+		# reward 2: old tech assault_concentration
+		sw_gb_battleplan_tier2 = {
+			max_planning = 0.1
+			enable_tactic = tactic_overwhelming_fire
+		}
+		# reward 3: old tech branch_interoperation
+		sw_gb_battleplan_tier3 = {
+			category_all_infantry = {
+				max_organisation = 5
+			}
+			category_tanks = {
+				max_organisation = 1
+			}
+			armored_car = {
+				max_organisation = 1
+			}
+			coordination_bonus = 0.1
+		}
+		# reward 4: old tech assault_breakthrough
+		sw_gb_battleplan_tier4 = {
+			category_army = {
+				breakthrough = 0.10
+			}
+			enable_tactic = tactic_breakthrough
+		}
+		# reward 5: old tech central_planning
+		sw_gb_battleplan_tier5 = {
+			max_planning = 0.1
+			max_command_power = 30
+			logistics_company = {
+				battalion_mult = {
+					category = category_all_infantry
+					defense = 0.05
+				}
+			}
+		}
+	}
+}
+

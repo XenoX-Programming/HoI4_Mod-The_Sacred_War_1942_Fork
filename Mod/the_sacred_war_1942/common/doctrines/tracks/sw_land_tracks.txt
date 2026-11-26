@@ -1,0 +1,117 @@
+# The Sacred War 1942 - land doctrine tracks
+# Game format: HoI4 1.17+ grand-doctrine system
+# GENERATED FILE - produced by tools/gen_doctrines.py, do not hand-edit.
+# The tree is described in tools/doctrine_map.py.
+
+sw_mw_motorised = {
+	name = SWD_TRACK_MOTORISED
+	background = GFX_mob_warfare_bg
+	icon = GFX_doctrine_milestone_infantry_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_mw_armoured = {
+	name = SWD_TRACK_ARMOURED
+	background = GFX_mob_warfare_bg
+	icon = GFX_doctrine_milestone_armored_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_sf_support = {
+	name = SWD_TRACK_SUPPORT
+	background = GFX_sup_firepower_bg
+	icon = GFX_doctrine_milestone_artillery_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_sf_fires = {
+	name = SWD_TRACK_FIRES
+	background = GFX_sup_firepower_bg
+	icon = GFX_doctrine_milestone_artillery_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_gb_battleplan = {
+	name = SWD_TRACK_BATTLEPLAN
+	background = GFX_grand_battleplan_bg
+	icon = GFX_doctrine_milestone_operations_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_gb_infiltration = {
+	name = SWD_TRACK_INFILTRATION
+	background = GFX_grand_battleplan_bg
+	icon = GFX_doctrine_milestone_operations_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_ma_front = {
+	name = SWD_TRACK_FRONT
+	background = GFX_tac_operation_bg
+	icon = GFX_doctrine_milestone_infantry_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+
+sw_ma_peoples = {
+	name = SWD_TRACK_PEOPLES
+	background = GFX_tac_operation_bg
+	icon = GFX_doctrine_milestone_infantry_land
+	icon_frame = GFX_doctrine_decor_land
+
+	mastery = {
+		multiplier = 1.0
+		categories = {
+			category_army
+		}
+	}
+}
+

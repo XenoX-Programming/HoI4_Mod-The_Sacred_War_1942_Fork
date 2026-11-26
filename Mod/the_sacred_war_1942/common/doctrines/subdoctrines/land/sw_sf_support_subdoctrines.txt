@@ -1,0 +1,68 @@
+# The Sacred War 1942 - subdoctrines for track 'sw_sf_support'
+# Old branch: intergrated_support -> regimental_combat_teams -> dispersed_support -> overwhelming_firepower -> sup_mechanized_offensive
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_sf_support_doctrine = {
+	track = sw_sf_support
+	name = SW_SF_SUPPORT_NAME
+	description = SW_SF_SUPPORT_DESC
+	icon = GFX_doctrine_superior_firepower_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_superior_firepower
+	}
+	visible = {
+		has_doctrine = sw_superior_firepower
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: intergrated_support
+	category_support_battalions = {
+		max_organisation = 10
+		soft_attack = 0.25
+	}
+
+	# 3 rewards (1.17+ allows at most 5;
+	# this branch only had 3 tiers to translate).
+	# 100 mastery each.
+	rewards = {
+		# reward 1: old tech regimental_combat_teams
+		sw_sf_support_tier1 = {
+			category_support_battalions = {
+				max_organisation = 10
+				soft_attack = 0.25
+			}
+			enable_tactic = tactic_overwhelming_fire
+		}
+		# reward 2: old tech dispersed_support
+		sw_sf_support_tier2 = {
+			category_line_artillery = {
+				default_morale = 0.2
+			}
+			signal_company = {
+				battalion_mult = {
+					category = category_artillery
+					defense = 0.10
+				}
+			}
+		}
+		# reward 3: old tech overwhelming_firepower
+		sw_sf_support_tier3 = {
+			category_line_artillery = {
+				soft_attack = 0.10
+			}
+			coordination_bonus = 0.05
+			enable_tactic = tactic_overwhelming_fire
+		}
+		# reward 4: the old branch had no such tier (branch had fewer than 5 tiers)
+		# reward 5: the old branch had no such tier (branch had fewer than 5 tiers)
+	}
+}
+
