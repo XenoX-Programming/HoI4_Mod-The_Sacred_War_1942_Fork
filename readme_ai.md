@@ -781,6 +781,50 @@ If this loads past `Executing History`, the doctrine system is the cause.
 
 ---
 
+### The 23:12 run: Variant A (no doctrines) also crashed
+
+`Logs/261126/2313/` is the newest full log set — this run used Variant A
+(no `common/doctrines/`, no doctrine history commands). Still crashes at
+`Executing History`.
+
+**`game.log` (23:12 run)**
+
+```
+[23:13:35][no_game_date]: 4490 defines loaded
+[23:13:51][no_game_date]: Loaded 13414 provinces.
+[23:13:56][no_game_date]: Resetting game
+[23:13:58][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+**Crash conclusion:**
+- **Variant D (no states): STILL CRASHED** — state conflicts NOT the cause
+- **Variant A (no doctrines): STILL CRASHED** — doctrine system NOT the cause
+- Both variants crash at `Executing History` identically
+
+**`error.log` (23:12 run)**
+- `invalid province building`: 0 (building fix confirmed)
+- State ID conflicts: 1113 (this run used Variant A with states)
+- Missing State ID 763: 0 (BOM fix confirmed)
+- `Not a valid value`: 97 (pre-existing, not doctrine-related)
+
+**`system_debug.log` / `memory.log`**
+- Clean exit at InitGame(), no assertion, no crash dump.
+
+**Conclusion:**
+Neither doctrines nor states cause the crash. The crash happens during history
+execution but is not triggered by doctrine commands or state definitions.
+
+**Next test candidates:**
+- Remove `history/countries/` (country history files may have the trigger)
+- Remove `common/national_focus/` (1373 errors, though these are warnings)
+- The 182 `unknown history file` entries
+- Check if `common/scripted_effects/` or `common/decisions/` cause it
+
+The mod is currently set to Variant D (no `history/states/`, doctrines present)
+in `Mod/the_sacred_war_1942/`. Ready for testing.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
