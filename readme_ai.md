@@ -690,6 +690,61 @@ execution. **Next test: Variant D from `tools/bisect_doctrines.py`** — remove
 
 ---
 
+### The 22:52 run: crash persists at Executing History (building + BOM fixes tested)
+
+`Logs/261126/2252/` is the newest full log set — this run tested both the
+invalid province building fix AND the BOM fix from commit `48d22ce`. The crash
+pattern is identical to all previous runs: still at `Executing History`.
+
+**`game.log` (22:52 run)**
+
+```
+[22:51:39][no_game_date]: 4490 defines loaded
+[22:51:56][no_game_date]: Loaded 13414 provinces.
+[22:52:00][no_game_date]: Resetting game
+[22:52:02][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+The game **finishes loading** and **starts executing country history** at
+22:52:02. The crash still occurs at `Executing History`, **not** during the
+checksum screen phase. Neither the building fix nor the BOM fix stopped the
+crash.
+
+**`error.log` (22:52 run)**
+
+- **`invalid province building`: GONE** (count **0**, was 8). Building fix
+  confirmed working — these errors no longer appear.
+- **BOM in `763-Konigsberg.txt`: FIXED** — no `Missing State ID 763` or
+  `MAP_ERROR: Definition for state id 763` errors anymore.
+- **State ID conflicts:** still **1113** lines (`Province with id N is already
+  added to state`) — unchanged from all previous runs.
+- **`Not a valid value`: 97** — these are pre-existing generic errors from
+  decisions/national_focus/scripted_effects files (CZE, afghanistan, china_*,
+  congo, uk, etc.) and 4 state files (Alxa, Khotan, Wuwei, Guyuan). NOT related
+  to the doctrine port — the 17 dangling doctrine refs remain at 0.
+- **`unknown history file`:** 182 (unchanged).
+- **Texture/DLC/other-mod warnings:** unchanged, environmental.
+
+**`system_debug.log` / `memory.log`**
+
+- `memory.log` ends cleanly at `InitGame() takes ~1.8GB memory`. No assertion
+  or crash dump.
+- `system_debug.log` logs GUI layout warnings and telemetry, stops without a
+  crash dump.
+
+**Conclusion:**
+The building fix and BOM fix resolved their respective errors but **did not**
+stop the crash at `Executing History`. The 1113 state ID conflicts remain the
+prime suspect.
+
+**Next test: Variant D** (`tools/bisect_doctrines.py --only D`)
+Build at `build/D-no-state-history/the_sacred_war_1942/` — this removes all
+409 `history/states/` files to test if the state conflicts cause the crash.
+If the game reaches country selection without states, the conflicts are
+confirmed as the cause.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
