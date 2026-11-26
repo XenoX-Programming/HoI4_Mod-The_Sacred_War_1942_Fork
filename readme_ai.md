@@ -825,6 +825,35 @@ in `Mod/the_sacred_war_1942/`. Ready for testing.
 
 ---
 
+### The 23:21 run: Variant D (no states) still crashed
+
+`Logs/261126/2321/` — this run used Variant D
+(no `history/states/`, doctrines present). Still crashes at `Executing History` (23:21:20).
+
+**`game.log` (23:21 run)**
+
+```
+[23:20:58][no_game_date]: 4490 defines loaded
+[23:21:14][no_game_date]: Loaded 13414 provinces.
+[23:21:18][no_game_date]: Resetting game
+[23:21:20][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+**`error.log` (23:21 run)**
+- `invalid province building`: 0 (building fix confirmed)
+- State ID conflicts: 1113 (states present in this run)
+- Missing State ID 763: 0 (BOM fix confirmed)
+- `Not a valid value`: 97 (pre-existing)
+- `Unknown history file in country database`: 182 (country tags without history files)
+
+**Variant D test result: STILL CRASHED** — confirms state conflicts are NOT the cause.
+Combined with Variant A (no doctrines, still crashed): **neither states nor doctrines cause the crash.**
+
+**Next test: Variant E** — no `history/countries/` (37 files removed), states and doctrines present.
+Currently set up in `Mod/the_sacred_war_1942/`. Ready for testing.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
