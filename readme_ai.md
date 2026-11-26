@@ -745,6 +745,42 @@ confirmed as the cause.
 
 ---
 
+### The 22:52 and 22:59 runs: crash persists at Executing History
+
+`Logs/261126/2252/` and `Logs/261126/2259/` are consecutive full log sets.
+Both show the identical crash pattern: `Executing History` at 22:52:02 and
+22:59:41 respectively. Neither the building fix nor the BOM fix changed the
+crash point.
+
+**`game.log` (both runs)**
+
+```
+[22:51:39/22:59:21][no_game_date]: 4490 defines loaded
+[22:51:56/22:59:35][no_game_date]: Loaded 13414 provinces.
+[22:52:00/22:59:39][no_game_date]: Resetting game
+[22:52:02/22:59:41][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+```
+
+**`error.log` (22:59 run)**
+
+- **`invalid province building`: 0** (building fix confirmed working)
+- **BOM fix: confirmed** — no `Missing State ID 763` errors
+- **State ID conflicts: 1113** (unchanged — this run used the full mod with states)
+- **`Not a valid value`: 97** — pre-existing generic errors from decisions/
+  national_focus/scripted_effects, plus 4 state files (Alxa, Khotan, Wuwei,
+  Guyuan). NOT doctrine-related — 17 dangling doctrine refs remain at 0.
+
+**Variant D test result:** User reports Variant D (no `history/states/`)
+**still crashed**. This means state conflicts are **NOT** the crash cause.
+Next candidate: **Variant A** (no `common/doctrines/` at all, no doctrine
+history commands).
+
+**Variant A build:** `build/A-no-doctrines/the_sacred_war_1942/` — removes
+`common/doctrines/` and 140 doctrine history commands from all history files.
+If this loads past `Executing History`, the doctrine system is the cause.
+
+---
+
 ### The 20:34 run: a full log set, and a new symptom
 
 `Logs/251126/2034/` is the whole `logs/` directory from a crash, not just
