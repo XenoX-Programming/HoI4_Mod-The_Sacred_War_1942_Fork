@@ -1,0 +1,4 @@
+logs are segregated into folders: Modev\logs\DDMMRR\HHMM\
+in understaning:
+DDMMRR - Date of the logs creation, folder named day month year
+HHMM - Hour of the logs creation, folder named hour and minutes of creation
