@@ -1,0 +1,241 @@
+# The Sacred War 1942 - land grand doctrines
+# The mod's four original schools, carried over from the old technology tree.
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Modifier blocks are copied verbatim from
+# common/technologies/land_doctrine.txt (kept as the design record).
+
+sw_mobile_warfare = {
+	folder = land
+
+	name = GRAND_DOCTRINE_MOBILE_WARFARE
+	description = GRAND_DOCTRINE_MOBILE_WARFARE_DESC
+	icon = GFX_doctrine_mobile_warfare_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 5
+	}
+
+	tracks = {
+		sw_mw_motorised
+		sw_mw_armoured
+	}
+	max_track_columns = 2
+
+	# Effects of the old root tech 'mobile_warfare' plus every shared prerequisite, merged so that no key appears twice.
+	category_all_armor = {
+		breakthrough = 0.20
+		maximum_speed = 0.1
+	}
+	planning_speed = 0.5
+	army_speed_factor = 0.10
+	enable_tactic = tactic_unexpected_thrust
+	enable_tactic = tactic_delay
+	enable_tactic = tactic_elastic_defense
+	enable_tactic = tactic_overwhelming_fire
+	org_loss_when_moving = -0.1
+	category_all_infantry = {
+		max_organisation = 25
+		default_morale = 0.2
+	}
+	land_reinforce_rate = 0.02
+	category_tanks = {
+		max_organisation = 1
+	}
+	armored_car = {
+		max_organisation = 2
+	}
+	additional_brigade_column_size = 1
+
+	milestones = {   # one per track, same order as 'tracks'
+		{   # sw_mw_motorised - old branch terminal tech 'modern_blitzkrieg'
+			category_tanks = {
+				max_organisation = 3
+				breakthrough = 0.20
+			}
+			category_all_armor = {
+				default_morale = 0.2
+			}
+			armored_car = {
+				max_organisation = 3
+				default_morale = 0.2
+				breakthrough = 0.20
+			}
+			# plus the old orphan tech 'masterful_blitz' (present in the file but unreachable in the old tree)
+		}
+		{   # sw_mw_armoured - old branch terminal tech 'werwolf_guerillas'
+			resistance_damage_to_garrison_on_our_occupied_states = 0.2
+			army_core_defence_factor = 0.1
+		}
+	}
+}
+
+sw_superior_firepower = {
+	folder = land
+
+	name = GRAND_DOCTRINE_SUPERIOR_FIREPOWER
+	description = GRAND_DOCTRINE_SUPERIOR_FIREPOWER_DESC
+	icon = GFX_doctrine_superior_firepower_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 5
+	}
+
+	tracks = {
+		sw_sf_support
+		sw_sf_fires
+	}
+	max_track_columns = 2
+
+	# Effects of the old root tech 'superior_firepower' plus every shared prerequisite, merged so that no key appears twice.
+	category_front_line = {
+		soft_attack = 0.1
+	}
+	enable_tactic = tactic_barrage
+	enable_tactic = tactic_delay
+	enable_tactic = tactic_elastic_defense
+	category_light_infantry = {
+		max_organisation = 10
+	}
+	category_all_infantry = {
+		defense = 0.10
+	}
+
+	milestones = {   # one per track, same order as 'tracks'
+		{   # sw_sf_support - old branch terminal tech 'sup_mechanized_offensive'
+			category_all_armor = {
+				breakthrough = 0.10
+			}
+			enable_tactic = tactic_blitz
+		}
+		{   # sw_sf_fires - old branch terminal tech 'air_land_battle'
+			category_front_line = {
+				max_organisation = 5
+			}
+			army_bonus_air_superiority_factor = 0.15
+			recon = {
+				battalion_mult = {
+					category = category_anti_air
+					air_attack = 0.10
+				}
+			}
+			mot_recon = {
+				battalion_mult = {
+					category = category_anti_air
+					air_attack = 0.10
+				}
+			}
+		}
+	}
+}
+
+sw_grand_battleplan = {
+	folder = land
+
+	name = GRAND_DOCTRINE_GRAND_BATTLEPLAN
+	description = GRAND_DOCTRINE_GRAND_BATTLEPLAN_DESC
+	icon = GFX_doctrine_grand_battleplan_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 5
+	}
+
+	tracks = {
+		sw_gb_battleplan
+		sw_gb_infiltration
+	}
+	max_track_columns = 2
+
+	# Effects of the old root tech 'trench_warfare' plus every shared prerequisite, merged so that no key appears twice.
+	max_dig_in = 10
+	dig_in_speed_factor = 0.25
+	max_planning = 0.1
+	command_power_gain = 0.25
+
+	milestones = {   # one per track, same order as 'tracks'
+		{   # sw_gb_battleplan - old branch terminal tech 'c3i_theory'
+			land_reinforce_rate = 0.02
+			category_all_infantry = {
+				max_organisation = 5
+			}
+			category_tanks = {
+				max_organisation = 1
+			}
+			armored_car = {
+				max_organisation = 2
+			}
+		}
+		{   # sw_gb_infiltration - old branch terminal tech 'infiltration_in_depth'
+			land_reinforce_rate = 0.02
+			category_recon = {
+				recon = 1
+			}
+		}
+	}
+}
+
+sw_mass_assault = {
+	folder = land
+
+	name = GRAND_DOCTRINE_MASS_ASSAULT
+	description = GRAND_DOCTRINE_MASS_ASSAULT_DESC
+	icon = GFX_doctrine_mass_assault_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 5
+	}
+
+	tracks = {
+		sw_ma_front
+		sw_ma_peoples
+	}
+	max_track_columns = 2
+
+	# Effects of the old root tech 'mass_assault' plus every shared prerequisite, merged so that no key appears twice.
+	conscription = 0.02
+	land_reinforce_rate = 0.02
+	minimum_training_level = -0.1
+	weekly_casualties_war_support = 0.001
+	no_supply_grace = 48
+	out_of_supply_factor = -0.10
+
+	milestones = {   # one per track, same order as 'tracks'
+		{   # sw_ma_front - old branch terminal tech 'continuous_offensive'
+			org_loss_when_moving = -0.25
+			land_reinforce_rate = 0.05
+			enable_tactic = tactic_backhand_blow
+		}
+		{   # sw_ma_peoples - old branch terminal tech 'guerilla_warfare'
+			out_of_supply_factor = -0.30
+			category_army = {
+				default_morale = 0.2
+			}
+			resistance_growth_on_our_occupied_states = 0.25
+			enable_tactic = tactic_guerrilla_tactics
+		}
+	}
+}
+

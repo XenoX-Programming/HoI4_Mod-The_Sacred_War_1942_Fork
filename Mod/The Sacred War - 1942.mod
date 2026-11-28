@@ -1,0 +1,15 @@
+version="2.0.0"
+tags={
+	"Alternative History"
+	"Events"
+	"Map"
+	"Military"
+	"Technologies"
+	"Ideologies"
+	"Graphics"
+}
+name="The Sacred War - 1942"
+supported_version="1.20.*"
+path="mod/the_sacred_war_1942"
+picture="thumbnail.png"
+remote_file_id="3142844611"

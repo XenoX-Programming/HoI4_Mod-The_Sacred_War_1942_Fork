@@ -1,0 +1,113 @@
+# The Sacred War 1942 - subdoctrines for track 'sw_ma_front'
+# Old branch: defence_in_depth -> large_front_operations -> deep_operations -> operational_concentration -> vast_offensives -> breakthrough_priority -> mechanized_wave -> continuous_offensive
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_ma_front_doctrine = {
+	track = sw_ma_front
+	name = SW_MA_FRONT_NAME
+	description = SW_MA_FRONT_DESC
+	icon = GFX_doctrine_mass_assault_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_mass_assault
+	}
+	visible = {
+		has_doctrine = sw_mass_assault
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: defence_in_depth
+	max_dig_in = 5
+	category_light_infantry = {
+		max_organisation = 5
+	}
+
+	# 5 rewards (1.17+ allows at most 5;
+	# this branch only had 5 tiers to translate).
+	# 100 mastery each.
+	rewards = {
+		# reward 1: merged tiers large_front_operations, deep_operations (branch had more than 5)
+		sw_ma_front_tier1 = {
+			supply_consumption_factor = -0.10
+			additional_brigade_column_size = 1
+			enable_tactic = tactic_relentless_assault
+			enable_tactic = tactic_blitz
+			category_tanks = {
+				max_organisation = 2
+			}
+			armored_car = {
+				max_organisation = 2
+			}
+		}
+		# reward 2: old tech operational_concentration
+		sw_ma_front_tier2 = {
+			max_planning = 0.10
+			land_reinforce_rate = 0.05
+			enable_tactic = tactic_elastic_defense
+		}
+		# reward 3: old tech vast_offensives
+		sw_ma_front_tier3 = {
+			supply_consumption_factor = -0.10
+			infantry = {
+				combat_width = -0.3
+			}
+			enable_tactic = tactic_overwhelming_fire
+		}
+		# reward 4: old tech breakthrough_priority
+		sw_ma_front_tier4 = {
+			category_tanks = {
+				max_organisation = 1
+				breakthrough = 0.10
+			}
+			category_all_infantry = {
+				max_organisation = 5
+				breakthrough = 0.10
+			}
+			armored_car = {
+				max_organisation = 1
+				breakthrough = 0.10
+			}
+			enable_tactic = tactic_breakthrough
+		}
+		# reward 5: old tech mechanized_wave
+		sw_ma_front_tier5 = {
+			category_tanks = {
+				max_organisation = 2
+			}
+			category_all_armor = {
+				default_morale = 0.1
+			}
+			armored_car = {
+				max_organisation = 3
+				default_morale = 0.1
+			}
+			mechanized = {
+				max_organisation = 10
+				default_morale = 0.1
+			}
+			motorized = {
+				max_organisation = 10
+				default_morale = 0.1
+			}
+			amphibious_mechanized = {
+				max_organisation = 10
+				default_morale = 0.1
+			}
+			armored_car_recon = {
+				battalion_mult = {
+					category = category_light_infantry
+					max_organisation = 1
+					add = yes
+				}
+			}
+		}
+	}
+}
+

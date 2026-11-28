@@ -1,0 +1,49 @@
+state={
+	id=216
+	name="STATE_216"
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		victory_points = {
+			11159 1 
+		}
+		FIN = {
+		set_province_controller = 9231
+		set_province_controller = 40
+		set_province_controller = 9078
+		set_province_controller = 6070
+		set_province_controller = 11092
+		set_province_controller = 92
+		set_province_controller = 3144
+		set_province_controller = 6094
+		set_province_controller = 9118
+		set_province_controller = 2994
+		set_province_controller = 6172
+		set_province_controller = 11150
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			11150 = { }
+			6172 = { }
+			2994 = { }
+			9118 = { }
+			6094 = { }
+			11092 = { }
+			11159 = { }
+
+		}
+		add_core_of = SOV
+		add_core_of = KAR
+	}
+
+	provinces={
+		40 90 92 2356 2994 3033 3084 3144 6057 6070 6094 6106 6172 9078 9118 9231 11092 11150 11153 11159 13194 13198 
+	}
+	manpower=229564
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

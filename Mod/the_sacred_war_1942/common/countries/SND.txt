@@ -1,0 +1,6 @@
+graphical_culture = southasia_gfx
+graphical_culture_2d = southasia_2d
+color = { 150 150 100 }
+color_ui = { 150 150 100 }
+manpower = 1
+capital = 1

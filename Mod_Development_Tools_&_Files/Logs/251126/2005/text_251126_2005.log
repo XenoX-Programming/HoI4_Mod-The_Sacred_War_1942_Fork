@@ -1,0 +1,92 @@
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_1, file: localisation/english/equipment_l_english.yml, value: ZSU-37-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_1, file: localisation/english/sov_equipment_l_english.yml, value: ZSU-8-76
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_3, file: localisation/english/equipment_l_english.yml, value: ZSU-57-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_3, file: localisation/english/sov_equipment_l_english.yml, value: U-20
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_2, file: localisation/english/equipment_l_english.yml, value: ZSU-37-34
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_2, file: localisation/english/sov_equipment_l_english.yml, value: ZSU-37-34
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Dominion of New Zealand
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Commonwealth of Australia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Union of South Africa
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ISR_communism, file: localisation/english/countries_l_english.yml, value: Levantine Union
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ISR_communism, file: localisation/english/countries_l_english.yml, value: Levantine
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government_ADJ, file: localisation/english/countries_l_english.yml, value: $NONIDEOLOGYADJ$ Collaborators
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government_ADJ, file: localisation/english/countries_l_english.yml, value: $NONIDEOLOGYADJ$ Collaborators
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_3, file: localisation/english/equipment_l_english.yml, value: SU-152-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_3, file: localisation/english/sov_equipment_l_english.yml, value: SU-D-15
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_2, file: localisation/english/equipment_l_english.yml, value: SU-122
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_2, file: localisation/english/sov_equipment_l_english.yml, value: SU-122
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_1, file: localisation/english/equipment_l_english.yml, value: SU-76-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_1, file: localisation/english/sov_equipment_l_english.yml, value: SU-8-152
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Dominion of New Zealand
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Commonwealth of Australia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Union of South Africa
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_equipment_3, file: localisation/english/equipment_l_english.yml, value: T-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_equipment_3, file: localisation/english/sov_equipment_l_english.yml, value: T-34-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_fascism_autonomy_reichsprotectorate, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_fascism_autonomy_reichsprotectorate, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government_DEF, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ controlled $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government_DEF, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ controlled $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_1_short, file: localisation/english/equipment_l_english.yml, value: SU-76-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_1_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-8-152
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_neutrality_autonomy_puppet, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_neutrality_autonomy_puppet, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism, file: localisation/english/countries_cosmetic_l_english.yml, value: Dominion of Zealandia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism, file: localisation/english/countries_cosmetic_l_english.yml, value: Dominion of Australia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism, file: localisation/english/countries_cosmetic_l_english.yml, value: Briton's African Union
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: INS_JAP_democratic_subject, file: localisation/english/countries_cosmetic_l_english.yml, value: $INS_democratic$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: INS_JAP_democratic_subject, file: localisation/english/countries_cosmetic_l_english.yml, value: $INS_democratic_DEF$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_1_short, file: localisation/english/equipment_l_english.yml, value: SU-85-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_1_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-8-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_972, file: localisation/english/state_names_l_english.yml, value: South Sudetenland
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_972, file: localisation/english/the_sacred_war_l_english.yml, value: Friuli Venezia Giulia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_971, file: localisation/english/state_names_l_english.yml, value: Northern Dobruja
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_971, file: localisation/english/the_sacred_war_l_english.yml, value: Nancy
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_970, file: localisation/english/state_names_l_english.yml, value: Debar
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: STATE_970, file: localisation/english/the_sacred_war_l_english.yml, value: Sedan
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: JAP_showa_restoration, file: localisation/english/countries_cosmetic_l_english.yml, value: Japan
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: JAP_showa_restoration, file: localisation/english/wtt_focus_l_english.yml, value: Showa Restoration
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_2, file: localisation/english/equipment_l_english.yml, value: SU-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_2, file: localisation/english/sov_equipment_l_english.yml, value: SU-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_3, file: localisation/english/equipment_l_english.yml, value: SU-100
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_3, file: localisation/english/sov_equipment_l_english.yml, value: SU-100
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_1, file: localisation/english/equipment_l_english.yml, value: SU-85-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_1, file: localisation/english/sov_equipment_l_english.yml, value: SU-8-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_equipment_3_short, file: localisation/english/equipment_l_english.yml, value: T-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_equipment_3_short, file: localisation/english/sov_equipment_l_english.yml, value: T-34-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_2_short, file: localisation/english/equipment_l_english.yml, value: ZSU-37-34
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_2_short, file: localisation/english/sov_equipment_l_english.yml, value: ZSU-37-34
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Dominion of Zealandia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Dominion of Australia
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_fascism_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: the Briton's African Union
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: MAJ_UNIFIED_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Majapahit Empire
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: MAJ_UNIFIED_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Majapahit
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_1_short, file: localisation/english/equipment_l_english.yml, value: ZSU-37-32
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_1_short, file: localisation/english/sov_equipment_l_english.yml, value: ZSU-8-76
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_3_short, file: localisation/english/equipment_l_english.yml, value: SU-100
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_3_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-100
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_2_short, file: localisation/english/equipment_l_english.yml, value: SU-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_destroyer_equipment_2_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-85
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_fascism_autonomy_reichsprotectorate_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_fascism_autonomy_reichsprotectorate_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_2_short, file: localisation/english/equipment_l_english.yml, value: SU-122
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_2_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-122
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ Military Administration of $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_SULTANATE_neutrality_autonomy_collaboration_government, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ Military Administration of $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_3_short, file: localisation/english/equipment_l_english.yml, value: ZSU-57-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_aa_equipment_3_short, file: localisation/english/sov_equipment_l_english.yml, value: U-20
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government_DEF, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ controlled $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government_DEF, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ controlled $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_3_short, file: localisation/english/equipment_l_english.yml, value: SU-152-44
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: SOV_medium_tank_artillery_equipment_3_short, file: localisation/english/sov_equipment_l_english.yml, value: SU-D-15
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_ADJ, file: localisation/english/countries_cosmetic_l_english.yml, value: Zealandian
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: ENG_imperialist_new_zealand_ADJ, file: localisation/english/countries_cosmetic_l_english.yml, value: Zealandian
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: CHI_power_struggle_defeated_DEF, file: localisation/english/countries_l_english.yml, value: the Chinese Transitional Government
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: CHI_power_struggle_defeated_DEF, file: localisation/english/countries_l_english.yml, value: China
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government_ADJ, file: localisation/english/countries_l_english.yml, value: $NONIDEOLOGYADJ$ Collaborators
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government_ADJ, file: localisation/english/countries_l_english.yml, value: $NONIDEOLOGYADJ$ Collaborators
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: HRE_UNIFIED_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Holy Roman Empire
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: HRE_UNIFIED_neutrality, file: localisation/english/countries_cosmetic_l_english.yml, value: Roman
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_neutrality_autonomy_puppet_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: LBA_ITA_neutrality_autonomy_puppet_DEF, file: localisation/english/countries_cosmetic_l_english.yml, value: Libia Italiana
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ Military Administration of $NONIDEOLOGY$
+[20:05:05][no_game_date]: l_english: Duplicate localization found, key: OTT_UNIFIED_neutrality_autonomy_collaboration_government, file: localisation/english/countries_l_english.yml, value: $OVERLORDADJ$ Military Administration of $NONIDEOLOGY$

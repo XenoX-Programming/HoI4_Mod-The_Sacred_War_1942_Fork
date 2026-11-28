@@ -1,0 +1,112 @@
+[23:13:24][no_game_date]: Not compiled with PDX_DEBUG. Memory usage info will be limited.
+[23:13:35][no_game_date]: Memory before first init: 114724KB memory.
+[23:13:35][no_game_date]: InitTextureLookup(gfx/models) takes 16KB memory.
+[23:13:36][no_game_date]: InitBase:: CApplication takes 25172KB memory.
+[23:13:36][no_game_date]: InitBase:: CGameGraphics takes 48360KB memory.
+[23:13:37][no_game_date]: InitBase:: InitLoadScreen takes 8052KB memory.
+[23:13:40][no_game_date]: InitBase:: InitGUI takes 730232KB memory.
+[23:13:40][no_game_date]: InitBase:: AddMapShaderDefines takes 8KB memory.
+[23:13:40][no_game_date]: InitBase:: CGraphicalCultureTypeDataBase takes 1212KB memory.
+[23:13:40][no_game_date]: InitBase takes 843816KB memory.
+[23:13:42][no_game_date]: _pGraphics->Init3DTypes() takes 165580KB memory.
+[23:13:42][no_game_date]: LoadAssets takes 68620KB memory.
+[23:13:45][no_game_date]: ThreadedPostPostRead:: GenerateBoundingBoxes takes 5628KB memory.
+[23:13:45][no_game_date]: ThreadedPostPostRead:: CalculateAdjacencies takes 5992KB memory.
+[23:13:45][no_game_date]: ThreadedPostPostRead:: CProvinceTemplate takes 12040KB memory.
+[23:13:49][no_game_date]: InitGame:: LoadDatabases takes 545276KB memory.
+[23:13:51][no_game_date]: InitGame:: achivements, event and onactions takes 362816KB memory.
+[23:13:53][no_game_date]: Pre layersallocation: 13316KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 0KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[0]: 11268KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[1]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[2]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 108KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[3]: 11376KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[4]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[5]: 11372KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[6]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[7]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 108KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[8]: 108KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[9]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[10]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[11]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[12]: 104KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 108KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[13]: 11376KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[14]: 104KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[15]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[16]: 11372KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[17]: 104KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 108KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 0KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[18]: 108KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[19]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[20]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 104KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[21]: 11372KB memory.
+[23:13:53][no_game_date]: Buffer: 4KB memory.
+[23:13:53][no_game_date]: _ProvinceMask: 108KB memory.
+[23:13:53][no_game_date]: ClearBuffer: 11264KB memory.
+[23:13:53][no_game_date]: AllocateLocalBuffers[22]: 11376KB memory.
+[23:13:53][no_game_date]: After layersallocation: 45112KB memory.
+[23:13:53][no_game_date]: _pGBMan->LoadDatabase: 207224KB memory.
+[23:13:53][no_game_date]: InitGameState:: CreateMapModes 207280KB memory.
+[23:13:54][no_game_date]: InitGame:: Creating gamestate takes 865136KB memory.
+[23:13:54][no_game_date]: InitGame:: CAIAreaDatabasee::BuildProvinceAreaLookup takes 516KB memory.
+[23:13:54][no_game_date]: InitGame:: LoadFlagTextures takes 1580KB memory.
+[23:13:54][no_game_date]: InitGame:: CMapIconManagerImpl takes 4KB memory.
+[23:13:55][no_game_date]: InitGame:: CFrontEnd takes 33576KB memory.
+[23:13:55][no_game_date]: InitGame:: CButtonMenu takes 0KB memory.
+[23:13:55][no_game_date]: InitGame:: DumpMissing takes 1052KB memory.
+[23:13:55][no_game_date]: InitGame:: InitFileWatchers takes -764KB memory.
+[23:13:56][no_game_date]: InitGame() takes 1.80968e+06KB memory.

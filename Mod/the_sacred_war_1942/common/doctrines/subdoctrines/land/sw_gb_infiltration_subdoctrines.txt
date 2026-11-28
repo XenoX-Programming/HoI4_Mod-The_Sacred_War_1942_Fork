@@ -1,0 +1,83 @@
+# The Sacred War 1942 - subdoctrines for track 'sw_gb_infiltration'
+# Old branch: infantry_offensive -> armored_operations -> infiltration_assault -> night_assault_tactics -> attritional_containment -> infiltration_in_depth
+# GENERATED FILE - produced by tools/gen_doctrines.py.
+# Effects are copied from design_record/land_doctrine_1942_original.txt.
+
+sw_gb_infiltration_doctrine = {
+	track = sw_gb_infiltration
+	name = SW_GB_INFILTRATION_NAME
+	description = SW_GB_INFILTRATION_DESC
+	icon = GFX_doctrine_grand_battleplan_medium
+
+	xp_cost = 100
+	xp_type = army
+
+	available = {
+		has_doctrine = sw_grand_battleplan
+	}
+	visible = {
+		has_doctrine = sw_grand_battleplan
+	}
+
+	ai_will_do = {
+		base = 5
+	}
+
+	# Base effects, from the old first tech of the branch: infantry_offensive
+	category_light_infantry = {
+		max_organisation = 5
+		breakthrough = 0.1
+	}
+	additional_brigade_column_size = 1
+	enable_tactic = tactic_infantry_charge
+
+	# 4 rewards (1.17+ allows at most 5;
+	# this branch only had 4 tiers to translate).
+	# 100 mastery each.
+	rewards = {
+		# reward 1: old tech armored_operations
+		sw_gb_infiltration_tier1 = {
+			category_tanks = {
+				max_organisation = 2
+			}
+			category_all_armor = {
+				default_morale = 0.1
+			}
+			armored_car = {
+				max_organisation = 2
+				default_morale = 0.1
+			}
+			enable_tactic = tactic_blitz
+			enable_tactic = tactic_elastic_defense
+		}
+		# reward 2: old tech infiltration_assault
+		sw_gb_infiltration_tier2 = {
+			supply_consumption_factor = -0.10
+			command_power_gain_mult = 0.15
+			recon = {
+				battalion_mult = {
+					category = category_light_infantry
+					soft_attack = 0.05
+				}
+			}
+		}
+		# reward 3: old tech night_assault_tactics
+		sw_gb_infiltration_tier3 = {
+			land_night_attack = 0.25
+		}
+		# reward 4: old tech attritional_containment
+		sw_gb_infiltration_tier4 = {
+			category_all_infantry = {
+				max_organisation = 5
+			}
+			category_tanks = {
+				max_organisation = 1
+			}
+			armored_car = {
+				max_organisation = 1
+			}
+		}
+		# reward 5: the old branch had no such tier (branch had fewer than 5 tiers)
+	}
+}
+
